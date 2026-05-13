@@ -1,3 +1,6 @@
+import { env } from '@/config/env';
+
+
 function HomePage() {
     return (
         <main>
