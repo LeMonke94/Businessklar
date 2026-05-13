@@ -165,3 +165,4 @@ src/lib - infrastructure layer with the interface AND adapter inside of each fol
 
 # Checklist:
 .env.example
+tanstack cache client side (60 sek)

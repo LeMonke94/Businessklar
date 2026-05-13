@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { QueryProvider } from '@/components/providers/QueryProvider';
 import './globals.css';
 
 
@@ -11,11 +12,14 @@ function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang='en'>
             <body>
-                {children}
+                <QueryProvider>
+                    {children}
+                </QueryProvider>
             </body>
         </html>
     );
 }
+
 
 export { metadata };
 export default RootLayout;
