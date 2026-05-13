@@ -6,6 +6,7 @@ function HomePage() {
         <main>
             <h1>BusinessKlar</h1>
             <p>Coming soon...</p>
+            <p>Supabase URL: {env.NEXT_PUBLIC_SUPABASE_URL}</p>
         </main>
     );
 }
