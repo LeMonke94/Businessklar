@@ -47,7 +47,7 @@ Next.js App Router runs code in three different environments, and each one has i
 |------------------------------|---------------------------------------------------|----------------------------------------------------|
 | `lib/supabase/client.ts`     | In the browser (Client Components)                | `document.cookie` (handled internally by Supabase) |
 | `lib/supabase/server.ts`     | On the server (Server Components, Route Handlers) | `cookies()` from `next/headers`                    |
-| `lib/supabase/middleware.ts` | On the server, before every request (Middleware)  | `request.cookies`                                  |
+| `lib/supabase/proxy.ts` | On the server, before every request (Proxy)  | `request.cookies`                                  |
 
 All three return a Supabase client object with the same API (`supabase.auth.signIn()`, `supabase.from('...')`, etc.). 
 What differs is the internal cookie strategy.
@@ -69,13 +69,13 @@ The `createServerClient` function takes a `cookies` object with two methods we d
 ```
 
 Supabase calls these methods when it needs to read or write cookies. We tell it _how_, it tells us _when_. This is why the same Supabase package 
-can work in Browser, Server, and Middleware contexts — the cookie strategy is injected, not hardcoded.
+can work in Browser, Server, and Proxy contexts — the cookie strategy is injected, not hardcoded.
 
 ---
 
-### The middleware: why it's the most complex
+### The Proxy: why it's the most complex
 
-The middleware runs on **every request** before any Server Component or Route Handler. Its job: read the cookie, ask Supabase to verify it, refresh 
+The Proxy runs on **every request** before any Server Component or Route Handler. Its job: read the cookie, ask Supabase to verify it, refresh 
 the token if it's expired or close to expiring, and propagate the result.
 
 The tricky part is that a refreshed token has to be visible in two places at once:
@@ -103,7 +103,7 @@ triggers the refresh path.
 
 ### When a user first arrives
 
-No cookie exists yet. The middleware still runs, calls `getUser()`, gets `null`, doesn't call `setAll` (nothing to write), and passes through. The 
+No cookie exists yet. The proxy still runs, calls `getUser()`, gets `null`, doesn't call `setAll` (nothing to write), and passes through. The 
 user is anonymous. No cookies are conjured out of nowhere — that only happens after a real login, which goes through the auth provider 
 (see [Auth abstraction](#auth-abstraction)).
 
