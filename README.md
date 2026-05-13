@@ -161,3 +161,7 @@ eslint.config.mjs - config for ESLint
 next-env.d.ts - Auto-generated TypeScript declaration file
 next.config.ts - Configuration for Next.js itself
 src/lib - infrastructure layer with the interface AND adapter inside of each folder for each feature
+
+
+# Checklist:
+.env.example
