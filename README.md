@@ -151,6 +151,7 @@ src/
 No modularity / Code organisation
 Hardcoded Supabase config duplicated across pages
 No rate limiting or abuse protection for conversations/forms
+routing on static pages
 
 # Notes
 
@@ -164,6 +165,7 @@ src/lib - infrastructure layer with the interface AND adapter inside of each fol
 
 
 # Checklist:
+routing über ordnerstruktur deklarativ
 .env.example
 tanstack cache client side (60 sek)
 .env validator mit zod
