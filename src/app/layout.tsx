@@ -1,25 +1,13 @@
-import type { Metadata } from 'next';
-import { QueryProvider } from '@/components/providers/QueryProvider';
-import './globals.css';
-
-
-const metadata: Metadata = {
-    title: 'BusinessKlar',
-    description: 'Business setup orientation for founders in Germany.',
-};
+/**
+ * Minimal root layout. Next.js requires *some* root layout to exist, but
+ * in our i18n setup the actual <html>/<body> structure lives in the locale layout
+ * 
+ * This file just passes children through to satisfy Next.js's requirement.
+ */
 
 function RootLayout({ children }: { children: React.ReactNode }) {
-    return (
-        <html lang='en'>
-            <body>
-                <QueryProvider>
-                    {children}
-                </QueryProvider>
-            </body>
-        </html>
-    );
+    return children;
 }
 
 
-export { metadata };
 export default RootLayout;
