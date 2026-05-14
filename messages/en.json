@@ -1,0 +1,10 @@
+{
+    "common": {
+        "appName": "BusinessKlar",
+        "comingSoon": "Coming soon..."
+    },
+    "home": {
+        "title": "BusinessKlar",
+        "subtitle": "Business setup orientation for founders in Germany."
+    }
+}
