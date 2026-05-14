@@ -167,3 +167,4 @@ src/lib - infrastructure layer with the interface AND adapter inside of each fol
 .env.example
 tanstack cache client side (60 sek)
 .env validator mit zod
+Supabase clients (browser, server, proxy)
