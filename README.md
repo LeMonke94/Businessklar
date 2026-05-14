@@ -170,4 +170,4 @@ routing über ordnerstruktur deklarativ
 tanstack cache client side (60 sek)
 .env validator mit zod
 Supabase clients (browser, server, proxy)
-language support for de en ru
+language support for de en ru + not found page
