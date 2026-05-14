@@ -1,5 +1,5 @@
 import { createServerClient } from '@supabase/ssr';
-import { NextRequest, NextResponse } from 'next/server';
+import { type NextRequest, NextResponse } from 'next/server';
 import { env } from '@/config/env';
 
 
@@ -10,9 +10,8 @@ import { env } from '@/config/env';
  * Reads the current session cookie, refreshes the access token if it's expired or about to expire.
  * Propogates the new cookies to both the ongiong request and the outgoing response.
  */
-async function updateSession(request: NextRequest) {
-    // Default Response: request will continue to the next handler
-    let supabaseResponse = NextResponse.next({ request });
+async function updateSession(request: NextRequest, response: NextResponse ) {
+    let supabaseResponse = response;
 
     // Create Server Client
     const supabase = createServerClient(
@@ -27,15 +26,13 @@ async function updateSession(request: NextRequest) {
                 },
                 // Called when Supabase refreshes the token and needs to persist the new cookies.
                 setAll(cookiesToSet) {
-                    // Sets new cookies on the Request (This is for the Server)
+                    // Update the request so any Server Component / Route Handler running after this proxy sees the fresh cookies.
                     cookiesToSet.forEach(({ name, value }) => 
                         request.cookies.set(name, value)
                     );
 
-                    // Rebuilds the response around the now-updated request.
-                    supabaseResponse = NextResponse.next({ request });
-
-                    // Attach the cookies to the response (This is for the Browser).
+                    // Attach cookies to the existing response (don't rebuild it) (This is for the Browser)
+                    // The response may already be a redirect from i18n - rebuilding would loose that.
                     cookiesToSet.forEach(({ name, value, options }) => 
                         supabaseResponse.cookies.set(name, value, options)
                     );
