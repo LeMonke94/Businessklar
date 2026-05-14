@@ -1,0 +1,10 @@
+{
+    "common": {
+        "appName": "BusinessKlar",
+        "comingSoon": "Скоро..."
+    },
+    "home": {
+        "title": "BusinessKlar",
+        "subtitle": "Ориентация для предпринимателей в Германии."
+    }
+}
