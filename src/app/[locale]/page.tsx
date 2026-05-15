@@ -1,6 +1,7 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { isLocale } from '@/config/i18n';
 import { notFound } from 'next/navigation';
+import styles from './page.module.css';
 
 
 /**
@@ -23,10 +24,10 @@ async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
     const t = await getTranslations('home');
 
     return (
-        <main>
-            <h1>{t('title')}</h1>
-            <p>{t('subtitle')}</p>
-        </main>
+        <div className={styles.container}>
+            <h1 className={styles.title}>{t('title')}</h1>
+            <p className={styles.subtitle}>{t('subtitle')}</p>
+        </div>
     );
 }
 
