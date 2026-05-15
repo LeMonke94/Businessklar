@@ -51,3 +51,17 @@ h1, h2, h3, h4, h5, h6 {
     font-size: inherit;
     margin: 0;
 }
+
+/* Layout helpers used across pages. Defined globally because they
+   are layout primitives, not component-specific styling. */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-main {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+}
