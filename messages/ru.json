@@ -3,6 +3,18 @@
         "appName": "BusinessKlar",
         "comingSoon": "Скоро..."
     },
+    "nav": {
+        "home": "Главная",
+        "specialists": "Специалисты",
+        "contact": "Контакт"
+    },
+    "footer": {
+        "tagline": "Ориентация для предпринимателей в Германии.",
+        "copyright": "© {year} BusinessKlar. Все права защищены.",
+        "imprint": "Импринт",
+        "privacy": "Конфиденциальность",
+        "terms": "Условия"
+    },
     "home": {
         "title": "BusinessKlar",
         "subtitle": "Ориентация для предпринимателей в Германии."

@@ -3,6 +3,18 @@
         "appName": "BusinessKlar",
         "comingSoon": "Coming soon..."
     },
+    "nav": {
+        "home": "Home",
+        "specialists": "Specialists",
+        "contact": "Contact"
+    },
+    "footer": {
+        "tagline": "Business setup orientation for founders in Germany.",
+        "copyright": "© {year} BusinessKlar. All rights reserved.",
+        "imprint": "Imprint",
+        "privacy": "Privacy",
+        "terms": "Terms"
+    },
     "home": {
         "title": "BusinessKlar",
         "subtitle": "Business setup orientation for founders in Germany."

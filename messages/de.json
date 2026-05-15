@@ -3,6 +3,18 @@
         "appName": "BusinessKlar",
         "comingSoon": "Demnächst verfügbar..."
     },
+    "nav": {
+        "home": "Start",
+        "specialists": "Spezialisten",
+        "contact": "Kontakt"
+    },
+    "footer": {
+        "tagline": "Geschäftsorientierung für Gründer in Deutschland.",
+        "copyright": "© {year} BusinessKlar. Alle Rechte vorbehalten.",
+        "imprint": "Impressum",
+        "privacy": "Datenschutz",
+        "terms": "AGB"
+    },
     "home": {
         "title": "BusinessKlar",
         "subtitle": "Orientierung für die Gründung in Deutschland."
