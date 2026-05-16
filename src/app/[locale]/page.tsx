@@ -1,7 +1,8 @@
-import { setRequestLocale, getTranslations } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { isLocale } from '@/config/i18n';
 import { notFound } from 'next/navigation';
-import styles from './page.module.css';
+import { Hero } from '@/components/sections/Hero';
+import { TrustSection } from '@/components/sections/TrustSection';
 
 
 /**
@@ -20,14 +21,11 @@ async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
 
     setRequestLocale(locale);
 
-    // Scopes translations to the 'home' namespace — so t('title') resolves home.title, not the full path.
-    const t = await getTranslations('home');
-
     return (
-        <div className={styles.container}>
-            <h1 className={styles.title}>{t('title')}</h1>
-            <p className={styles.subtitle}>{t('subtitle')}</p>
-        </div>
+        <>
+            <Hero locale={locale} />
+            <TrustSection />
+        </>
     );
 }
 
