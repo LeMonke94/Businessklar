@@ -16,7 +16,19 @@
         "terms": "AGB"
     },
     "home": {
-        "title": "BusinessKlar",
-        "subtitle": "Orientierung für die Gründung in Deutschland."
+        "kicker": "Deutschland",
+        "title": "Dein Unternehmen in Deutschland gründen – in 5 Minuten geplant",
+        "subtitle": "Beantworte ein paar Fragen und erhalte klare nächste Schritte – ohne Registrierung.",
+        "ctaPrimary": "Jetzt starten",
+        "ctaSecondary": "Mehr erfahren",
+        "trust": {
+            "heading": "Was du erhältst",
+            "item1Title": "Rechtsform-Empfehlung",
+            "item1Desc": "Die passende Unternehmensform für deine Situation – Einzelunternehmen, GmbH, UG oder Freiberuflich.",
+            "item2Title": "Anmeldepfad",
+            "item2Desc": "Welche Behörden, welche Reihenfolge, welche Dokumente. Konkret und schritt-für-schritt.",
+            "item3Title": "Compliance-Übersicht",
+            "item3Desc": "Steuerliche und rechtliche Pflichten, die du als Gründer kennen musst – ohne juristisches Fachchinesisch."
+        }
     }
 }

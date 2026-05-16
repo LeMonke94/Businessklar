@@ -16,7 +16,19 @@
         "terms": "Terms"
     },
     "home": {
-        "title": "BusinessKlar",
-        "subtitle": "Business setup orientation for founders in Germany."
+        "kicker": "Germany",
+        "title": "Start a business in Germany — planned in 5 minutes",
+        "subtitle": "Answer a few questions and get clear next steps — no signup required.",
+        "ctaPrimary": "Get started",
+        "ctaSecondary": "Learn more",
+        "trust": {
+            "heading": "What you'll get",
+            "item1Title": "Legal form recommendation",
+            "item1Desc": "The right business form for your situation — sole proprietorship, GmbH, UG, or freelance.",
+            "item2Title": "Registration path",
+            "item2Desc": "Which authorities, what order, which documents. Specific and step-by-step.",
+            "item3Title": "Compliance overview",
+            "item3Desc": "The tax and legal obligations you need to know as a founder — without legal jargon."
+        }
     }
 }
