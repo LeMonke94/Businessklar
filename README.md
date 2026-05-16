@@ -63,6 +63,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 | UI
 
+---
+
 # Planned Architecture
 
 src/
@@ -146,6 +148,8 @@ src/
 ├── styles/
 └── middleware.ts
 
+---
+
 # Main Legacy concerns:
 
 No modularity / Code organisation
@@ -153,8 +157,22 @@ Hardcoded Supabase config duplicated across pages
 No rate limiting or abuse protection for conversations/forms
 routing on static pages
 
-# Notes
+---
 
+# Changes
+
+| Feature             | Legacy                               | Rebuild                                          | Advantage                                              |
+|---------------------|--------------------------------------|--------------------------------------------------|--------------------------------------------------------|
+| Routing             | HTML-File for each Page              | Dynamic File-System based                        | Persistent state across pages - no full page reload    |
+| Env-Secrets         | Hardcoded for each HTML              | Zod-validated central                            | Fail-fast on missing config                            |   
+| Server-State        | No Cache                             | TanStack Query as Cache-Layer with Auto-Refetch  | Fewer network calls, less code                         |
+| Supabase-Connection | One Supabase Client in Browser       | 3 Context-Based Clients (Browser, Server, Proxy) | Server-side auth, automatic refresh                    | 
+| i18n                | Inline Objects                       | next-intl with JSON-Files type-safe              | Type-safe keys, new languages without code change      |
+| Home-Page           | Monolithic HTML                      | Component-Based                                  | Reusable components, isolated styles, easier to extend |
+
+---
+
+# Notes for me:
 .next - build output
 node_modules - dependencies
 public - static assets
@@ -163,11 +181,4 @@ next-env.d.ts - Auto-generated TypeScript declaration file
 next.config.ts - Configuration for Next.js itself
 src/lib - infrastructure layer with the interface AND adapter inside of each folder for each feature
 
-
-# Checklist:
-routing über ordnerstruktur deklarativ
-.env.example
-tanstack cache client side (60 sek)
-.env validator mit zod
-Supabase clients (browser, server, proxy)
-language support for de en ru + not found page
+---
