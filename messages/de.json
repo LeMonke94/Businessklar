@@ -6,7 +6,8 @@
     "nav": {
         "home": "Start",
         "specialists": "Spezialisten",
-        "contact": "Kontakt"
+        "contact": "Kontakt",
+        "signIn": "Anmelden"
     },
     "footer": {
         "tagline": "Geschäftsorientierung für Gründer in Deutschland.",

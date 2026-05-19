@@ -6,7 +6,8 @@
     "nav": {
         "home": "Home",
         "specialists": "Specialists",
-        "contact": "Contact"
+        "contact": "Contact",
+        "signIn": "Sign in"
     },
     "footer": {
         "tagline": "Business setup orientation for founders in Germany.",
