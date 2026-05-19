@@ -8,7 +8,7 @@ import { env } from '@/config/env';
  * 
  * Called from `src/proxy.ts` (the Next.js entry point).
  * Reads the current session cookie, refreshes the access token if it's expired or about to expire.
- * Propogates the new cookies to both the ongiong request and the outgoing response.
+ * Propagates the new cookies to both the ongoing request and the outgoing response.
  */
 async function updateSession(request: NextRequest, response: NextResponse ) {
     let supabaseResponse = response;
@@ -32,7 +32,7 @@ async function updateSession(request: NextRequest, response: NextResponse ) {
                     );
 
                     // Attach cookies to the existing response (don't rebuild it) (This is for the Browser)
-                    // The response may already be a redirect from i18n - rebuilding would loose that.
+                    // The response may already be a redirect from i18n - rebuilding would lose that.
                     cookiesToSet.forEach(({ name, value, options }) => 
                         supabaseResponse.cookies.set(name, value, options)
                     );

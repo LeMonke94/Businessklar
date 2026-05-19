@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { type Locale } from '@/config/i18n';
 import styles from './Footer.module.css';
 
-
 async function Footer({ locale }: { locale: Locale }) {
     const t = await getTranslations('footer');
     const year = new Date().getFullYear();
@@ -30,6 +29,5 @@ async function Footer({ locale }: { locale: Locale }) {
         </footer>
     );
 }
-
 
 export { Footer };

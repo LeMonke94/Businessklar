@@ -34,7 +34,7 @@ This is the rule that makes vendor swaps possible. If Supabase ever gets replace
 ### What's happening
 
 Supabase auth state lives in a single browser cookie (`sb-...-auth-token`). That cookie travels with every request the browser makes to our server. 
-The cookie is the source of truth — refresh it, and the user stays logged in. Loose it, and they're logged out.
+The cookie is the source of truth — refresh it, and the user stays logged in. Lose it, and they're logged out.
 The cookie is the **same physical thing** across the whole app. What changes is **how we access it** depending on where our code is running.
 
 ---

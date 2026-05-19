@@ -34,7 +34,7 @@ function toUser(supabaseUser: SupabaseUser): User {
         email: supabaseUser.email!,
         name: (supabaseUser.user_metadata?.name as string) ?? null,
         locale: (supabaseUser.user_metadata?.locale as string) ?? null,
-        createdAt: supabaseUser.created_at
+        createdAt: supabaseUser.created_at,
     };
 }
 

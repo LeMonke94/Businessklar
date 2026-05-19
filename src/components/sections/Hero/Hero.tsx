@@ -3,7 +3,6 @@ import { type Locale } from '@/config/i18n';
 import { Button } from '@/components/ui/Button';
 import styles from './Hero.module.css';
 
-
 async function Hero({ locale }: { locale: Locale }) {
     const t = await getTranslations('home');
 
@@ -25,6 +24,5 @@ async function Hero({ locale }: { locale: Locale }) {
         </section>
     );
 }
-
 
 export { Hero };

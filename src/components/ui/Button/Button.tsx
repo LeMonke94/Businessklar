@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import styles from './Button.module.css';
 
-
 type ButtonVariant = 'primary' | 'secondary';
 
 type ButtonProps = {
@@ -30,7 +29,6 @@ function Button({ variant = 'primary', href, children, onClick, type = 'button' 
         </button>
     );
 }
-
 
 export { Button };
 export type { ButtonVariant };

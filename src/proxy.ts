@@ -3,7 +3,7 @@
 import { type NextRequest } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 import { updateSession } from '@/lib/supabase/proxy';
-import { locales, defaultLocale } from '@/config/i18n'
+import { locales, defaultLocale } from '@/config/i18n';
 
 
 // The i18n middleware handles locale detection, URL parsing, and redirects.

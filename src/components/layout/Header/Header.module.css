@@ -53,8 +53,6 @@
     color: var(--color-gold);
 }
 
-/* Existing styles bleiben unverändert. Folgendes am Ende anhängen: */
-
 .navLinkPrimary {
     font-size: var(--font-size-xs);
     font-weight: var(--font-weight-semibold);

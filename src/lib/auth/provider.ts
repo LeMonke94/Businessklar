@@ -41,7 +41,7 @@ type AuthProvider = {
     // Subscribe to auth state changes (sign in, sign out, token refresh).
     // Returns an unsubscribe function.
     onAuthChange: (callback: (session: Session | null) => void) => () => void;
-}
+};
 
 
 export type { AuthProvider, SignInInput, SignUpInput };
