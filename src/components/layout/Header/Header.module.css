@@ -52,3 +52,20 @@
     border-color: var(--color-gold);
     color: var(--color-gold);
 }
+
+/* Existing styles bleiben unverändert. Folgendes am Ende anhängen: */
+
+.navLinkPrimary {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-navy);
+    background: var(--color-gold);
+    padding: var(--space-1) var(--space-4);
+    border-radius: var(--radius-pill);
+    transition: var(--transition-fast);
+    white-space: nowrap;
+}
+
+.navLinkPrimary:hover {
+    background: var(--color-gold-light);
+}
