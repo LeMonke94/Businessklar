@@ -30,5 +30,43 @@
             "item3Title": "Compliance-Übersicht",
             "item3Desc": "Steuerliche und rechtliche Pflichten, die du als Gründer kennen musst – ohne juristisches Fachchinesisch."
         }
+    },
+    "auth": {
+        "signIn": {
+            "title": "Anmelden",
+            "subtitle": "Willkommen zurück. Setze deine Planung fort.",
+            "emailLabel": "E-Mail",
+            "passwordLabel": "Passwort",
+            "submit": "Anmelden",
+            "submitting": "Wird angemeldet...",
+            "noAccount": "Noch kein Konto?",
+            "signUpLink": "Registrieren"
+        },
+        "signUp": {
+            "title": "Konto erstellen",
+            "subtitle": "Starte deinen Business-Setup in wenigen Minuten.",
+            "emailLabel": "E-Mail",
+            "passwordLabel": "Passwort",
+            "passwordHint": "Mindestens 12 Zeichen.",
+            "nameLabel": "Name (optional)",
+            "submit": "Konto erstellen",
+            "submitting": "Wird erstellt...",
+            "hasAccount": "Bereits ein Konto?",
+            "signInLink": "Anmelden"
+        },
+        "errors": {
+            "invalid_credentials": "E-Mail oder Passwort falsch.",
+            "email_not_confirmed": "Bitte bestätige deine E-Mail-Adresse.",
+            "user_already_exists": "Diese E-Mail ist bereits registriert.",
+            "weak_password": "Passwort ist zu schwach.",
+            "rate_limited": "Zu viele Versuche. Bitte später erneut.",
+            "network_error": "Netzwerkfehler. Bitte erneut versuchen.",
+            "unknown": "Ein unbekannter Fehler ist aufgetreten."
+        },
+        "validation": {
+            "emailInvalid": "Bitte gültige E-Mail-Adresse eingeben.",
+            "passwordTooShort": "Passwort muss mindestens 12 Zeichen haben.",
+            "nameTooLong": "Name ist zu lang."
+        }
     }
 }

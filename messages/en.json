@@ -30,5 +30,43 @@
             "item3Title": "Compliance overview",
             "item3Desc": "The tax and legal obligations you need to know as a founder — without legal jargon."
         }
+    },
+    "auth": {
+        "signIn": {
+            "title": "Sign in",
+            "subtitle": "Welcome back. Continue your planning.",
+            "emailLabel": "Email",
+            "passwordLabel": "Password",
+            "submit": "Sign in",
+            "submitting": "Signing in...",
+            "noAccount": "Don't have an account yet?",
+            "signUpLink": "Sign up"
+        },
+        "signUp": {
+            "title": "Create account",
+            "subtitle": "Start your business setup in just a few minutes.",
+            "emailLabel": "Email",
+            "passwordLabel": "Password",
+            "passwordHint": "At least 12 characters.",
+            "nameLabel": "Name (optional)",
+            "submit": "Create account",
+            "submitting": "Creating...",
+            "hasAccount": "Already have an account?",
+            "signInLink": "Sign in"
+        },
+        "errors": {
+            "invalid_credentials": "Wrong email or password.",
+            "email_not_confirmed": "Please confirm your email address.",
+            "user_already_exists": "This email is already registered.",
+            "weak_password": "Password is too weak.",
+            "rate_limited": "Too many attempts. Please try again later.",
+            "network_error": "Network error. Please try again.",
+            "unknown": "An unknown error occurred."
+        },
+        "validation": {
+            "emailInvalid": "Please enter a valid email address.",
+            "passwordTooShort": "Password must be at least 12 characters.",
+            "nameTooLong": "Name is too long."
+        }
     }
 }

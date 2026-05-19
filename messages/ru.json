@@ -30,5 +30,43 @@
             "item3Title": "Обзор соответствия",
             "item3Desc": "Налоговые и правовые обязательства, которые должен знать предприниматель — без юридического жаргона."
         }
+    },
+    "auth": {
+        "signIn": {
+            "title": "Вход",
+            "subtitle": "С возвращением. Продолжите планирование.",
+            "emailLabel": "E-mail",
+            "passwordLabel": "Пароль",
+            "submit": "Войти",
+            "submitting": "Вход...",
+            "noAccount": "Ещё нет аккаунта?",
+            "signUpLink": "Зарегистрироваться"
+        },
+        "signUp": {
+            "title": "Создать аккаунт",
+            "subtitle": "Начните настройку бизнеса за несколько минут.",
+            "emailLabel": "E-mail",
+            "passwordLabel": "Пароль",
+            "passwordHint": "Минимум 12 символов.",
+            "nameLabel": "Имя (необязательно)",
+            "submit": "Создать аккаунт",
+            "submitting": "Создание...",
+            "hasAccount": "Уже есть аккаунт?",
+            "signInLink": "Войти"
+        },
+        "errors": {
+            "invalid_credentials": "Неверный e-mail или пароль.",
+            "email_not_confirmed": "Подтвердите свой e-mail.",
+            "user_already_exists": "Этот e-mail уже зарегистрирован.",
+            "weak_password": "Пароль слишком слабый.",
+            "rate_limited": "Слишком много попыток. Попробуйте позже.",
+            "network_error": "Ошибка сети. Попробуйте ещё раз.",
+            "unknown": "Произошла неизвестная ошибка."
+        },
+        "validation": {
+            "emailInvalid": "Введите действительный e-mail.",
+            "passwordTooShort": "Пароль должен содержать минимум 12 символов.",
+            "nameTooLong": "Имя слишком длинное."
+        }
     }
 }
