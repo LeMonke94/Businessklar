@@ -184,4 +184,5 @@ src/lib - infrastructure layer with the interface AND adapter inside of each fol
 ---
 
 # Todos:
-Auth
+Auth + Login Logout Button
+Lang change button

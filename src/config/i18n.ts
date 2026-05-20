@@ -19,6 +19,14 @@ function isLocale(value: string): value is Locale {
     return (locales as readonly string[]).includes(value);
 }
 
+// Display metadata for the language switcher.
+// flag: emoji flag, nativeName: language name in its own language.
+const localeMetadata: Record<Locale, { flag: string; nativeName: string }> = {
+    de: { flag: '🇩🇪', nativeName: 'Deutsch' },
+    en: { flag: '🇬🇧', nativeName: 'English' },
+    ru: { flag: '🇷🇺', nativeName: 'Русский' },
+};
 
-export { locales, defaultLocale, isLocale };
+
+export { locales, defaultLocale, isLocale, localeMetadata };
 export type { Locale };
