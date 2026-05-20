@@ -7,7 +7,9 @@
         "home": "Home",
         "specialists": "Specialists",
         "contact": "Contact",
-        "signIn": "Sign in"
+        "signIn": "Sign in",
+        "signOut": "Sign out",
+        "signingOut": "Signing out..."
     },
     "footer": {
         "tagline": "Business setup orientation for founders in Germany.",

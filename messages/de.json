@@ -7,7 +7,9 @@
         "home": "Start",
         "specialists": "Spezialisten",
         "contact": "Kontakt",
-        "signIn": "Anmelden"
+        "signIn": "Anmelden",
+        "signOut": "Abmelden",
+        "signingOut": "Wird abgemeldet..."
     },
     "footer": {
         "tagline": "Geschäftsorientierung für Gründer in Deutschland.",
