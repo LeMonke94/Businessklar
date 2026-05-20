@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import { type Locale } from '@/config/i18n';
+import { HeaderAuth } from '@/components/layout/HeaderAuth';
 import styles from './Header.module.css';
 
 async function Header({ locale }: { locale: Locale }) {
@@ -22,9 +23,7 @@ async function Header({ locale }: { locale: Locale }) {
                     <Link href={`/${locale}/contact`} className={styles.navLink}>
                         {t('contact')}
                     </Link>
-                    <Link href={`/${locale}/sign-in`} className={styles.navLinkPrimary}>
-                        {t('signIn')}
-                    </Link>
+                    <HeaderAuth locale={locale} />
                 </nav>
             </div>
         </header>
