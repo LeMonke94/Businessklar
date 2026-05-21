@@ -28,13 +28,35 @@
         "ctaPrimary": "Get started",
         "ctaSecondary": "Learn more",
         "trust": {
-            "heading": "What you'll get",
-            "item1Title": "Legal form recommendation",
-            "item1Desc": "The right business form for your situation — sole proprietorship, GmbH, UG, or freelance.",
-            "item2Title": "Registration path",
-            "item2Desc": "Which authorities, what order, which documents. Specific and step-by-step.",
-            "item3Title": "Compliance overview",
-            "item3Desc": "The tax and legal obligations you need to know as a founder — without legal jargon."
+            "heading": "So you feel secure",
+            "item1Title": "Know your obligations",
+            "item1Desc": "A complete list of what you need to consider.",
+            "item2Title": "Know your rights",
+            "item2Desc": "What you're entitled to and which options you have.",
+            "item3Title": "No mistakes",
+            "item3Desc": "Risks under control before they get expensive."
+        },
+        "obligations": {
+            "kicker": "What an entrepreneur needs",
+            "heading": "An entrepreneur needs a lot",
+            "subtitle": "After the questionnaire you'll get a personalized list.",
+            "item1Title": "Business registration",
+            "item1Desc": "Registration with the city",
+            "item2Title": "Tax office",
+            "item2Desc": "Tax registration",
+            "item3Title": "Health insurance",
+            "item3Desc": "Mandatory when self-employed",
+            "item4Title": "IHK / HWK",
+            "item4Desc": "Chamber membership",
+            "item5Title": "Employer's liability insurance",
+            "item5Desc": "Accident insurance",
+            "item6Title": "VAT",
+            "item6Desc": "VAT decision",
+            "item7Title": "Bookkeeping",
+            "item7Desc": "Bookkeeping obligations",
+            "item8Title": "Insurances",
+            "item8Desc": "Mandatory insurances",
+            "closer": "A business should begin with clarity."
         }
     },
     "auth": {
