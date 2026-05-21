@@ -6,7 +6,9 @@
     "nav": {
         "home": "Home",
         "specialists": "Specialists",
-        "contact": "Contact",
+        "glossary": "Glossary",
+        "dashboard": "Dashboard",
+        "premium": "Premium",
         "signIn": "Sign in",
         "signOut": "Sign out",
         "signingOut": "Signing out..."
@@ -14,6 +16,7 @@
     "footer": {
         "tagline": "Business setup orientation for founders in Germany.",
         "copyright": "© {year} BusinessKlar. All rights reserved.",
+        "contact": "Contact",
         "imprint": "Imprint",
         "privacy": "Privacy",
         "terms": "Terms"
