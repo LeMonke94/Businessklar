@@ -28,13 +28,35 @@
         "ctaPrimary": "Jetzt starten",
         "ctaSecondary": "Mehr erfahren",
         "trust": {
-            "heading": "Was du erhältst",
-            "item1Title": "Rechtsform-Empfehlung",
-            "item1Desc": "Die passende Unternehmensform für deine Situation – Einzelunternehmen, GmbH, UG oder Freiberuflich.",
-            "item2Title": "Anmeldepfad",
-            "item2Desc": "Welche Behörden, welche Reihenfolge, welche Dokumente. Konkret und schritt-für-schritt.",
-            "item3Title": "Compliance-Übersicht",
-            "item3Desc": "Steuerliche und rechtliche Pflichten, die du als Gründer kennen musst – ohne juristisches Fachchinesisch."
+            "heading": "Damit du dich sicher fühlst",
+            "item1Title": "Pflichten kennen",
+            "item1Desc": "Vollständige Liste dessen, was du beachten musst.",
+            "item2Title": "Rechte kennen",
+            "item2Desc": "Was dir zusteht und welche Möglichkeiten du hast.",
+            "item3Title": "Keine Fehler",
+            "item3Desc": "Risiken unter Kontrolle, bevor sie teuer werden."
+        },
+        "obligations": {
+            "kicker": "Was ein Unternehmer braucht",
+            "heading": "Ein Unternehmer braucht vieles",
+            "subtitle": "Nach dem Fragebogen erhältst du eine individuelle Liste.",
+            "item1Title": "Gewerbeanmeldung",
+            "item1Desc": "Registrierung in der Stadt",
+            "item2Title": "Finanzamt",
+            "item2Desc": "Steuerliche Erfassung",
+            "item3Title": "Krankenversicherung",
+            "item3Desc": "Pflicht als Selbständiger",
+            "item4Title": "IHK / HWK",
+            "item4Desc": "Kammermitgliedschaft",
+            "item5Title": "Berufsgenossenschaft",
+            "item5Desc": "Unfallversicherung",
+            "item6Title": "Umsatzsteuer",
+            "item6Desc": "USt-Entscheidung",
+            "item7Title": "Buchführung",
+            "item7Desc": "Buchführungspflichten",
+            "item8Title": "Versicherungen",
+            "item8Desc": "Pflichtversicherungen",
+            "closer": "Ein Unternehmen sollte mit Klarheit beginnen."
         }
     },
     "auth": {
