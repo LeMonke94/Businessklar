@@ -3,6 +3,7 @@ import { isLocale } from '@/config/i18n';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/sections/Hero';
 import { TrustSection } from '@/components/sections/TrustSection';
+import { ObligationsSection } from '@/components/sections/ObligationsSection';
 
 
 /**
