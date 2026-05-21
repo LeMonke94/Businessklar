@@ -13,6 +13,9 @@ async function Footer({ locale }: { locale: Locale }) {
                 <p className={styles.tagline}>{t('tagline')}</p>
 
                 <nav className={styles.links}>
+                    <Link href={`/${locale}/contact`} className={styles.link}>
+                        {t('contact')}
+                    </Link>
                     <Link href={`/${locale}/imprint`} className={styles.link}>
                         {t('imprint')}
                     </Link>
