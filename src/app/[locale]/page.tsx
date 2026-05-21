@@ -25,6 +25,7 @@ async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
         <>
             <Hero locale={locale} />
             <TrustSection />
+            <ObligationsSection />
         </>
     );
 }
