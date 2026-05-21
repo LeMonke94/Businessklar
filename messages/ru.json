@@ -6,7 +6,9 @@
     "nav": {
         "home": "Главная",
         "specialists": "Специалисты",
-        "contact": "Контакт",
+        "glossary": "Глоссарий",
+        "dashboard": "Кабинет",
+        "premium": "Премиум",
         "signIn": "Войти",
         "signOut": "Выйти",
         "signingOut": "Выход..."
@@ -14,6 +16,7 @@
     "footer": {
         "tagline": "Ориентация для предпринимателей в Германии.",
         "copyright": "© {year} BusinessKlar. Все права защищены.",
+        "contact": "Контакт",
         "imprint": "Импринт",
         "privacy": "Конфиденциальность",
         "terms": "Условия"
