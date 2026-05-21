@@ -14,6 +14,7 @@ async function Header({ locale }: { locale: Locale }) {
                 <Link href={`/${locale}`} className={styles.logo}>
                     Business<span>Klar</span>
                 </Link>
+
                 <nav className={styles.nav}>
                     <Link href={`/${locale}`} className={styles.navLink}>
                         {t('home')}
@@ -21,12 +22,21 @@ async function Header({ locale }: { locale: Locale }) {
                     <Link href={`/${locale}/specialists`} className={styles.navLink}>
                         {t('specialists')}
                     </Link>
-                    <Link href={`/${locale}/contact`} className={styles.navLink}>
-                        {t('contact')}
+                    <Link href={`/${locale}/glossary`} className={styles.navLink}>
+                        {t('glossary')}
                     </Link>
-                    <LanguageSwitcher locale={locale} />
-                    <HeaderAuth locale={locale} />
+                    <Link href={`/${locale}/dashboard`} className={styles.navLink}>
+                        {t('dashboard')}
+                    </Link>
                 </nav>
+
+                <div className={styles.actions}>
+                    <LanguageSwitcher locale={locale} />
+                    <Link href={`/${locale}/premium`} className={styles.premiumButton}>
+                        {t('premium')}
+                    </Link>
+                    <HeaderAuth locale={locale} />
+                </div>
             </div>
         </header>
     );
