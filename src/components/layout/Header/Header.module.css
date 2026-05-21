@@ -14,8 +14,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: var(--space-4);
+    gap: var(--space-6);
 }
 
 .logo {
@@ -36,6 +35,7 @@
     display: flex;
     gap: var(--space-2);
     flex-wrap: wrap;
+    flex: 1;
 }
 
 .navLink {
@@ -53,17 +53,26 @@
     color: var(--color-gold);
 }
 
-.navLinkPrimary {
+.actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-shrink: 0;
+}
+
+.premiumButton {
     font-size: var(--font-size-xs);
     font-weight: var(--font-weight-semibold);
-    color: var(--color-navy);
-    background: var(--color-gold);
+    color: var(--color-gold);
+    background: transparent;
+    border: 1px solid var(--color-gold);
     padding: var(--space-1) var(--space-4);
     border-radius: var(--radius-pill);
     transition: var(--transition-fast);
     white-space: nowrap;
 }
 
-.navLinkPrimary:hover {
-    background: var(--color-gold-light);
+.premiumButton:hover {
+    background: rgba(201, 168, 76, 0.15);
+    box-shadow: var(--shadow-glow);
 }
