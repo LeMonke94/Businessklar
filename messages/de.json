@@ -6,7 +6,9 @@
     "nav": {
         "home": "Start",
         "specialists": "Spezialisten",
-        "contact": "Kontakt",
+        "glossary": "Glossar",
+        "dashboard": "Dashboard",
+        "premium": "Premium",
         "signIn": "Anmelden",
         "signOut": "Abmelden",
         "signingOut": "Wird abgemeldet..."
