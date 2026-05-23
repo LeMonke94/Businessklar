@@ -31,10 +31,13 @@ const finesStructure: Fine[] = [
     { key: 'incorrectInvoices', law: 'UStG' },
     { key: 'lateTaxReturn', law: 'AO § 152' },
     { key: 'gema', law: 'UrhG / GEMA' },
-    // NOTE: legacy lists 15 fines — one more to add after verification
+    { key: 'noBgRegistration', law: 'SGB VII' },
 ];
 
 const vatTrapsStructure: VatTrap[] = [
+    { key: 'restaurantVsTakeaway' },
+    { key: 'drinksAlways19' },
+    { key: 'delivery7or19' },
     { key: 'b2bEu' },
     { key: 'b2cEu' },
     { key: 'onlineCourses' },
@@ -42,7 +45,6 @@ const vatTrapsStructure: VatTrap[] = [
     { key: 'euPurchase' },
     { key: 'carPrivateUse' },
     { key: 'vatIsStateMoney' },
-    // NOTE: legacy lists 10 VAT traps — three more to add after verification
 ];
 
 export { finesStructure, vatTrapsStructure };
