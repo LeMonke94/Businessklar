@@ -109,7 +109,9 @@
             "authorities": "Government offices",
             "registrationNumbers": "Registration numbers",
             "accounting": "Accounting",
-            "vatRegulations": "VAT regulations"
+            "vatRegulations": "VAT regulations",
+            "companyManagement": "Company management",
+            "taxReturns": "Tax returns"
         },
         "terms": {
             "freelancer": {
@@ -361,6 +363,46 @@
                 "nameDe": "OSS (One Stop Shop)",
                 "nameLocal": "One Stop Shop",
                 "body": "EU reporting procedure for certain cross-border B2C transactions. Relevant in particular for distance sales to EU consumers above the union-wide threshold."
+            },
+            "managingDirector": {
+                "nameDe": "Geschäftsführer",
+                "nameLocal": "Managing director",
+                "body": "Legal representative of a GmbH or UG. Manages the company externally and internally."
+            },
+            "shareCapital": {
+                "nameDe": "Stammkapital",
+                "nameLocal": "Share capital",
+                "body": "For GmbH 25,000 EUR. For UG there is no minimum share capital of 25,000 EUR; it can be founded with lower share capital."
+            },
+            "articlesOfAssociation": {
+                "nameDe": "Gesellschaftsvertrag",
+                "nameLocal": "Articles of association",
+                "body": "Founding document of the company. For UG and GmbH must be notarially certified."
+            },
+            "liquidation": {
+                "nameDe": "Liquidation",
+                "nameLocal": "Liquidation",
+                "body": "Orderly winding-up procedure for dissolving a company. For capital companies generally involves formal register and publication steps."
+            },
+            "incomeTaxReturn": {
+                "nameDe": "Einkommensteuererklärung",
+                "nameLocal": "Income tax return",
+                "body": "Generally to be filed by 31 July of the following year. When prepared by tax advisors generally by the last day of February of the second following year; transitional rules apply for certain years."
+            },
+            "tradeTaxReturn": {
+                "nameDe": "Gewerbesteuererklärung",
+                "nameLocal": "Trade tax return",
+                "body": "Annual return for commercial businesses. General filing deadlines are governed by the Abgabenordnung."
+            },
+            "vatAdvanceReturn": {
+                "nameDe": "Umsatzsteuer-Voranmeldung",
+                "nameLocal": "VAT advance return",
+                "body": "Electronically via ELSTER. Generally to be filed by the 10th day after the end of the advance return period; this period is monthly or quarterly depending on the tax burden."
+            },
+            "annualStatements": {
+                "nameDe": "Jahresabschluss",
+                "nameLocal": "Annual financial statements",
+                "body": "Capital companies are required to prepare annual financial statements; disclosure or deposit in the Bundesanzeiger may be required."
             }
         }
     }
