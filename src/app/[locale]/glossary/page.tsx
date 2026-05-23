@@ -3,6 +3,7 @@ import { isLocale } from '@/config/i18n';
 import { notFound } from 'next/navigation';
 import { glossaryStructure } from '@/features/glossary/structure';
 import { GlossaryCategory } from '@/features/glossary/components/GlossaryCategory';
+import { FinesSection } from '@/features/glossary/components/FinesSection';
 import styles from './page.module.css';
 
 async function GlossaryPage({
@@ -31,6 +32,8 @@ async function GlossaryPage({
                     <GlossaryCategory key={category.categoryKey} category={category} />
                 ))}
             </div>
+
+            <FinesSection />
         </div>
     );
 }
