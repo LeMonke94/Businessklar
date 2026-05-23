@@ -1,0 +1,1 @@
+export { GlossaryCategory } from './GlossaryCategory';
