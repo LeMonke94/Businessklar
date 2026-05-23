@@ -15,7 +15,7 @@ type GlossaryCategory = {
 const glossaryStructure: GlossaryCategory[] = [
     {
         categoryKey: 'activity',
-        termKeys: ['freelancer', 'tradeBusiness'],
+        termKeys: ['freelancer', 'tradeBusiness', 'agriculture', 'otherSelfEmployment'],
     },
     {
         categoryKey: 'numbers',

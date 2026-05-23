@@ -109,13 +109,24 @@
             "freelancer": {
                 "nameDe": "Freiberufler",
                 "nameLocal": "Freie Berufe nach § 18 EStG",
-                "body": "Selbständige Tätigkeit auf Grundlage besonderer fachlicher Qualifikation oder schöpferischer Leistung — z. B. Ärzte, Anwälte, Steuerberater, Architekten, Übersetzer. In der Regel keine Gewerbesteuer und keine Gewerbeanmeldung. Anmeldung beim Finanzamt ist erforderlich."
+                "body": "Selbständige Tätigkeiten auf Grundlage besonderer fachlicher Qualifikation oder schöpferischer Leistung. Dazu gehören z. B. Ärzte, Rechtsanwälte, Steuerberater, Architekten, Ingenieure, Übersetzer, Journalisten und ähnliche Berufe. In der Regel keine Gewerbesteuer und keine Gewerbeanmeldung. Anmeldung beim Finanzamt ist erforderlich. Die Einordnung hängt immer von der tatsächlichen Tätigkeit ab."
             },
             "tradeBusiness": {
-                "nameDe": "Gewerbe",
+                "nameDe": "Gewerbe / Gewerbebetrieb",
                 "nameLocal": "Gewerbliche Tätigkeit",
-                "body": "Auf Gewinn gerichtete, selbständige Tätigkeit, die kein freier Beruf ist. Erfordert eine Gewerbeanmeldung beim Gewerbeamt und unterliegt der Gewerbesteuer (ab einem Freibetrag)."
+                "body": "Jede auf Dauer angelegte, selbständige Tätigkeit mit Gewinnerzielungsabsicht, die weder freier Beruf noch Land- und Forstwirtschaft ist. In der Regel ist eine Gewerbeanmeldung erforderlich. Gewerbesteuer kann anfallen. Je nach Größe und Struktur können weitere Pflichten entstehen, z. B. Handelsregister, IHK/HWK oder kaufmännische Buchführung."
             },
+            "agriculture": {
+                "nameDe": "Land- und Forstwirtschaft",
+                "nameLocal": "Landwirtschaft, Forstwirtschaft, Gartenbau, Tierzucht, Fischerei",
+                "body": "Besondere Tätigkeitskategorie mit eigenem steuerlichen Rahmen. Sie ist weder gewöhnliches Gewerbe noch freier Beruf. Je nach Tätigkeit gelten besondere Regelungen zu Besteuerung, Buchführung und Behörden."
+            },
+            "otherSelfEmployment": {
+                "nameDe": "Sonderfälle / Sonstige selbständige Arbeit",
+                "nameLocal": "Besondere selbständige Tätigkeiten außerhalb klassischer freier Berufe",
+                "body": "Einzelne Tätigkeiten gelten steuerlich als selbständige Arbeit, ohne typische Freiberufe zu sein, z. B. bestimmte Vermögensverwaltungen oder gesetzlich gesondert geregelte Tätigkeiten. Prüfung im Einzelfall erforderlich."
+            },
+            
             "taxId": {
                 "nameDe": "Steuer-ID (IdNr)",
                 "nameLocal": "Steuerliche Identifikationsnummer",

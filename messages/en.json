@@ -109,13 +109,24 @@
             "freelancer": {
                 "nameDe": "Freiberufler",
                 "nameLocal": "Liberal profession under § 18 EStG",
-                "body": "Independent activity based on special professional qualification or creative work — e.g. doctors, lawyers, tax advisors, architects, translators. Generally no trade tax and no business registration. Registration at the tax office is required."
+                "body": "Independent activity based on special professional qualification or creative work. Examples: doctors, lawyers, tax advisors, architects, engineers, translators, journalists. Generally no Gewerbesteuer and no Gewerbeanmeldung. Registration at Finanzamt is required. Classification always depends on the actual activity."
             },
             "tradeBusiness": {
-                "nameDe": "Gewerbe",
+                "nameDe": "Gewerbe / Gewerbebetrieb",
                 "nameLocal": "Commercial activity",
-                "body": "Profit-oriented, independent activity that is not a liberal profession. Requires business registration at the trade office and is subject to trade tax (above an allowance)."
+                "body": "Any permanent independent activity with profit intention that is neither a liberal profession nor agriculture/forestry. Generally requires Gewerbeanmeldung. Gewerbesteuer may apply. Further obligations may arise depending on size and structure, e.g. Handelsregister, IHK/HWK or commercial bookkeeping."
             },
+            "agriculture": {
+                "nameDe": "Land- und Forstwirtschaft",
+                "nameLocal": "Agriculture, forestry, horticulture, animal husbandry, fishing",
+                "body": "Special activity category with its own tax framework. Neither ordinary Gewerbe nor liberal profession. Special rules for taxation, accounting and authorities apply depending on the activity."
+            },
+            "otherSelfEmployment": {
+                "nameDe": "Sonderfälle / Sonstige selbständige Arbeit",
+                "nameLocal": "Special cases / other self-employment outside classical liberal professions",
+                "body": "Certain activities qualify as self-employment for tax purposes without being typical liberal professions, e.g. certain asset management or separately regulated activities. Case-by-case review required."
+            },
+
             "taxId": {
                 "nameDe": "Steuer-ID (IdNr)",
                 "nameLocal": "Tax identification number",
