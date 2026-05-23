@@ -9,7 +9,7 @@ function GlossaryTerm({
     body,
 }: {
     nameDe: string;
-    nameLocal: string;
+    nameLocal?: string;
     body: string;
 }) {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ function GlossaryTerm({
             >
                 <span className={styles.names}>
                     <span className={styles.nameDe}>{nameDe}</span>
-                    <span className={styles.nameLocal}>{nameLocal}</span>
+                    {nameLocal && <span className={styles.nameLocal}>{nameLocal}</span>}
                 </span>
                 <span className={styles.arrow}>▾</span>
             </button>
