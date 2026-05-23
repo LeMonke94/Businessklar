@@ -106,6 +106,7 @@
             "legalForms": "Rechtsformen",
             "taxes": "Steuern",
             "socialInsurance": "Sozialversicherung",
+            "authorities": "Behörden",
             "numbers": "Nummern & Kennungen"
         },
         "terms": {
@@ -263,6 +264,36 @@
                 "nameDe": "Berufsgenossenschaft (BG)",
                 "nameLocal": "Gesetzliche Unfallversicherung",
                 "body": "Unternehmen müssen sich bei der zuständigen Berufsgenossenschaft anmelden. Welche BG zuständig ist, hängt von der Tätigkeit ab. Beschäftigte sind grundsätzlich gesetzlich unfallversichert; für Unternehmer gelten je nach BG besondere Regeln."
+            },
+            "finanzamt": {
+                "nameDe": "Finanzamt",
+                "nameLocal": "Finanzamt",
+                "body": "Zuständig für steuerliche Erfassung, Steuernummer, Steuererklärungen und laufende Besteuerung. Die steuerliche Erfassung erfolgt regelmäßig elektronisch über ELSTER."
+            },
+            "gewerbeamt": {
+                "nameDe": "Gewerbeamt",
+                "nameLocal": "Gewerbeamt",
+                "body": "Zuständig für die Gewerbeanmeldung. Freiberufliche Tätigkeiten benötigen grundsätzlich keine Gewerbeanmeldung. Gebühren und Verfahren unterscheiden sich je nach Gemeinde."
+            },
+            "handelsregister": {
+                "nameDe": "Handelsregister",
+                "nameLocal": "Handelsregister",
+                "body": "Pflichtig insbesondere für UG, GmbH, AG, OHG, KG und e.K. Die Eintragung erfolgt über notarielle Anmeldung beim Registergericht."
+            },
+            "ihkHwk": {
+                "nameDe": "IHK / HWK",
+                "nameLocal": "Industrie- und Handelskammer / Handwerkskammer",
+                "body": "Gewerbliche Unternehmen sind regelmäßig Mitglied in der Industrie- und Handelskammer oder bei handwerklicher Tätigkeit in der Handwerkskammer. Freie Berufe gehören grundsätzlich nicht zur IHK, sofern keine gewerbliche Tätigkeit vorliegt. Beiträge hängen von Rechtsform, Gewinn und Kammer ab."
+            },
+            "elster": {
+                "nameDe": "ELSTER",
+                "nameLocal": "Steuerportal ELSTER",
+                "body": "Offizielles Online-Portal der Steuerverwaltung für steuerliche Registrierung, Erklärungen und viele Anträge."
+            },
+            "bundesanzeiger": {
+                "nameDe": "Bundesanzeiger",
+                "nameLocal": "Bundesanzeiger",
+                "body": "Bestimmte Unternehmen, insbesondere Kapitalgesellschaften, müssen Jahresabschlüsse elektronisch offenlegen oder hinterlegen."
             },
 
             "taxId": {

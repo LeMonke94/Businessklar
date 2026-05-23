@@ -106,6 +106,7 @@
             "legalForms": "Legal forms",
             "taxes": "Taxes",
             "socialInsurance": "Social insurance",
+            "authorities": "Government offices",
             "numbers": "Numbers & Identifiers"
         },
         "terms": {
@@ -263,6 +264,36 @@
                 "nameDe": "Berufsgenossenschaft (BG)",
                 "nameLocal": "Statutory accident insurance",
                 "body": "Businesses must register with the responsible Berufsgenossenschaft. Which BG is responsible depends on the activity. Employees are generally covered by statutory accident insurance; special rules apply to business owners depending on the BG."
+            },
+            "finanzamt": {
+                "nameDe": "Finanzamt",
+                "nameLocal": "Tax office",
+                "body": "Responsible for tax registration, tax number, tax returns and ongoing taxation. Tax registration is generally done electronically via ELSTER."
+            },
+            "gewerbeamt": {
+                "nameDe": "Gewerbeamt",
+                "nameLocal": "Business registration office",
+                "body": "Responsible for Gewerbeanmeldung. Liberal professions generally do not need a Gewerbeanmeldung. Fees and procedures vary by municipality."
+            },
+            "handelsregister": {
+                "nameDe": "Handelsregister",
+                "nameLocal": "Commercial register",
+                "body": "Mandatory in particular for UG, GmbH, AG, OHG, KG and e.K. Registration is via notarized application to the registration court."
+            },
+            "ihkHwk": {
+                "nameDe": "IHK / HWK",
+                "nameLocal": "Chamber of commerce / crafts",
+                "body": "Commercial businesses are regularly members of the Industrie- und Handelskammer or, for craft activities, the Handwerkskammer. Liberal professions generally do not belong to the IHK if there is no commercial activity. Contributions depend on legal form, profit and chamber."
+            },
+            "elster": {
+                "nameDe": "ELSTER",
+                "nameLocal": "Tax portal ELSTER",
+                "body": "Official online portal of the tax administration for tax registration, returns and many applications."
+            },
+            "bundesanzeiger": {
+                "nameDe": "Bundesanzeiger",
+                "nameLocal": "Federal Gazette",
+                "body": "Certain companies, in particular capital companies, must electronically disclose or deposit annual financial statements."
             },
 
             "taxId": {

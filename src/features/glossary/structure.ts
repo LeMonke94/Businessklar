@@ -59,7 +59,17 @@ const glossaryStructure: GlossaryCategory[] = [
             'accidentInsurance',
         ],
     },
-
+    {
+        categoryKey: 'authorities',
+        termKeys: [
+            'finanzamt',
+            'gewerbeamt',
+            'handelsregister',
+            'ihkHwk',
+            'elster',
+            'bundesanzeiger',
+        ],
+    },
     {
         categoryKey: 'numbers',
         termKeys: ['taxId', 'vatId', 'companyNumber'],
