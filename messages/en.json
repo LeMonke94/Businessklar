@@ -104,6 +104,7 @@
         "categories": {
             "activity": "Activity type / Status",
             "legalForms": "Legal forms",
+            "taxes": "Taxes",
             "numbers": "Numbers & Identifiers"
         },
         "terms": {
@@ -186,6 +187,56 @@
                 "nameDe": "Holding",
                 "nameLocal": "Holding structure",
                 "body": "Not a separate legal form, but a participation structure: one company holds shares in other companies. Possible e.g. with GmbH, UG or AG as the holding company."
+            },
+            "incomeTax": {
+                "nameDe": "Einkommensteuer (ESt)",
+                "nameLocal": "Income tax",
+                "body": "Progressive rate. Basic tax-free allowance 2026: 12,348 EUR. Top rate 42%, the so-called Reichensteuer 45%."
+            },
+            "corporateTax": {
+                "nameDe": "Körperschaftsteuer (KSt)",
+                "nameLocal": "Corporate income tax",
+                "body": "Rate 15% on the taxable income of capital companies such as UG, GmbH and AG. Additionally, Solidaritätszuschlag is levied on Körperschaftsteuer. Distributions to natural persons are regularly subject to Kapitalertragsteuer."
+            },
+            "tradeTax": {
+                "nameDe": "Gewerbesteuer (GewSt)",
+                "nameLocal": "Trade tax",
+                "body": "Municipal tax for commercial enterprises. Assessment base: profit × 3.5%; multiplied by the municipal rate (Hebesatz). For sole traders and partnerships, a tax-free amount of 24,500 EUR applies. Liberal professions under § 18 EStG are generally not subject to Gewerbesteuer."
+            },
+            "vat": {
+                "nameDe": "Umsatzsteuer (USt) / MwSt",
+                "nameLocal": "VAT / Sales tax",
+                "body": "Standard rate 19%, reduced rate 7%. The Kleinunternehmer scheme applies as of 2025 generally up to 25,000 EUR prior-year revenue and 100,000 EUR current revenue; if 100,000 EUR is exceeded, it ceases within the year."
+            },
+            "capitalGainsTax": {
+                "nameDe": "Kapitalertragsteuer",
+                "nameLocal": "Capital gains tax / withholding tax",
+                "body": "Generally 25% on dividends and certain capital income, plus Solidaritätszuschlag and where applicable Kirchensteuer."
+            },
+            "payrollTax": {
+                "nameDe": "Lohnsteuer",
+                "nameLocal": "Payroll / wage tax",
+                "body": "Not a separate tax type, but the tax withholding on employment income within the framework of Einkommensteuer. The employer withholds it and transfers it to Finanzamt."
+            },
+            "solidaritySurcharge": {
+                "nameDe": "Solidaritätszuschlag (Soli)",
+                "nameLocal": "Solidarity surcharge",
+                "body": "5.5% of assessed Körperschaftsteuer and generally also of Kapitalertragsteuer. For Einkommensteuer, since 2021 it is only levied at higher tax burdens; the exemption threshold was further raised for 2026."
+            },
+            "churchTax": {
+                "nameDe": "Kirchensteuer",
+                "nameLocal": "Church tax",
+                "body": "8% or 9% of Einkommensteuer depending on the federal state. Only for members subject to church tax."
+            },
+            "propertyTax": {
+                "nameDe": "Grundsteuer",
+                "nameLocal": "Property tax",
+                "body": "Tax on domestic real property. Affects businesses with real estate or land. From 2025 Grundsteuer is based on the reformed valuation rules."
+            },
+            "inheritanceGiftTax": {
+                "nameDe": "Erbschaftsteuer / Schenkungsteuer",
+                "nameLocal": "Inheritance / gift tax",
+                "body": "Relevant upon gratuitous transfer of assets, including business assets. Tax reliefs may apply to business assets depending on conditions."
             },
 
             "taxId": {
