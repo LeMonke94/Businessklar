@@ -96,5 +96,41 @@
             "passwordTooShort": "Passwort muss mindestens 12 Zeichen haben.",
             "nameTooLong": "Name ist zu lang."
         }
+    },
+    "glossary": {
+        "pageKicker": "Glossar",
+        "pageTitle": "Business in Deutschland",
+        "pageSubtitle": "Alle wichtigen Begriffe erklärt.",
+        "categories": {
+            "activity": "Tätigkeitsart / Status",
+            "numbers": "Nummern & Kennungen"
+        },
+        "terms": {
+            "freelancer": {
+                "nameDe": "Freiberufler",
+                "nameLocal": "Freie Berufe nach § 18 EStG",
+                "body": "Selbständige Tätigkeit auf Grundlage besonderer fachlicher Qualifikation oder schöpferischer Leistung — z. B. Ärzte, Anwälte, Steuerberater, Architekten, Übersetzer. In der Regel keine Gewerbesteuer und keine Gewerbeanmeldung. Anmeldung beim Finanzamt ist erforderlich."
+            },
+            "tradeBusiness": {
+                "nameDe": "Gewerbe",
+                "nameLocal": "Gewerbliche Tätigkeit",
+                "body": "Auf Gewinn gerichtete, selbständige Tätigkeit, die kein freier Beruf ist. Erfordert eine Gewerbeanmeldung beim Gewerbeamt und unterliegt der Gewerbesteuer (ab einem Freibetrag)."
+            },
+            "taxId": {
+                "nameDe": "Steuer-ID (IdNr)",
+                "nameLocal": "Steuerliche Identifikationsnummer",
+                "body": "Persönliche, lebenslang gültige 11-stellige Identifikationsnummer für natürliche Personen. Wird automatisch vergeben und ändert sich nie."
+            },
+            "vatId": {
+                "nameDe": "USt-IdNr",
+                "nameLocal": "Umsatzsteuer-Identifikationsnummer",
+                "body": "Wird für grenzüberschreitende umsatzsteuerliche Vorgänge innerhalb der EU verwendet. Beginnt in Deutschland mit „DE“. Kann beim Bundeszentralamt für Steuern beantragt werden."
+            },
+            "companyNumber": {
+                "nameDe": "Betriebsnummer",
+                "nameLocal": "Arbeitgeber-Registriernummer",
+                "body": "Erforderlich, sobald Arbeitnehmer beschäftigt werden. Wird über den Betriebsnummern-Service der Bundesagentur für Arbeit vergeben."
+            }
+        }
     }
 }
