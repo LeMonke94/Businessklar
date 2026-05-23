@@ -404,129 +404,129 @@
                 "nameLocal": "Jahresabschluss",
                 "body": "Kapitalgesellschaften sind zur Aufstellung eines Jahresabschlusses verpflichtet; Offenlegung oder Hinterlegung im Bundesanzeiger kann erforderlich sein."
             }
-        }
-    },
-    "fines": {
-        "finesHeading": "15 typische Bußgelder",
-        "vatHeading": "10 USt-Fallen",
-        "disclaimer": "⚠️ Diese Informationen sind nur zur Orientierung. Bei konkreten Fragen wende dich an einen Steuerberater oder Rechtsanwalt.",
-        "items": {
-            "noImprint": {
-                "title": "Kein Impressum",
-                "amount": "300–1.500 €",
-                "description": "Pflicht: Name, Adresse, Kontakt, Handelsregistereintrag."
-            },
-            "dataPrivacy": {
-                "title": "Datenschutz / Cookie-Verstoß",
-                "amount": "500–10.000 €",
-                "description": "Kein Cookie-Banner, Google Analytics ohne Einwilligung."
-            },
-            "photosNoLicense": {
-                "title": "Fotos ohne Lizenz (Getty, Shutterstock)",
-                "amount": "600–2.500 €",
-                "description": "Bilder aus Google oder ohne Lizenz genutzt. Abmahnungen von Bildagenturen."
-            },
-            "tillNoTse": {
-                "title": "Kasse ohne TSE",
-                "amount": "bis 25.000 €",
-                "description": "Kassendaten nicht korrekt gespeichert, kein TSE-Modul."
-            },
-            "undeclaredWork": {
-                "title": "Schwarzarbeit",
-                "amount": "bis 500.000 €",
-                "description": "Zoll-Kontrollen. Restaurants, Bau, Salons, Lieferdienste."
-            },
-            "workingTime": {
-                "title": "Arbeitszeitverstoß",
-                "amount": "bis 15.000 €",
-                "description": "Max. 8 h/Tag. Arbeitszeiterfassung Pflicht."
-            },
-            "cctvNoNotice": {
-                "title": "Videoüberwachung ohne Hinweis",
-                "amount": "500–10.000 €",
-                "description": "Hinweisschild Pflicht. Keine Aufnahmen der Straße oder Nachbarschaft."
-            },
-            "advertisingNoPermit": {
-                "title": "Werbung ohne Genehmigung",
-                "amount": "200–2.000 €",
-                "description": "Leuchtreklame, Banner, große Schilder oft genehmigungspflichtig."
-            },
-            "alcoholNoLicense": {
-                "title": "Alkohol ohne Gaststättenerlaubnis",
-                "amount": "bis 5.000 €",
-                "description": "Gaststättenerlaubnis Pflicht. Verkauf an Minderjährige extra strafbar."
-            },
-            "outdoorSeating": {
-                "title": "Außenbestuhlung ohne Genehmigung",
-                "amount": "200–1.500 €",
-                "description": "Stadtgenehmigung Pflicht. Zu viele Tische, gesperrte Wege."
-            },
-            "noiseAfter10": {
-                "title": "Lärm nach 22:00 Uhr",
-                "amount": "200–5.000 €",
-                "description": "Nachbarbeschwerden → Ordnungsamt."
-            },
-            "incorrectInvoices": {
-                "title": "Fehlerhafte Rechnungen",
-                "amount": "Vorsteuerabzug des Kunden gefährdet",
-                "description": "Pflichtangaben: Adressen, Datum, Rechnungsnummer, USt-Satz, Steuernummer."
-            },
-            "lateTaxReturn": {
-                "title": "Verspätete Steuererklärung",
-                "amount": "100–5.000 €",
-                "description": "Verspätungszuschlag. Frist: 31. Juli oder mit Steuerberater 28. Februar Folgejahr."
-            },
-            "gema": {
-                "title": "GEMA-Verstoß",
-                "amount": "500–5.000 €",
-                "description": "Musik in Restaurant, Laden, Salon: Lizenz Pflicht. Spotify gilt nur für Privatnutzung."
-            },
-            "noBgRegistration": {
-                "title": "Fehlende BG-Anmeldung",
-                "amount": "bis 10.000 €",
-                "description": "BG-Anmeldung Pflicht innerhalb 1 Woche nach Gründung."
-            }
         },
-        "vatTraps": {
-            "restaurantVsTakeaway": {
-                "title": "Essen im Restaurant vs. Takeaway",
-                "body": "Restaurant 19 %, Takeaway 7 %. Häufig: Kasse mit 7 % für alles → Nachzahlung."
+        "fines": {
+            "finesHeading": "15 typische Bußgelder",
+            "vatHeading": "10 USt-Fallen",
+            "disclaimer": "⚠️ Diese Informationen sind nur zur Orientierung. Bei konkreten Fragen wende dich an einen Steuerberater oder Rechtsanwalt.",
+            "items": {
+                "noImprint": {
+                    "title": "Kein Impressum",
+                    "amount": "300–1.500 €",
+                    "description": "Pflicht: Name, Adresse, Kontakt, Handelsregistereintrag."
+                },
+                "dataPrivacy": {
+                    "title": "Datenschutz / Cookie-Verstoß",
+                    "amount": "500–10.000 €",
+                    "description": "Kein Cookie-Banner, Google Analytics ohne Einwilligung."
+                },
+                "photosNoLicense": {
+                    "title": "Fotos ohne Lizenz (Getty, Shutterstock)",
+                    "amount": "600–2.500 €",
+                    "description": "Bilder aus Google oder ohne Lizenz genutzt. Abmahnungen von Bildagenturen."
+                },
+                "tillNoTse": {
+                    "title": "Kasse ohne TSE",
+                    "amount": "bis 25.000 €",
+                    "description": "Kassendaten nicht korrekt gespeichert, kein TSE-Modul."
+                },
+                "undeclaredWork": {
+                    "title": "Schwarzarbeit",
+                    "amount": "bis 500.000 €",
+                    "description": "Zoll-Kontrollen. Restaurants, Bau, Salons, Lieferdienste."
+                },
+                "workingTime": {
+                    "title": "Arbeitszeitverstoß",
+                    "amount": "bis 15.000 €",
+                    "description": "Max. 8 h/Tag. Arbeitszeiterfassung Pflicht."
+                },
+                "cctvNoNotice": {
+                    "title": "Videoüberwachung ohne Hinweis",
+                    "amount": "500–10.000 €",
+                    "description": "Hinweisschild Pflicht. Keine Aufnahmen der Straße oder Nachbarschaft."
+                },
+                "advertisingNoPermit": {
+                    "title": "Werbung ohne Genehmigung",
+                    "amount": "200–2.000 €",
+                    "description": "Leuchtreklame, Banner, große Schilder oft genehmigungspflichtig."
+                },
+                "alcoholNoLicense": {
+                    "title": "Alkohol ohne Gaststättenerlaubnis",
+                    "amount": "bis 5.000 €",
+                    "description": "Gaststättenerlaubnis Pflicht. Verkauf an Minderjährige extra strafbar."
+                },
+                "outdoorSeating": {
+                    "title": "Außenbestuhlung ohne Genehmigung",
+                    "amount": "200–1.500 €",
+                    "description": "Stadtgenehmigung Pflicht. Zu viele Tische, gesperrte Wege."
+                },
+                "noiseAfter10": {
+                    "title": "Lärm nach 22:00 Uhr",
+                    "amount": "200–5.000 €",
+                    "description": "Nachbarbeschwerden → Ordnungsamt."
+                },
+                "incorrectInvoices": {
+                    "title": "Fehlerhafte Rechnungen",
+                    "amount": "Vorsteuerabzug des Kunden gefährdet",
+                    "description": "Pflichtangaben: Adressen, Datum, Rechnungsnummer, USt-Satz, Steuernummer."
+                },
+                "lateTaxReturn": {
+                    "title": "Verspätete Steuererklärung",
+                    "amount": "100–5.000 €",
+                    "description": "Verspätungszuschlag. Frist: 31. Juli oder mit Steuerberater 28. Februar Folgejahr."
+                },
+                "gema": {
+                    "title": "GEMA-Verstoß",
+                    "amount": "500–5.000 €",
+                    "description": "Musik in Restaurant, Laden, Salon: Lizenz Pflicht. Spotify gilt nur für Privatnutzung."
+                },
+                "noBgRegistration": {
+                    "title": "Fehlende BG-Anmeldung",
+                    "amount": "bis 10.000 €",
+                    "description": "BG-Anmeldung Pflicht innerhalb 1 Woche nach Gründung."
+                }
             },
-            "drinksAlways19": {
-                "title": "Getränke immer 19 %",
-                "body": "Auch wenn Speisen 7 %: Getränke immer 19 %. Häufiger Fehler."
-            },
-            "delivery7or19": {
-                "title": "Lieferung: 7 % oder 19 %?",
-                "body": "Lieferung nach Hause: 7 %. Catering mit Service: 19 %."
-            },
-            "b2bEu": {
-                "title": "B2B innerhalb EU: 0 % USt",
-                "body": "EU-Unternehmen mit VAT-Nummer → 0 % USt. VAT-Nummer prüfen und auf Rechnung angeben."
-            },
-            "b2cEu": {
-                "title": "B2C in EU: USt des Käuferlandes",
-                "body": "Über 10.000 EUR an EU-Verbraucher → USt des Käuferlandes via OSS."
-            },
-            "onlineCourses": {
-                "title": "Online-Kurse und digitale Dienste",
-                "body": "USt abhängig vom Sitzland des Kunden. Sehr komplexes Thema."
-            },
-            "kleinunternehmerInvoice": {
-                "title": "Kleinunternehmer und USt-Ausweis",
-                "body": "Kleinunternehmer darf keine 19 % ausweisen — sonst USt-Schuld."
-            },
-            "euPurchase": {
-                "title": "Kauf aus EU-Ausland",
-                "body": "Innergemeinschaftlicher Erwerb: 0 % in der Eingangsrechnung, aber selbst 19 % abführen."
-            },
-            "carPrivateUse": {
-                "title": "Auto: Betrieb und Privatnutzung",
-                "body": "Private Nutzung des Firmenwagens: USt auf Privatanteil Pflicht."
-            },
-            "vatIsStateMoney": {
-                "title": "USt ist Staatsgeld",
-                "body": "USt ist kein Eigenkapital. Ausgegeben → Nachzahlung + Zinsen."
+            "vatTraps": {
+                "restaurantVsTakeaway": {
+                    "title": "Essen im Restaurant vs. Takeaway",
+                    "body": "Restaurant 19 %, Takeaway 7 %. Häufig: Kasse mit 7 % für alles → Nachzahlung."
+                },
+                "drinksAlways19": {
+                    "title": "Getränke immer 19 %",
+                    "body": "Auch wenn Speisen 7 %: Getränke immer 19 %. Häufiger Fehler."
+                },
+                "delivery7or19": {
+                    "title": "Lieferung: 7 % oder 19 %?",
+                    "body": "Lieferung nach Hause: 7 %. Catering mit Service: 19 %."
+                },
+                "b2bEu": {
+                    "title": "B2B innerhalb EU: 0 % USt",
+                    "body": "EU-Unternehmen mit VAT-Nummer → 0 % USt. VAT-Nummer prüfen und auf Rechnung angeben."
+                },
+                "b2cEu": {
+                    "title": "B2C in EU: USt des Käuferlandes",
+                    "body": "Über 10.000 EUR an EU-Verbraucher → USt des Käuferlandes via OSS."
+                },
+                "onlineCourses": {
+                    "title": "Online-Kurse und digitale Dienste",
+                    "body": "USt abhängig vom Sitzland des Kunden. Sehr komplexes Thema."
+                },
+                "kleinunternehmerInvoice": {
+                    "title": "Kleinunternehmer und USt-Ausweis",
+                    "body": "Kleinunternehmer darf keine 19 % ausweisen — sonst USt-Schuld."
+                },
+                "euPurchase": {
+                    "title": "Kauf aus EU-Ausland",
+                    "body": "Innergemeinschaftlicher Erwerb: 0 % in der Eingangsrechnung, aber selbst 19 % abführen."
+                },
+                "carPrivateUse": {
+                    "title": "Auto: Betrieb und Privatnutzung",
+                    "body": "Private Nutzung des Firmenwagens: USt auf Privatanteil Pflicht."
+                },
+                "vatIsStateMoney": {
+                    "title": "USt ist Staatsgeld",
+                    "body": "USt ist kein Eigenkapital. Ausgegeben → Nachzahlung + Zinsen."
+                }
             }
         }
     }
