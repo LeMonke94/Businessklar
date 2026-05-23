@@ -107,7 +107,7 @@
             "taxes": "Steuern",
             "socialInsurance": "Sozialversicherung",
             "authorities": "Behörden",
-            "numbers": "Nummern & Kennungen"
+            "registrationNumbers": "Registrierungsnummern"
         },
         "terms": {
             "freelancer": {
@@ -295,21 +295,25 @@
                 "nameLocal": "Bundesanzeiger",
                 "body": "Bestimmte Unternehmen, insbesondere Kapitalgesellschaften, müssen Jahresabschlüsse elektronisch offenlegen oder hinterlegen."
             },
-
+            "steuernummer": {
+                "nameDe": "Steuernummer",
+                "nameLocal": "Steuernummer",
+                "body": "Wird vom Finanzamt vergeben und dient der steuerlichen Zuordnung des Unternehmens oder der selbständigen Tätigkeit."
+            },
             "taxId": {
-                "nameDe": "Steuer-ID (IdNr)",
+                "nameDe": "Steuer-ID (Identifikationsnummer)",
                 "nameLocal": "Steuerliche Identifikationsnummer",
-                "body": "Persönliche, lebenslang gültige 11-stellige Identifikationsnummer für natürliche Personen. Wird automatisch vergeben und ändert sich nie."
+                "body": "Persönliche, lebenslang gültige 11-stellige Identifikationsnummer für natürliche Personen."
             },
             "vatId": {
-                "nameDe": "USt-IdNr",
-                "nameLocal": "Umsatzsteuer-Identifikationsnummer",
-                "body": "Wird für grenzüberschreitende umsatzsteuerliche Vorgänge innerhalb der EU verwendet. Beginnt in Deutschland mit „DE“. Kann beim Bundeszentralamt für Steuern beantragt werden."
+                "nameDe": "USt-IdNr (Umsatzsteuer-Identifikationsnummer)",
+                "nameLocal": "USt-Identifikationsnummer",
+                "body": "Wird für grenzüberschreitende umsatzsteuerliche Vorgänge innerhalb der EU verwendet. Beginnt in Deutschland mit „DE“."
             },
             "companyNumber": {
                 "nameDe": "Betriebsnummer",
                 "nameLocal": "Arbeitgeber-Registriernummer",
-                "body": "Erforderlich, sobald Arbeitnehmer beschäftigt werden. Wird über den Betriebsnummern-Service der Bundesagentur für Arbeit vergeben."
+                "body": "Erforderlich, sobald Arbeitnehmer beschäftigt werden. Sie wird in der Regel über den Betriebsnummern-Service der Bundesagentur für Arbeit vergeben."
             }
         }
     }

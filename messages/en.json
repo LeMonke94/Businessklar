@@ -107,7 +107,7 @@
             "taxes": "Taxes",
             "socialInsurance": "Social insurance",
             "authorities": "Government offices",
-            "numbers": "Numbers & Identifiers"
+            "registrationNumbers": "Registration numbers"
         },
         "terms": {
             "freelancer": {
@@ -295,21 +295,25 @@
                 "nameLocal": "Federal Gazette",
                 "body": "Certain companies, in particular capital companies, must electronically disclose or deposit annual financial statements."
             },
-
+            "steuernummer": {
+                "nameDe": "Steuernummer",
+                "nameLocal": "Tax number",
+                "body": "Issued by Finanzamt and used for tax identification of the business or self-employed activity."
+            },
             "taxId": {
-                "nameDe": "Steuer-ID (IdNr)",
+                "nameDe": "Steuer-ID (Identifikationsnummer)",
                 "nameLocal": "Tax identification number",
-                "body": "Personal, lifelong 11-digit identification number for natural persons. Assigned automatically and never changes."
+                "body": "Personal, lifelong 11-digit identification number for natural persons."
             },
             "vatId": {
-                "nameDe": "USt-IdNr",
-                "nameLocal": "VAT identification number",
-                "body": "Used for cross-border VAT transactions within the EU. In Germany begins with \"DE\". Can be requested from the Federal Central Tax Office."
+                "nameDe": "USt-IdNr (Umsatzsteuer-Identifikationsnummer)",
+                "nameLocal": "EU VAT identification number",
+                "body": "Used for cross-border VAT transactions within the EU. In Germany begins with \"DE\"."
             },
             "companyNumber": {
                 "nameDe": "Betriebsnummer",
                 "nameLocal": "Employer registration number",
-                "body": "Required as soon as employees are hired. Issued via the Betriebsnummern-Service of the Federal Employment Agency."
+                "body": "Required as soon as employees are hired. Generally issued via the Betriebsnummern-Service of the Federal Employment Agency."
             }
         }
     }

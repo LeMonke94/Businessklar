@@ -15,7 +15,12 @@ type GlossaryCategory = {
 const glossaryStructure: GlossaryCategory[] = [
     {
         categoryKey: 'activity',
-        termKeys: ['freelancer', 'tradeBusiness', 'agriculture', 'otherSelfEmployment'],
+        termKeys: [
+            'freelancer',
+            'tradeBusiness',
+            'agriculture',
+            'otherSelfEmployment'
+        ]
     },
     {
         categoryKey: 'legalForms',
@@ -47,7 +52,7 @@ const glossaryStructure: GlossaryCategory[] = [
             'churchTax',
             'propertyTax',
             'inheritanceGiftTax',
-        ],
+        ]
     },
     {
         categoryKey: 'socialInsurance',
@@ -57,7 +62,7 @@ const glossaryStructure: GlossaryCategory[] = [
             'unemploymentInsurance',
             'careInsurance',
             'accidentInsurance',
-        ],
+        ]
     },
     {
         categoryKey: 'authorities',
@@ -68,11 +73,16 @@ const glossaryStructure: GlossaryCategory[] = [
             'ihkHwk',
             'elster',
             'bundesanzeiger',
-        ],
+        ]
     },
     {
-        categoryKey: 'numbers',
-        termKeys: ['taxId', 'vatId', 'companyNumber'],
+        categoryKey: 'registrationNumbers',
+        termKeys: [
+            'steuernummer',
+            'taxId',
+            'vatId',
+            'companyNumber'
+        ],
     },
 ];
 
