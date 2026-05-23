@@ -96,5 +96,41 @@
             "passwordTooShort": "Password must be at least 12 characters.",
             "nameTooLong": "Name is too long."
         }
+    },
+    "glossary": {
+        "pageKicker": "Glossary",
+        "pageTitle": "Business in Germany",
+        "pageSubtitle": "All the important terms explained.",
+        "categories": {
+            "activity": "Activity type / Status",
+            "numbers": "Numbers & Identifiers"
+        },
+        "terms": {
+            "freelancer": {
+                "nameDe": "Freiberufler",
+                "nameLocal": "Liberal profession under § 18 EStG",
+                "body": "Independent activity based on special professional qualification or creative work — e.g. doctors, lawyers, tax advisors, architects, translators. Generally no trade tax and no business registration. Registration at the tax office is required."
+            },
+            "tradeBusiness": {
+                "nameDe": "Gewerbe",
+                "nameLocal": "Commercial activity",
+                "body": "Profit-oriented, independent activity that is not a liberal profession. Requires business registration at the trade office and is subject to trade tax (above an allowance)."
+            },
+            "taxId": {
+                "nameDe": "Steuer-ID (IdNr)",
+                "nameLocal": "Tax identification number",
+                "body": "Personal, lifelong 11-digit identification number for natural persons. Assigned automatically and never changes."
+            },
+            "vatId": {
+                "nameDe": "USt-IdNr",
+                "nameLocal": "VAT identification number",
+                "body": "Used for cross-border VAT transactions within the EU. In Germany begins with \"DE\". Can be requested from the Federal Central Tax Office."
+            },
+            "companyNumber": {
+                "nameDe": "Betriebsnummer",
+                "nameLocal": "Employer registration number",
+                "body": "Required as soon as employees are hired. Issued via the Betriebsnummern-Service of the Federal Employment Agency."
+            }
+        }
     }
 }
