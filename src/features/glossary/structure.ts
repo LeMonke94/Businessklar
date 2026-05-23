@@ -102,6 +102,24 @@ const glossaryStructure: GlossaryCategory[] = [
             'intraEuSupply',
             'oss',
         ],
+    },
+    {
+        categoryKey: 'companyManagement',
+        termKeys: [
+            'managingDirector',
+            'shareCapital',
+            'articlesOfAssociation',
+            'liquidation',
+        ],
+    },
+    {
+        categoryKey: 'taxReturns',
+        termKeys: [
+            'incomeTaxReturn',
+            'tradeTaxReturn',
+            'vatAdvanceReturn',
+            'annualStatements',
+        ],
     }
 ];
 
