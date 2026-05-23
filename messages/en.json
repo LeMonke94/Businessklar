@@ -107,7 +107,9 @@
             "taxes": "Taxes",
             "socialInsurance": "Social insurance",
             "authorities": "Government offices",
-            "registrationNumbers": "Registration numbers"
+            "registrationNumbers": "Registration numbers",
+            "accounting": "Accounting",
+            "vatRegulations": "VAT regulations"
         },
         "terms": {
             "freelancer": {
@@ -314,6 +316,51 @@
                 "nameDe": "Betriebsnummer",
                 "nameLocal": "Employer registration number",
                 "body": "Required as soon as employees are hired. Generally issued via the Betriebsnummern-Service of the Federal Employment Agency."
+            },
+            "euer": {
+                "nameDe": "EÜR (Einnahmen-Überschuss-Rechnung)",
+                "nameLocal": "Income-surplus statement",
+                "body": "Simplified profit determination for many liberal professions and businesses not required to keep accounts. Not for capital companies."
+            },
+            "balanceSheet": {
+                "nameDe": "Bilanz / doppelte Buchführung",
+                "nameLocal": "Balance sheet / double-entry bookkeeping",
+                "body": "Mandatory in particular for capital companies and commercial businesses with bookkeeping obligations. Includes ongoing accounting, annual accounts and balance sheet."
+            },
+            "depreciation": {
+                "nameDe": "Abschreibung (AfA)",
+                "nameLocal": "Depreciation",
+                "body": "Tax distribution of acquisition or production costs of a depreciable asset over its useful life."
+            },
+            "inputVat": {
+                "nameDe": "Vorsteuer",
+                "nameLocal": "Input VAT",
+                "body": "VAT that a business pays for input services and can claim from Finanzamt if entitled to input tax deduction."
+            },
+            "smallBusinessScheme": {
+                "nameDe": "Kleinunternehmerregelung (§ 19 UStG)",
+                "nameLocal": "Small business VAT scheme",
+                "body": "No VAT charged under § 19 UStG. Since 2025 generally up to 25,000 EUR prior-year revenue and 100,000 EUR current revenue; if exceeded, the relief ends."
+            },
+            "cashBasisVat": {
+                "nameDe": "Ist-Versteuerung",
+                "nameLocal": "Cash-basis VAT",
+                "body": "VAT generally arises only upon receipt of payment. Available for certain businesses on application."
+            },
+            "accrualBasisVat": {
+                "nameDe": "Soll-Versteuerung",
+                "nameLocal": "Accrual-basis VAT",
+                "body": "VAT generally arises at the end of the advance return period in which the supply was made. This is the standard case."
+            },
+            "intraEuSupply": {
+                "nameDe": "Innergemeinschaftliche Lieferung",
+                "nameLocal": "Intra-EU supply",
+                "body": "Supply to a business in another EU member state can be VAT-exempt if the statutory conditions are met, in particular a valid USt-IdNr. and supporting evidence."
+            },
+            "oss": {
+                "nameDe": "OSS (One Stop Shop)",
+                "nameLocal": "One Stop Shop",
+                "body": "EU reporting procedure for certain cross-border B2C transactions. Relevant in particular for distance sales to EU consumers above the union-wide threshold."
             }
         }
     }
