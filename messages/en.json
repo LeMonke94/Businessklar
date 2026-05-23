@@ -103,6 +103,7 @@
         "pageSubtitle": "All the important terms explained.",
         "categories": {
             "activity": "Activity type / Status",
+            "legalForms": "Legal forms",
             "numbers": "Numbers & Identifiers"
         },
         "terms": {
@@ -125,6 +126,67 @@
                 "nameDe": "Sonderfälle / Sonstige selbständige Arbeit",
                 "nameLocal": "Special cases / other self-employment outside classical liberal professions",
                 "body": "Certain activities qualify as self-employment for tax purposes without being typical liberal professions, e.g. certain asset management or separately regulated activities. Case-by-case review required."
+            },
+
+            "soleProprietorship": {
+                "nameDe": "Einzelunternehmen",
+                "nameLocal": "Sole proprietorship",
+                "body": "Legal form for one person. No statutory minimum capital. Full personal liability. Either liberal profession or Gewerbe depending on activity."
+            },
+            "registeredTrader": {
+                "nameDe": "e.K. (eingetragener Kaufmann/-frau)",
+                "nameLocal": "Registered sole trader",
+                "body": "Sole proprietorship in Handelsregister. For commercial trading businesses. No statutory minimum capital. Full personal liability."
+            },
+            "gbr": {
+                "nameDe": "GbR (Gesellschaft bürgerlichen Rechts)",
+                "nameLocal": "Simple partnership",
+                "body": "Legal form for at least two persons. No statutory minimum capital. Personal liability of all partners. Suitable for simple team start-ups and certain liberal profession associations."
+            },
+            "partg": {
+                "nameDe": "PartG (Partnerschaftsgesellschaft)",
+                "nameLocal": "Partnership for liberal professions",
+                "body": "Special legal form for members of liberal professions. Registration in Partnerschaftsregister. Not a commercial enterprise. No statutory minimum capital."
+            },
+            "partgMbb": {
+                "nameDe": "PartG mbB",
+                "nameLocal": "Partnership with limited professional liability",
+                "body": "For liberal professions with limited professional liability, where professional law permits. Registration in Partnerschaftsregister required."
+            },
+            "ug": {
+                "nameDe": "UG (haftungsbeschränkt)",
+                "nameLocal": "Mini-GmbH / micro company",
+                "body": "Capital company with low starting capital. No minimum share capital of 25,000 EUR; it can be founded with lower share capital. Limited liability. Notarial certification and Handelsregister required."
+            },
+            "gmbh": {
+                "nameDe": "GmbH",
+                "nameLocal": "Limited liability company",
+                "body": "Capital company with limited liability. Minimum share capital 25,000 EUR. Notarial certification and Handelsregister required."
+            },
+            "ag": {
+                "nameDe": "AG (Aktiengesellschaft)",
+                "nameLocal": "Stock corporation",
+                "body": "Capital company with a statutory minimum capital of 50,000 EUR. Formal bodies and Handelsregister required."
+            },
+            "ohg": {
+                "nameDe": "OHG (Offene Handelsgesellschaft)",
+                "nameLocal": "General commercial partnership",
+                "body": "Partnership for commercial enterprises. No statutory minimum capital. Full personal liability of all partners. Handelsregister required."
+            },
+            "kg": {
+                "nameDe": "KG (Kommanditgesellschaft)",
+                "nameLocal": "Limited partnership",
+                "body": "Partnership with at least one fully liable general partner and at least one limited partner. No statutory minimum capital. Handelsregister required."
+            },
+            "gmbhCoKg": {
+                "nameDe": "GmbH & Co. KG",
+                "nameLocal": "Hybrid: KG with GmbH as general partner",
+                "body": "Special form of KG where the GmbH acts as the fully liable general partner. Combines KG structure with liability limitation through GmbH. Handelsregister required."
+            },
+            "holding": {
+                "nameDe": "Holding",
+                "nameLocal": "Holding structure",
+                "body": "Not a separate legal form, but a participation structure: one company holds shares in other companies. Possible e.g. with GmbH, UG or AG as the holding company."
             },
 
             "taxId": {
