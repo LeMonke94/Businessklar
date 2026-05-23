@@ -50,6 +50,17 @@ const glossaryStructure: GlossaryCategory[] = [
         ],
     },
     {
+        categoryKey: 'socialInsurance',
+        termKeys: [
+            'healthInsurance',
+            'pensionInsurance',
+            'unemploymentInsurance',
+            'careInsurance',
+            'accidentInsurance',
+        ],
+    },
+
+    {
         categoryKey: 'numbers',
         termKeys: ['taxId', 'vatId', 'companyNumber'],
     },

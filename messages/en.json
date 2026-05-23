@@ -105,6 +105,7 @@
             "activity": "Activity type / Status",
             "legalForms": "Legal forms",
             "taxes": "Taxes",
+            "socialInsurance": "Social insurance",
             "numbers": "Numbers & Identifiers"
         },
         "terms": {
@@ -237,6 +238,31 @@
                 "nameDe": "Erbschaftsteuer / Schenkungsteuer",
                 "nameLocal": "Inheritance / gift tax",
                 "body": "Relevant upon gratuitous transfer of assets, including business assets. Tax reliefs may apply to business assets depending on conditions."
+            },
+            "healthInsurance": {
+                "nameDe": "Krankenversicherung",
+                "nameLocal": "Health insurance",
+                "body": "Self-employed persons are required to have health insurance and choose between statutory (GKV) and private (PKV) health insurance depending on their situation. In the GKV the general contribution rate is 14.6% plus a fund-specific additional contribution; the average additional contribution for 2026 is 2.9%."
+            },
+            "pensionInsurance": {
+                "nameDe": "Rentenversicherung",
+                "nameLocal": "Pension insurance",
+                "body": "The contribution rate to statutory pension insurance in 2026 remains 18.6%. For employees, employers and employees generally each pay half. For self-employed persons, compulsory insurance applies only in certain professions; otherwise often voluntary or through occupational pension funds."
+            },
+            "unemploymentInsurance": {
+                "nameDe": "Arbeitslosenversicherung",
+                "nameLocal": "Unemployment insurance",
+                "body": "Contribution rate 2.6% of contributory earnings; employers and employees generally each pay half. For self-employed persons, voluntary continuation of insurance is possible under certain conditions."
+            },
+            "careInsurance": {
+                "nameDe": "Pflegeversicherung",
+                "nameLocal": "Long-term care insurance",
+                "body": "Since 1 January 2025 the general contribution rate is 3.6%; for childless persons 4.2%. For employees, employers and employees generally each pay half of the basic contribution; the childless surcharge is borne by the employee alone."
+            },
+            "accidentInsurance": {
+                "nameDe": "Berufsgenossenschaft (BG)",
+                "nameLocal": "Statutory accident insurance",
+                "body": "Businesses must register with the responsible Berufsgenossenschaft. Which BG is responsible depends on the activity. Employees are generally covered by statutory accident insurance; special rules apply to business owners depending on the BG."
             },
 
             "taxId": {
