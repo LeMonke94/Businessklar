@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
@@ -15,6 +15,7 @@ import styles from './SignUpForm.module.css';
 function SignUpForm({ locale }: { locale: string }) {
     const t = useTranslations('auth');
     const router = useRouter();
+    const searchParams = useSearchParams();
     const { signUp, isSigningUp } = useAuth();
     const [serverError, setServerError] = useState<AuthErrorCode | null>(null);
 
@@ -31,7 +32,8 @@ function SignUpForm({ locale }: { locale: string }) {
         const result = await signUp(data);
 
         if (result.ok) {
-            router.push(`/${locale}/dashboard`);
+            const redirectTo = searchParams.get('redirect');
+            router.push(redirectTo ?? `/${locale}`);
         } else {
             setServerError(result.error.code);
         }

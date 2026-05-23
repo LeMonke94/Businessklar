@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
@@ -15,6 +15,7 @@ import styles from './SignInForm.module.css';
 function SignInForm({ locale }: { locale: string }) {
     const t = useTranslations('auth');
     const router = useRouter();
+    const searchParams = useSearchParams();
     const { signIn, isSigningIn } = useAuth();
     const [serverError, setServerError] = useState<AuthErrorCode | null>(null);
 
@@ -31,7 +32,11 @@ function SignInForm({ locale }: { locale: string }) {
         const result = await signIn(data);
 
         if (result.ok) {
-            router.push(`/${locale}/dashboard`);
+            // Redirect to the originally requested page if present,
+            // otherwise fall back to the home page. The redirect param is
+            // set by route protection (added in a later phase).
+            const redirectTo = searchParams.get('redirect');
+            router.push(redirectTo ?? `/${locale}`);
         } else {
             setServerError(result.error.code);
         }
