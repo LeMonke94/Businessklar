@@ -107,7 +107,9 @@
             "taxes": "Steuern",
             "socialInsurance": "Sozialversicherung",
             "authorities": "Behörden",
-            "registrationNumbers": "Registrierungsnummern"
+            "registrationNumbers": "Registrierungsnummern",
+            "accounting": "Buchhaltung",
+            "vatRegulations": "USt-Regelungen"
         },
         "terms": {
             "freelancer": {
@@ -314,6 +316,51 @@
                 "nameDe": "Betriebsnummer",
                 "nameLocal": "Arbeitgeber-Registriernummer",
                 "body": "Erforderlich, sobald Arbeitnehmer beschäftigt werden. Sie wird in der Regel über den Betriebsnummern-Service der Bundesagentur für Arbeit vergeben."
+            },
+            "euer": {
+                "nameDe": "EÜR (Einnahmen-Überschuss-Rechnung)",
+                "nameLocal": "Einnahmen-Überschuss-Rechnung",
+                "body": "Vereinfachte Gewinnermittlung für viele Freiberufler und nicht buchführungspflichtige Unternehmen. Nicht für Kapitalgesellschaften."
+            },
+            "balanceSheet": {
+                "nameDe": "Bilanz / doppelte Buchführung",
+                "nameLocal": "Doppelte Buchführung",
+                "body": "Pflicht insbesondere für Kapitalgesellschaften und kaufmännische Unternehmen mit Buchführungspflicht. Umfasst laufende Buchführung, Jahresabschluss und Bilanz."
+            },
+            "depreciation": {
+                "nameDe": "Abschreibung (AfA)",
+                "nameLocal": "Abschreibung",
+                "body": "Steuerliche Verteilung der Anschaffungs- oder Herstellungskosten eines abnutzbaren Wirtschaftsguts über die Nutzungsdauer."
+            },
+            "inputVat": {
+                "nameDe": "Vorsteuer",
+                "nameLocal": "Vorsteuer",
+                "body": "Umsatzsteuer, die ein Unternehmen für Eingangsleistungen zahlt und bei Vorsteuerabzugsberechtigung vom Finanzamt geltend machen kann."
+            },
+            "smallBusinessScheme": {
+                "nameDe": "Kleinunternehmerregelung (§ 19 UStG)",
+                "nameLocal": "Kleinunternehmerregelung",
+                "body": "Keine Erhebung von Umsatzsteuer bei Anwendung des § 19 UStG. Seit 2025 grundsätzlich bis 25.000 EUR Vorjahresumsatz und 100.000 EUR laufender Umsatz; bei Überschreiten endet die Begünstigung."
+            },
+            "cashBasisVat": {
+                "nameDe": "Ist-Versteuerung",
+                "nameLocal": "Ist-Versteuerung",
+                "body": "Die Umsatzsteuer entsteht grundsätzlich erst mit Vereinnahmung des Entgelts. Für bestimmte Unternehmen auf Antrag möglich."
+            },
+            "accrualBasisVat": {
+                "nameDe": "Soll-Versteuerung",
+                "nameLocal": "Soll-Versteuerung",
+                "body": "Die Umsatzsteuer entsteht grundsätzlich mit Ablauf des Voranmeldungszeitraums, in dem die Leistung ausgeführt wurde. Das ist der Regelfall."
+            },
+            "intraEuSupply": {
+                "nameDe": "Innergemeinschaftliche Lieferung",
+                "nameLocal": "Innergemeinschaftliche Lieferung",
+                "body": "Lieferung an Unternehmer in einen anderen EU-Mitgliedstaat kann steuerfrei sein, wenn die gesetzlichen Voraussetzungen erfüllt sind, insbesondere gültige USt-IdNr. und Nachweise."
+            },
+            "oss": {
+                "nameDe": "OSS (One Stop Shop)",
+                "nameLocal": "One Stop Shop",
+                "body": "EU-Meldeverfahren für bestimmte grenzüberschreitende B2C-Umsätze. Relevant insbesondere bei Fernverkäufen an EU-Verbraucher über der unionsweiten Schwelle."
             }
         }
     }

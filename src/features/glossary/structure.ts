@@ -84,6 +84,25 @@ const glossaryStructure: GlossaryCategory[] = [
             'companyNumber'
         ],
     },
+    {
+        categoryKey: 'accounting',
+        termKeys: [
+            'euer',
+            'balanceSheet',
+            'depreciation',
+            'inputVat',
+            'smallBusinessScheme',
+        ],
+    },
+    {
+        categoryKey: 'vatRegulations',
+        termKeys: [
+            'cashBasisVat',
+            'accrualBasisVat',
+            'intraEuSupply',
+            'oss',
+        ],
+    }
 ];
 
 
