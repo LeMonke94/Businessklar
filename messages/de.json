@@ -103,6 +103,7 @@
         "pageSubtitle": "Alle wichtigen Begriffe erklärt.",
         "categories": {
             "activity": "Tätigkeitsart / Status",
+            "legalForms": "Rechtsformen",
             "numbers": "Nummern & Kennungen"
         },
         "terms": {
@@ -126,7 +127,68 @@
                 "nameLocal": "Besondere selbständige Tätigkeiten außerhalb klassischer freier Berufe",
                 "body": "Einzelne Tätigkeiten gelten steuerlich als selbständige Arbeit, ohne typische Freiberufe zu sein, z. B. bestimmte Vermögensverwaltungen oder gesetzlich gesondert geregelte Tätigkeiten. Prüfung im Einzelfall erforderlich."
             },
-            
+
+            "soleProprietorship": {
+                "nameDe": "Einzelunternehmen",
+                "nameLocal": "Rechtsform für eine Person",
+                "body": "Rechtsform für eine Person. Kein gesetzliches Mindestkapital. Volle persönliche Haftung. Je nach Tätigkeit freiberuflich oder gewerblich."
+            },
+            "registeredTrader": {
+                "nameDe": "e.K. (eingetragener Kaufmann/-frau)",
+                "nameLocal": "Eingetragenes Einzelunternehmen",
+                "body": "Einzelunternehmen im Handelsregister. Für gewerbliche kaufmännische Unternehmen. Kein gesetzliches Mindestkapital. Volle persönliche Haftung."
+            },
+            "gbr": {
+                "nameDe": "GbR (Gesellschaft bürgerlichen Rechts)",
+                "nameLocal": "Einfache Personengesellschaft",
+                "body": "Rechtsform für mindestens zwei Personen. Kein gesetzliches Mindestkapital. Persönliche Haftung aller Gesellschafter. Geeignet für einfache Teamgründungen und bestimmte freiberufliche Zusammenschlüsse."
+            },
+            "partg": {
+                "nameDe": "PartG (Partnerschaftsgesellschaft)",
+                "nameLocal": "Für Freie Berufe",
+                "body": "Spezielle Rechtsform für Angehörige freier Berufe. Eintragung im Partnerschaftsregister. Kein Handelsgewerbe. Kein gesetzliches Mindestkapital."
+            },
+            "partgMbb": {
+                "nameDe": "PartG mbB",
+                "nameLocal": "Partnerschaft mit beschränkter Berufshaftung",
+                "body": "Für Freie Berufe mit beschränkter Berufshaftung, soweit das jeweilige Berufsrecht dies zulässt. Eintragung im Partnerschaftsregister erforderlich."
+            },
+            "ug": {
+                "nameDe": "UG (haftungsbeschränkt)",
+                "nameLocal": "Mini-GmbH",
+                "body": "Kapitalgesellschaft mit geringem Startkapital. Kein Mindeststammkapital von 25.000 EUR; sie kann mit geringerem Stammkapital gegründet werden. Beschränkte Haftung. Notarielle Beurkundung und Handelsregister erforderlich."
+            },
+            "gmbh": {
+                "nameDe": "GmbH",
+                "nameLocal": "Gesellschaft mit beschränkter Haftung",
+                "body": "Kapitalgesellschaft mit beschränkter Haftung. Mindeststammkapital 25.000 EUR. Notarielle Beurkundung und Handelsregister erforderlich."
+            },
+            "ag": {
+                "nameDe": "AG (Aktiengesellschaft)",
+                "nameLocal": "Aktiengesellschaft",
+                "body": "Kapitalgesellschaft mit gesetzlichem Mindestkapital von 50.000 EUR. Formale Organe und Handelsregister erforderlich."
+            },
+            "ohg": {
+                "nameDe": "OHG (Offene Handelsgesellschaft)",
+                "nameLocal": "Offene Handelsgesellschaft",
+                "body": "Personengesellschaft für Handelsgewerbe. Kein gesetzliches Mindestkapital. Volle persönliche Haftung aller Gesellschafter. Handelsregister erforderlich."
+            },
+            "kg": {
+                "nameDe": "KG (Kommanditgesellschaft)",
+                "nameLocal": "Kommanditgesellschaft",
+                "body": "Personengesellschaft mit mindestens einem voll haftenden Komplementär und mindestens einem beschränkt haftenden Kommanditisten. Kein gesetzliches Mindestkapital. Handelsregister erforderlich."
+            },
+            "gmbhCoKg": {
+                "nameDe": "GmbH & Co. KG",
+                "nameLocal": "Hybrid: KG mit GmbH als Komplementär",
+                "body": "Sonderform der KG, bei der die GmbH die Rolle des voll haftenden Komplementärs übernimmt. Kombiniert KG-Struktur mit Haftungsbegrenzung über die GmbH. Handelsregister erforderlich."
+            },
+            "holding": {
+                "nameDe": "Holding",
+                "nameLocal": "Holding-Struktur",
+                "body": "Keine eigene Rechtsform, sondern eine Beteiligungsstruktur: Eine Gesellschaft hält Anteile an anderen Gesellschaften. Möglich z. B. mit GmbH, UG oder AG als Holdinggesellschaft."
+            },
+
             "taxId": {
                 "nameDe": "Steuer-ID (IdNr)",
                 "nameLocal": "Steuerliche Identifikationsnummer",

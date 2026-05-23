@@ -18,6 +18,23 @@ const glossaryStructure: GlossaryCategory[] = [
         termKeys: ['freelancer', 'tradeBusiness', 'agriculture', 'otherSelfEmployment'],
     },
     {
+        categoryKey: 'legalForms',
+        termKeys: [
+            'soleProprietorship',
+            'registeredTrader',
+            'gbr',
+            'partg',
+            'partgMbb',
+            'ug',
+            'gmbh',
+            'ag',
+            'ohg',
+            'kg',
+            'gmbhCoKg',
+            'holding',
+        ]
+    },
+    {
         categoryKey: 'numbers',
         termKeys: ['taxId', 'vatId', 'companyNumber'],
     },
