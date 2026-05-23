@@ -406,6 +406,9 @@
             }
         },
         "fines": {
+            "sectionKicker": "Fines",
+            "sectionTitle": "Fines & common mistakes",
+            "sectionSubtitle": "Typical violations that entrepreneurs are fined for most often — with an explanation of the cause and the size of the penalties.",
             "finesHeading": "15 common fines",
             "vatHeading": "10 VAT traps",
             "disclaimer": "⚠️ This information is for guidance only. For specific questions, consult a Steuerberater or Rechtsanwalt.",

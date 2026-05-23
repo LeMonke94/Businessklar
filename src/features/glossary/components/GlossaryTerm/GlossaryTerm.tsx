@@ -26,7 +26,7 @@ function GlossaryTerm({
                     <span className={styles.nameDe}>{nameDe}</span>
                     {nameLocal && <span className={styles.nameLocal}>{nameLocal}</span>}
                 </span>
-                <span className={styles.arrow}>▾</span>
+                <span className={styles.arrow}>▼</span>
             </button>
             {isOpen && <div className={styles.body}>{body}</div>}
         </div>

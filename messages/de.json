@@ -406,6 +406,9 @@
             }
         },
         "fines": {
+            "sectionKicker": "Bußgelder",
+            "sectionTitle": "Bußgelder & typische Fehler",
+            "sectionSubtitle": "Typische Verstöße, für die Unternehmer am häufigsten bestraft werden — mit Erklärung der Ursache und Höhe der Sanktionen.",
             "finesHeading": "15 typische Bußgelder",
             "vatHeading": "10 USt-Fallen",
             "disclaimer": "⚠️ Diese Informationen sind nur zur Orientierung. Bei konkreten Fragen wende dich an einen Steuerberater oder Rechtsanwalt.",

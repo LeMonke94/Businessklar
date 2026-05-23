@@ -9,7 +9,10 @@ async function FinesSection() {
 
     return (
         <section className={styles.section}>
-            <h2 className={styles.heading}>{t('finesHeading')}</h2>
+            <span className={styles.kicker}>{t('sectionKicker')}</span>
+            <h2 className={styles.sectionTitle}>{t('sectionTitle')}</h2>
+            <p className={styles.sectionSubtitle}>{t('sectionSubtitle')}</p>
+            <h3 className={styles.heading}>{t('finesHeading')}</h3>
             <div className={styles.fineList}>
                 {finesStructure.map((fine, index) => (
                     <FineRow

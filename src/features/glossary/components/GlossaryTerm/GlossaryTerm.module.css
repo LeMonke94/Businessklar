@@ -44,7 +44,7 @@
 
 .arrow {
     color: var(--color-text-muted);
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
     transition: transform var(--transition-base);
     flex-shrink: 0;
 }
