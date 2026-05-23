@@ -109,7 +109,9 @@
             "authorities": "Behörden",
             "registrationNumbers": "Registrierungsnummern",
             "accounting": "Buchhaltung",
-            "vatRegulations": "USt-Regelungen"
+            "vatRegulations": "USt-Regelungen",
+            "companyManagement": "Unternehmensführung",
+            "taxReturns": "Steuererklärungen"
         },
         "terms": {
             "freelancer": {
@@ -361,6 +363,46 @@
                 "nameDe": "OSS (One Stop Shop)",
                 "nameLocal": "One Stop Shop",
                 "body": "EU-Meldeverfahren für bestimmte grenzüberschreitende B2C-Umsätze. Relevant insbesondere bei Fernverkäufen an EU-Verbraucher über der unionsweiten Schwelle."
+            },
+            "managingDirector": {
+                "nameDe": "Geschäftsführer",
+                "nameLocal": "Geschäftsführer",
+                "body": "Gesetzlicher Vertreter einer GmbH oder UG. Führt die Gesellschaft nach außen und innen."
+            },
+            "shareCapital": {
+                "nameDe": "Stammkapital",
+                "nameLocal": "Stammkapital",
+                "body": "Bei der GmbH 25.000 EUR. Bei der UG kein Mindeststammkapital von 25.000 EUR; sie kann mit geringerem Stammkapital gegründet werden."
+            },
+            "articlesOfAssociation": {
+                "nameDe": "Gesellschaftsvertrag",
+                "nameLocal": "Gesellschaftsvertrag",
+                "body": "Gründungsdokument der Gesellschaft. Für UG und GmbH notariell zu beurkunden."
+            },
+            "liquidation": {
+                "nameDe": "Liquidation",
+                "nameLocal": "Liquidation",
+                "body": "Geordnetes Abwicklungsverfahren zur Beendigung einer Gesellschaft. Bei Kapitalgesellschaften regelmäßig mit formalen Register- und Veröffentlichungsschritten."
+            },
+            "incomeTaxReturn": {
+                "nameDe": "Einkommensteuererklärung",
+                "nameLocal": "Einkommensteuererklärung",
+                "body": "Grundsätzlich bis zum 31. Juli des Folgejahres abzugeben. Bei Erstellung durch steuerberatende Berufe grundsätzlich bis zum letzten Tag des Monats Februar des zweitfolgenden Jahres; für einzelne Jahre gelten Übergangsregeln."
+            },
+            "tradeTaxReturn": {
+                "nameDe": "Gewerbesteuererklärung",
+                "nameLocal": "Gewerbesteuererklärung",
+                "body": "Jährliche Erklärung für gewerbliche Unternehmen. Die allgemeinen Abgabefristen richten sich nach der Abgabenordnung."
+            },
+            "vatAdvanceReturn": {
+                "nameDe": "Umsatzsteuer-Voranmeldung",
+                "nameLocal": "USt-Voranmeldung",
+                "body": "Elektronisch über ELSTER. Abgabe grundsätzlich bis zum 10. Tag nach Ablauf des Voranmeldungszeitraums; dieser ist je nach Steuerlast monatlich oder vierteljährlich."
+            },
+            "annualStatements": {
+                "nameDe": "Jahresabschluss",
+                "nameLocal": "Jahresabschluss",
+                "body": "Kapitalgesellschaften sind zur Aufstellung eines Jahresabschlusses verpflichtet; Offenlegung oder Hinterlegung im Bundesanzeiger kann erforderlich sein."
             }
         }
     }
