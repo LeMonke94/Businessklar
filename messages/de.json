@@ -104,6 +104,7 @@
         "categories": {
             "activity": "Tätigkeitsart / Status",
             "legalForms": "Rechtsformen",
+            "taxes": "Steuern",
             "numbers": "Nummern & Kennungen"
         },
         "terms": {
@@ -127,7 +128,6 @@
                 "nameLocal": "Besondere selbständige Tätigkeiten außerhalb klassischer freier Berufe",
                 "body": "Einzelne Tätigkeiten gelten steuerlich als selbständige Arbeit, ohne typische Freiberufe zu sein, z. B. bestimmte Vermögensverwaltungen oder gesetzlich gesondert geregelte Tätigkeiten. Prüfung im Einzelfall erforderlich."
             },
-
             "soleProprietorship": {
                 "nameDe": "Einzelunternehmen",
                 "nameLocal": "Rechtsform für eine Person",
@@ -156,17 +156,17 @@
             "ug": {
                 "nameDe": "UG (haftungsbeschränkt)",
                 "nameLocal": "Mini-GmbH",
-                "body": "Kapitalgesellschaft mit geringem Startkapital. Kein Mindeststammkapital von 25.000 EUR; sie kann mit geringerem Stammkapital gegründet werden. Beschränkte Haftung. Notarielle Beurkundung und Handelsregister erforderlich."
+                "body": "Kapitalgesellschaft mit geringem Startkapital. Haftung grundsätzlich auf das Gesellschaftsvermögen beschränkt. Notar und Handelsregister erforderlich. Gesetzliche Rücklagepflicht bis zum Erreichen des GmbH-Mindeststammkapitals."
             },
             "gmbh": {
                 "nameDe": "GmbH",
                 "nameLocal": "Gesellschaft mit beschränkter Haftung",
-                "body": "Kapitalgesellschaft mit beschränkter Haftung. Mindeststammkapital 25.000 EUR. Notarielle Beurkundung und Handelsregister erforderlich."
+                "body": "Klassische Kapitalgesellschaft. Gesetzliches Mindeststammkapital 25.000 EUR. Haftung grundsätzlich auf das Gesellschaftsvermögen beschränkt. Notar und Handelsregister erforderlich."
             },
             "ag": {
                 "nameDe": "AG (Aktiengesellschaft)",
                 "nameLocal": "Aktiengesellschaft",
-                "body": "Kapitalgesellschaft mit gesetzlichem Mindestkapital von 50.000 EUR. Formale Organe und Handelsregister erforderlich."
+                "body": "Kapitalgesellschaft für größere oder stärker strukturierte Geschäftsmodelle. Gesetzliches Mindestkapital 50.000 EUR. Formale Organe und Handelsregister erforderlich."
             },
             "ohg": {
                 "nameDe": "OHG (Offene Handelsgesellschaft)",
@@ -187,6 +187,56 @@
                 "nameDe": "Holding",
                 "nameLocal": "Holding-Struktur",
                 "body": "Keine eigene Rechtsform, sondern eine Beteiligungsstruktur: Eine Gesellschaft hält Anteile an anderen Gesellschaften. Möglich z. B. mit GmbH, UG oder AG als Holdinggesellschaft."
+            },
+            "incomeTax": {
+                "nameDe": "Einkommensteuer (ESt)",
+                "nameLocal": "Einkommensteuer",
+                "body": "Progressiver Tarif. Grundfreibetrag 2026: 12.348 EUR. Der Spitzensteuersatz beträgt 42 %, die sogenannte Reichensteuer 45 %."
+            },
+            "corporateTax": {
+                "nameDe": "Körperschaftsteuer (KSt)",
+                "nameLocal": "Körperschaftsteuer",
+                "body": "Steuersatz 15 % auf das zu versteuernde Einkommen von Kapitalgesellschaften wie UG, GmbH und AG. Zusätzlich fällt Solidaritätszuschlag auf die Körperschaftsteuer an. Ausschüttungen an natürliche Personen unterliegen regelmäßig der Kapitalertragsteuer."
+            },
+            "tradeTax": {
+                "nameDe": "Gewerbesteuer (GewSt)",
+                "nameLocal": "Gewerbesteuer",
+                "body": "Kommunale Steuer für gewerbliche Unternehmen. Messbetrag: Gewinn × 3,5 %; darauf wird der kommunale Hebesatz angewandt. Für Einzelunternehmen und Personengesellschaften gilt ein Freibetrag von 24.500 EUR. Freiberufliche Tätigkeiten nach § 18 EStG unterliegen grundsätzlich nicht der Gewerbesteuer."
+            },
+            "vat": {
+                "nameDe": "Umsatzsteuer (USt) / MwSt",
+                "nameLocal": "Mehrwertsteuer",
+                "body": "Standardsatz 19 %, ermäßigter Satz 7 %. Die Kleinunternehmerregelung gilt ab 2025 grundsätzlich bis 25.000 EUR Vorjahresumsatz und 100.000 EUR laufender Umsatz; bei Überschreiten der 100.000 EUR endet sie unterjährig."
+            },
+            "capitalGainsTax": {
+                "nameDe": "Kapitalertragsteuer",
+                "nameLocal": "Abgeltungsteuer auf Kapitalerträge",
+                "body": "Grundsätzlich 25 % auf Dividenden und bestimmte Kapitalerträge, zuzüglich Solidaritätszuschlag und gegebenenfalls Kirchensteuer."
+            },
+            "payrollTax": {
+                "nameDe": "Lohnsteuer",
+                "nameLocal": "Steuerabzug auf Arbeitslohn",
+                "body": "Keine eigene Steuerart, sondern der Steuerabzug auf Arbeitslohn im Rahmen der Einkommensteuer. Der Arbeitgeber behält sie ein und führt sie an das Finanzamt ab."
+            },
+            "solidaritySurcharge": {
+                "nameDe": "Solidaritätszuschlag (Soli)",
+                "nameLocal": "Solidaritätszuschlag",
+                "body": "5,5 % der festgesetzten Körperschaftsteuer und grundsätzlich auch der Kapitalertragsteuer. Bei der Einkommensteuer wird er seit 2021 nur noch bei höheren Steuerlasten erhoben; die Freigrenze wurde für 2026 weiter angehoben."
+            },
+            "churchTax": {
+                "nameDe": "Kirchensteuer",
+                "nameLocal": "Kirchensteuer",
+                "body": "8 % oder 9 % der Einkommensteuer je nach Bundesland. Nur für kirchensteuerpflichtige Mitglieder."
+            },
+            "propertyTax": {
+                "nameDe": "Grundsteuer",
+                "nameLocal": "Grundsteuer",
+                "body": "Steuer auf inländischen Grundbesitz. Betrifft Unternehmen mit Immobilien oder Grundstücken. Ab 2025 basiert die Grundsteuer auf den reformierten Bewertungsregeln."
+            },
+            "inheritanceGiftTax": {
+                "nameDe": "Erbschaftsteuer / Schenkungsteuer",
+                "nameLocal": "Erbschaft- und Schenkungsteuer",
+                "body": "Relevant bei unentgeltlicher Übertragung von Vermögen, einschließlich Betriebsvermögen. Für Betriebsvermögen können je nach Voraussetzungen Steuervergünstigungen gelten."
             },
 
             "taxId": {

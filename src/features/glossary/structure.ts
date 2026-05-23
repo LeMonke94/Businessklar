@@ -35,6 +35,21 @@ const glossaryStructure: GlossaryCategory[] = [
         ]
     },
     {
+        categoryKey: 'taxes',
+        termKeys: [
+            'incomeTax',
+            'corporateTax',
+            'tradeTax',
+            'vat',
+            'capitalGainsTax',
+            'payrollTax',
+            'solidaritySurcharge',
+            'churchTax',
+            'propertyTax',
+            'inheritanceGiftTax',
+        ],
+    },
+    {
         categoryKey: 'numbers',
         termKeys: ['taxId', 'vatId', 'companyNumber'],
     },

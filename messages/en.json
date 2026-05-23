@@ -155,17 +155,17 @@
             "ug": {
                 "nameDe": "UG (haftungsbeschränkt)",
                 "nameLocal": "Mini-GmbH / micro company",
-                "body": "Capital company with low starting capital. No minimum share capital of 25,000 EUR; it can be founded with lower share capital. Limited liability. Notarial certification and Handelsregister required."
+                "body": "Capital company with low start-up capital. Liability generally limited to company assets. Notary and Handelsregister required. Statutory reserve obligation until reaching GmbH minimum share capital."
             },
             "gmbh": {
                 "nameDe": "GmbH",
                 "nameLocal": "Limited liability company",
-                "body": "Capital company with limited liability. Minimum share capital 25,000 EUR. Notarial certification and Handelsregister required."
+                "body": "Classic capital company. Statutory minimum share capital 25,000 EUR. Liability generally limited to company assets. Notary and Handelsregister required."
             },
             "ag": {
                 "nameDe": "AG (Aktiengesellschaft)",
                 "nameLocal": "Stock corporation",
-                "body": "Capital company with a statutory minimum capital of 50,000 EUR. Formal bodies and Handelsregister required."
+                "body": "Capital company for larger or more structured business models. Statutory minimum capital 50,000 EUR. Formal governing bodies and Handelsregister required."
             },
             "ohg": {
                 "nameDe": "OHG (Offene Handelsgesellschaft)",
@@ -187,7 +187,7 @@
                 "nameLocal": "Holding structure",
                 "body": "Not a separate legal form, but a participation structure: one company holds shares in other companies. Possible e.g. with GmbH, UG or AG as the holding company."
             },
-            
+
             "taxId": {
                 "nameDe": "Steuer-ID (IdNr)",
                 "nameLocal": "Tax identification number",
