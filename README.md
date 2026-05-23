@@ -178,6 +178,93 @@ routing on static pages
 
 ---
 
+# Installation
+
+Step-by-step setup from a clean machine to a running dev server.
+
+---
+
+## 1. Prerequisites
+
+Install the following tools if they are not already present.
+
+**Node.js** — LTS version (22.x or newer recommended).
+Download from [nodejs.org](https://nodejs.org) or via a version manager like `nvm` / `fnm`.
+Verify:
+```bash
+node -v
+```
+
+**pnpm** — the package manager this project uses. Install globally once Node.js is ready:
+```bash
+npm install -g pnpm
+```
+Verify:
+```bash
+pnpm -v
+```
+
+**Git** — needed to clone the repository.
+Download from [git-scm.com](https://git-scm.com) if not present.
+
+---
+
+## 2. Clone the repository
+
+```bash
+git clone https://github.com/LeMonke94/Businessklar.git
+cd businessklar
+```
+
+---
+
+## 3. Install dependencies
+
+```bash
+pnpm install
+```
+
+This reads `package.json` and installs everything into `node_modules/`. Do not use `npm install` or `yarn` — the lockfile (`pnpm-lock.yaml`) is pnpm-specific and will produce incorrect results with other package managers.
+
+---
+
+## 4. Set up environment variables
+
+Copy the example file:
+```bash
+cp .env.example .env.local
+```
+
+On Windows (PowerShell):
+```powershell
+Copy-Item .env.example .env.local
+```
+
+Open `.env.local` and fill in the two required values:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=        # e.g. https://xxxxxxxxxxxx.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=   # your project's anon/public key
+```
+
+Both values are found in the Supabase dashboard under **Project Settings → API**.
+The `NEXT_PUBLIC_` prefix means they are safe to expose in the browser — they identify the project but cannot bypass Row Level Security.
+
+The app uses Zod to validate all env variables at startup (`config/env.ts`). If a required variable is missing or malformed, the server will refuse to start with a clear error message listing exactly which variable is wrong.
+
+---
+
+## 5. Start the development server
+
+```bash
+pnpm dev
+```
+
+The app is now running at [http://localhost:3000](http://localhost:3000).
+The first request will be slower — Next.js compiles routes on demand in development. Subsequent requests are fast.
+
+---
+
 # Notes for me:
 .next - build output
 node_modules - dependencies
