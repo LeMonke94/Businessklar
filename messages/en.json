@@ -127,7 +127,6 @@
                 "nameLocal": "Special cases / other self-employment outside classical liberal professions",
                 "body": "Certain activities qualify as self-employment for tax purposes without being typical liberal professions, e.g. certain asset management or separately regulated activities. Case-by-case review required."
             },
-
             "soleProprietorship": {
                 "nameDe": "Einzelunternehmen",
                 "nameLocal": "Sole proprietorship",
@@ -188,7 +187,7 @@
                 "nameLocal": "Holding structure",
                 "body": "Not a separate legal form, but a participation structure: one company holds shares in other companies. Possible e.g. with GmbH, UG or AG as the holding company."
             },
-
+            
             "taxId": {
                 "nameDe": "Steuer-ID (IdNr)",
                 "nameLocal": "Tax identification number",
