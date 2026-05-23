@@ -161,14 +161,20 @@ routing on static pages
 
 # Changes
 
-| Feature             | Legacy                               | Rebuild                                          | Advantage                                              |
-|---------------------|--------------------------------------|--------------------------------------------------|--------------------------------------------------------|
-| Routing             | HTML-File for each Page              | Dynamic File-System based                        | Persistent state across pages - no full page reload    |
-| Env-Secrets         | Hardcoded for each HTML              | Zod-validated central                            | Fail-fast on missing config                            |   
-| Server-State        | No Cache                             | TanStack Query as Cache-Layer with Auto-Refetch  | Fewer network calls, less code                         |
-| Supabase-Connection | One Supabase Client in Browser       | 3 Context-Based Clients (Browser, Server, Proxy) | Server-side auth, automatic refresh                    | 
-| i18n                | Inline Objects                       | next-intl with JSON-Files type-safe              | Type-safe keys, new languages without code change      |
-| Home-Page           | Monolithic HTML                      | Component-Based                                  | Reusable components, isolated styles, easier to extend |
+| Feature             | Legacy                               | Rebuild                                           | Advantage                                               |
+|---------------------|--------------------------------------|---------------------------------------------------|---------------------------------------------------------|
+| Routing             | HTML-File for each Page              | Dynamic File-System based                         | Persistent state across pages - no full page reload     |
+| Env-Secrets         | Hardcoded for each HTML              | Zod-validated central                             | Fail-fast on missing config                             |   
+| Server-State        | No Cache                             | TanStack Query as Cache-Layer with Auto-Refetch   | Fewer network calls, less code                          |
+| Supabase-Connection | One Supabase Client in Browser       | 3 Context-Based Clients (Browser, Server, Proxy)  | Server-side auth, automatic refresh                     | 
+| i18n                | Inline Objects                       | next-intl with JSON-Files type-safe               | Type-safe keys, new languages without code change       |
+| Home-Page           | Monolithic HTML                      | Component-Based                                   | Reusable components, isolated styles, easier to extend  |
+| Auth                | Inline Supabase calls in bk-auth.js  | Layered: UI → Hook → Service → Provider Interface | Swap auth backend by changing one file; testable layers |
+| Auth-Errors         | Raw Supabase error strings           | Stable error codes (union type) → translations    | Errors survive backend changes, fully localized         |
+| Auth-State (UI)     | Manual reload to sync login state    | TanStack Query + cross-tab subscription           | Live sync across tabs, no reload needed                 |
+| Forms               | Manual DOM validation                | React Hook Form + Zod, two-layer validation       | Type-safe, instant feedback, shared validation schema   |
+| Language Switch     | Query-param + localStorage + reload  | Path-based, preserves current page                | Shareable URLs, no reload, no lost state                |
+| Glossary            | Inline JS data + DOM toggle          | Structure (TS) + content (JSON), accordion state  | Iterable, type-safe structure, content isolated         |
 
 ---
 
