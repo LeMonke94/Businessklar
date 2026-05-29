@@ -1,0 +1,80 @@
+.wrap {
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+    padding: var(--space-12) var(--space-4);
+}
+
+.progressInfo {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-2);
+}
+
+.progressBar {
+    height: 6px;
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-pill);
+    overflow: hidden;
+    margin-bottom: var(--space-8);
+}
+
+.progressFill {
+    height: 100%;
+    background: var(--color-gold);
+    border-radius: var(--radius-pill);
+    transition: width var(--transition-base);
+}
+
+.card {
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-8);
+    backdrop-filter: blur(12px);
+}
+
+.qNum {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 1px;
+    color: var(--color-gold);
+    margin-bottom: var(--space-3);
+}
+
+.title {
+    font-family: var(--font-display);
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-text);
+    margin-bottom: var(--space-2);
+}
+
+.hint {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    line-height: var(--line-height-relaxed);
+    margin-bottom: var(--space-6);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-3);
+    margin-top: var(--space-6);
+}
+
+/* When only the Next button is shown (first step), push it to the right. */
+.nav > :only-child {
+    margin-left: auto;
+}
+
+.disclaimer {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    text-align: center;
+    margin-top: var(--space-6);
+    line-height: var(--line-height-relaxed);
+}
