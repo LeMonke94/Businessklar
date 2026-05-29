@@ -1,0 +1,25 @@
+.textarea {
+    padding: var(--space-3) var(--space-4);
+    font-family: var(--font-sans);
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    transition: var(--transition-fast);
+    width: 100%;
+    resize: vertical;
+    min-height: 96px;
+}
+
+.textarea:focus {
+    outline: none;
+    border-color: var(--color-gold);
+    box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.15);
+}
+
+.error {
+    margin-top: var(--space-2);
+    font-size: var(--font-size-xs);
+    color: var(--color-error);
+}

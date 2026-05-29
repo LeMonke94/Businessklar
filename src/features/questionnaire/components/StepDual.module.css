@@ -1,0 +1,14 @@
+.row {
+    display: flex;
+    gap: var(--space-4);
+}
+
+.row > * {
+    flex: 1;
+}
+
+.error {
+    margin-top: var(--space-3);
+    font-size: var(--font-size-xs);
+    color: var(--color-error);
+}
