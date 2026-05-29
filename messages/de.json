@@ -532,5 +532,84 @@
                 }
             }
         }
+    },
+    "questionnaire": {
+        "progress": "Schritt {current} von {total}",
+        "nav": {
+            "back": "Zurück",
+            "next": "Weiter →",
+            "finish": "Plan anzeigen →"
+        },
+        "disclaimer": "Wichtig: Diese Kalkulation ist informativ und keine Rechtsberatung.",
+        "steps": {
+            "activity": {
+                "title": "Art der Tätigkeit",
+                "hint": "Tätigkeit eingeben — das System erkennt Kategorie und BG automatisch."
+            },
+            "founders": {
+                "title": "Anzahl der Gründer",
+                "hint": "Bestimmt, welche Rechtsformen verfügbar sind.",
+                "options": {
+                    "one": "1 Person (Alleingründung)",
+                    "two": "2 Personen",
+                    "threePlus": "3 oder mehr"
+                }
+            },
+            "liability": {
+                "title": "Haftungsbeschränkung gewünscht?",
+                "hint": "Beeinflusst die Empfehlung der Rechtsform.",
+                "options": {
+                    "yes": "Ja, das hat Priorität",
+                    "maybe": "Wünschenswert, aber ich möchte alle Optionen vergleichen",
+                    "no": "Nein, das ist nicht entscheidend"
+                }
+            },
+            "city": {
+                "title": "Anmeldestadt",
+                "hint": "Stadt beeinflusst die Gewerbesteuer. Bitte Stadtnamen auf Deutsch eingeben."
+            },
+            "revenue": {
+                "title": "Geplanter Umsatz",
+                "hint": "Umsatz = Einnahmen vor Ausgaben.",
+                "placeholder": "60000"
+            },
+            "expenses": {
+                "title": "Monatliche Ausgaben",
+                "hint": "Miete, Software, Telefon.",
+                "placeholder": "1500 EUR"
+            },
+            "staff": {
+                "title": "Planen Sie Mitarbeiter?",
+                "hint": "Mitarbeiter beeinflussen Anmeldungen.",
+                "fields": {
+                    "fulltime": {
+                        "label": "Vollzeit-Mitarbeiter",
+                        "placeholder": "0"
+                    },
+                    "minijob": {
+                        "label": "Minijob-Mitarbeiter",
+                        "placeholder": "0"
+                    }
+                }
+            },
+            "staffSalary": {
+                "title": "Durchschnittlicher Bruttolohn (Vollzeit)",
+                "hint": "Durchschnittlicher monatlicher Bruttolohn pro Vollzeitmitarbeiter.",
+                "placeholder": "z.B. 3500"
+            },
+            "extras": {
+                "title": "Zusätzliche Tätigkeiten",
+                "hint": "Alle auswählen.",
+                "options": {
+                    "ecommerce": "E-Commerce / Online-Shop",
+                    "euClients": "Kunden in anderen EU-Ländern",
+                    "nonEu": "Kunden außerhalb EU",
+                    "personalData": "Personenbezogene Daten",
+                    "financialRisk": "Risiko eines Vermögensschadens",
+                    "employeesLater": "Mitarbeiter später geplant",
+                    "none": "Nichts davon"
+                }
+            }
+        }
     }
 }
