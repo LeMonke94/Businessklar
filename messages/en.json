@@ -532,5 +532,84 @@
                 }
             }
         }
+    },
+    "questionnaire": {
+        "progress": "Step {current} of {total}",
+        "nav": {
+            "back": "Back",
+            "next": "Next →",
+            "finish": "Show plan →"
+        },
+        "disclaimer": "Important: This calculation is informative and not legal advice.",
+        "steps": {
+            "activity": {
+                "title": "Type of activity",
+                "hint": "Type your activity — the system will detect the category and Berufsgenossenschaft."
+            },
+            "founders": {
+                "title": "Number of founders",
+                "hint": "Determines which legal forms are available.",
+                "options": {
+                    "one": "1 founder (sole founder)",
+                    "two": "2 founders",
+                    "threePlus": "3 or more"
+                }
+            },
+            "liability": {
+                "title": "Limited liability preferred?",
+                "hint": "Affects the priority of the recommended legal form.",
+                "options": {
+                    "yes": "Yes, this is my priority",
+                    "maybe": "Preferable, but I want to compare all available options",
+                    "no": "No, this is not important"
+                }
+            },
+            "city": {
+                "title": "Registration city",
+                "hint": "City affects Gewerbesteuer. Enter the city name in German."
+            },
+            "revenue": {
+                "title": "Planned revenue",
+                "hint": "Revenue before expenses.",
+                "placeholder": "60000"
+            },
+            "expenses": {
+                "title": "Monthly expenses",
+                "hint": "Rent, software, phone. Without salaries.",
+                "placeholder": "1500 EUR"
+            },
+            "staff": {
+                "title": "Planning to hire staff?",
+                "hint": "Staff affects registrations and costs.",
+                "fields": {
+                    "fulltime": {
+                        "label": "Full-time employees",
+                        "placeholder": "0"
+                    },
+                    "minijob": {
+                        "label": "Minijob employees",
+                        "placeholder": "0"
+                    }
+                }
+            },
+            "staffSalary": {
+                "title": "Average gross monthly salary (full-time)",
+                "hint": "Average gross monthly salary per full-time employee.",
+                "placeholder": "e.g. 3500"
+            },
+            "extras": {
+                "title": "Additional activities",
+                "hint": "Check all that apply.",
+                "options": {
+                    "ecommerce": "E-Commerce",
+                    "euClients": "Clients in other EU countries",
+                    "nonEu": "Clients outside EU",
+                    "personalData": "Personal data",
+                    "financialRisk": "Financial damage risk",
+                    "employeesLater": "Plan to hire later",
+                    "none": "None"
+                }
+            }
+        }
     }
 }
