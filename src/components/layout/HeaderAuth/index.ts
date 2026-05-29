@@ -1,1 +1,0 @@
-export { HeaderAuth } from './HeaderAuth';

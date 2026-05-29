@@ -1,1 +1,0 @@
-export { GlossaryTerm } from './GlossaryTerm';

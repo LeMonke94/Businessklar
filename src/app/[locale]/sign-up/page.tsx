@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { isLocale } from '@/config/i18n';
 import { notFound } from 'next/navigation';
@@ -26,7 +27,9 @@ async function SignUpPage({
                 <h1 className={styles.title}>{t('title')}</h1>
                 <p className={styles.subtitle}>{t('subtitle')}</p>
 
-                <SignUpForm locale={locale} />
+                <Suspense fallback={null}>
+                    <SignUpForm locale={locale} />
+                </Suspense>
 
                 <p className={styles.altLink}>
                     {t('hasAccount')}{' '}
