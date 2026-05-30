@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { findCity, searchCities, type City } from '@/lib/rules/data/cities';
+import { findCity, searchCities, FALLBACK_HEBESATZ, type City } from '@/lib/rules/data/cities';
 import type { SurveyAnswers } from '@/features/questionnaire/types';
 import styles from './StepCityAc.module.css';
 
@@ -15,13 +15,13 @@ type StepCityAcProps = {
 
 /**
  * City autocomplete. Suggests cities from the list and records the chosen name,
- * its Bundesland, and how it was matched:
+ * its Gewerbesteuer-Hebesatz, its Bundesland, and how it was matched:
  * - 'list_exact'        — typed text matches a listed city exactly
  * - 'list_pick'         — picked from the suggestion dropdown
  * - 'fallback_bundesavg'— free text not on the list (nationwide average applies)
  *
- * The Hebesatz itself is not stored yet (Phase 9.5); the fallback note explains
- * that the nationwide average is used for unlisted cities.
+ * The Hebesatz is shown in the suggestion and the confirmation (legacy behaviour)
+ * and stored as `city_hb`; an unlisted city falls back to the nationwide average.
  */
 function StepCityAc({ answers, setAnswers, error }: StepCityAcProps) {
     const t = useTranslations();
@@ -34,6 +34,7 @@ function StepCityAc({ answers, setAnswers, error }: StepCityAcProps) {
         const exact = findCity(raw);
         setAnswers({
             city_name: raw,
+            city_hb: exact ? exact.hebesatz : (raw.trim() ? FALLBACK_HEBESATZ : undefined),
             city_bundesland: exact?.bundesland,
             city_match_source: exact ? 'list_exact' : (raw.trim() ? 'fallback_bundesavg' : undefined),
         });
@@ -46,6 +47,7 @@ function StepCityAc({ answers, setAnswers, error }: StepCityAcProps) {
     const handleSelect = (city: City) => {
         setAnswers({
             city_name: city.name,
+            city_hb: city.hebesatz,
             city_bundesland: city.bundesland,
             city_match_source: 'list_pick',
         });
@@ -93,7 +95,7 @@ function StepCityAc({ answers, setAnswers, error }: StepCityAcProps) {
                                 }}
                             >
                                 <span className={styles.term}>{city.name}</span>
-                                {city.bundesland && <span className={styles.badge}>{city.bundesland}</span>}
+                                <span className={styles.badge}>{city.hebesatz}%</span>
                             </button>
                         </li>
                     ))}
@@ -103,7 +105,9 @@ function StepCityAc({ answers, setAnswers, error }: StepCityAcProps) {
             {isConfirmed && value.trim().length > 0 && (
                 <p className={styles.detected}>
                     <span className={styles.check}>&#10003;</span> <strong>{value}</strong>
-                    {answers.city_bundesland ? <> &middot; {answers.city_bundesland}</> : null}
+                    {answers.city_hb != null ? (
+                        <> &middot; {t('questionnaire.steps.city.hebesatz')} {answers.city_hb}%</>
+                    ) : null}
                 </p>
             )}
 

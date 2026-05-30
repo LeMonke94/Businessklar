@@ -119,7 +119,12 @@ function FinanceSection({ report, tax, hebesatz }: FinanceSectionProps) {
                         )}
                         <Line label={t('tax.soli')} hint={t('tax.soliIncomeHint')} value={euro(tax.soli)} tone="neg" />
                         <div className={styles.separator} />
-                        <Line label={t('tax.netIncome')} value={euro(tax.netProfit)} tone="pos" big />
+                        <Line
+                            label={t('tax.netIncome')}
+                            value={euro(tax.netProfit)}
+                            tone={tax.netProfit >= 0 ? 'pos' : 'neg'}
+                            big
+                        />
                     </>
                 ) : (
                     <>
@@ -132,12 +137,23 @@ function FinanceSection({ report, tax, hebesatz }: FinanceSectionProps) {
                             tone="neg"
                         />
                         <div className={styles.separator} />
-                        <Line label={t('tax.profitAfterTax')} hint={t('tax.staysInCompany')} value={euro(tax.profitAfterTax)} tone="pos" big />
+                        <Line
+                            label={t('tax.profitAfterTax')}
+                            hint={t('tax.staysInCompany')}
+                            value={euro(tax.profitAfterTax)}
+                            tone={tax.profitAfterTax >= 0 ? 'pos' : 'neg'}
+                            big
+                        />
                         <div className={styles.separator} />
                         <p className={styles.subhead}>{t('tax.dividendPayout')}</p>
                         <Line label={t('tax.capitalGainsTax')} hint={t('tax.onDividends')} value={euro(tax.capitalGainsTax)} tone="neg" />
                         <Line label={t('tax.soli')} hint={t('tax.soliShortHint')} value={euro(tax.soliOnDividend)} tone="neg" />
-                        <Line label={t('tax.netInOwnerHands')} value={euro(tax.netInOwnerHands)} tone="pos" big />
+                        <Line
+                            label={t('tax.netInOwnerHands')}
+                            value={euro(tax.netInOwnerHands)}
+                            tone={tax.netInOwnerHands >= 0 ? 'pos' : 'neg'}
+                            big
+                        />
                     </>
                 )}
             </div>
@@ -153,6 +169,8 @@ function FinanceSection({ report, tax, hebesatz }: FinanceSectionProps) {
             )}
 
             {tax.isKleinunternehmer && <p className={styles.note}>{t('kleinunternehmer')}</p>}
+
+            {report.foundersCount >= 2 && <p className={styles.note}>{t('multiFounderNote')}</p>}
         </div>
     );
 }

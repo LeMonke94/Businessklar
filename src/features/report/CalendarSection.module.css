@@ -1,0 +1,90 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.heading {
+    font-family: var(--font-display);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-medium);
+    margin: 0;
+    color: var(--color-text);
+}
+
+.card {
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-5) var(--space-6);
+}
+
+.cardTitle {
+    font-family: var(--font-display);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+    margin: 0 0 var(--space-1);
+    color: var(--color-text);
+}
+
+.subtitle {
+    margin: 0 0 var(--space-4);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    padding: var(--space-3) 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.item:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.freq {
+    flex-shrink: 0;
+    display: inline-block;
+    min-width: 104px;
+    padding: 2px var(--space-2);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    text-align: center;
+}
+
+.monthly {
+    background: rgba(232, 85, 85, 0.15);
+    color: var(--color-error);
+}
+
+.quarterly {
+    background: rgba(201, 168, 76, 0.18);
+    color: var(--color-gold);
+}
+
+.yearly {
+    background: rgba(45, 200, 122, 0.15);
+    color: var(--color-success);
+}
+
+.itemText {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.name {
+    color: var(--color-text);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+}
+
+.detail {
+    color: var(--color-text-muted);
+    font-size: var(--font-size-sm);
+}

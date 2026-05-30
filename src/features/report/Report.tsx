@@ -4,11 +4,18 @@ import { useEffect, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { buildReport, type ReportData } from '@/features/questionnaire/service';
 import { computeTax } from '@/lib/finance/tax';
+import { deriveRegistrationSteps } from '@/lib/rules/registration-steps';
+import { deriveInsurances } from '@/lib/rules/insurance';
+import { deriveObligations } from '@/lib/rules/obligations-calendar';
 import type { SurveyAnswers } from '@/features/questionnaire/types';
 import type { LegalForm } from '@/lib/rules/legal-form-engine';
 import { FinanceSection } from './FinanceSection';
 import { LegalFormSection } from './LegalFormSection';
 import { ComplianceSection } from './ComplianceSection';
+import { RegistrationStepsSection } from './RegistrationStepsSection';
+import { InsuranceSection } from './InsuranceSection';
+import { CalendarSection } from './CalendarSection';
+import { ClosingSection } from './ClosingSection';
 import { Button } from '@/components/ui/Button';
 import styles from './Report.module.css';
 
@@ -99,8 +106,28 @@ function Report() {
         freiberuflerEligible: data.activity.freiberuflerEligible,
     });
 
+    // Pure derivations for the active form (recomputed when the switcher changes),
+    // mirroring computeTax above. The legacy report re-ran all of these per form.
+    const registrationSteps = deriveRegistrationSteps({
+        legalForm: form,
+        freiberuflerEligible: data.activity.freiberuflerEligible,
+        bgCode: data.activity.bgCode,
+        cityName: data.city.name,
+    });
+    const insurances = deriveInsurances({
+        category: data.activity.category,
+        extras: data.extras,
+    });
+    const obligations = deriveObligations({
+        isKleinunternehmer: tax.isKleinunternehmer,
+        hasStaff: data.finance.staffFulltime > 0 || data.finance.staffMinijob > 0,
+        freiberuflerEligible: data.activity.freiberuflerEligible,
+    });
+
     return (
         <div className={styles.wrap}>
+            <h1 className={styles.pageTitle}>{t('pageTitle')}</h1>
+
             <LegalFormSection
                 recommended={data.legalForm.recommended}
                 eligible={data.legalForm.eligible}
@@ -109,13 +136,21 @@ function Report() {
                 onSelectForm={(selected) => setActiveForm(selected)}
             />
 
-            <FinanceSection report={data} tax={tax} hebesatz={data.city.hebesatz} />
+            <RegistrationStepsSection steps={registrationSteps} isKleinunternehmer={tax.isKleinunternehmer} />
 
             <ComplianceSection
                 compliance={data.compliance}
                 authorities={data.authorities.organs}
                 bundesland={data.city.bundesland}
             />
+
+            <FinanceSection report={data} tax={tax} hebesatz={data.city.hebesatz} />
+
+            <InsuranceSection insurances={insurances} />
+
+            <CalendarSection obligations={obligations} />
+
+            <ClosingSection />
         </div>
     );
 }

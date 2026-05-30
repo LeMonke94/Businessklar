@@ -13,10 +13,10 @@ async function Hero({ locale }: { locale: Locale }) {
                 <h1 className={styles.title}>{t('title')}</h1>
                 <p className={styles.subtitle}>{t('subtitle')}</p>
                 <div className={styles.actions}>
-                    <Button variant="primary" href={`/${locale}/start`}>
+                    <Button variant="primary" href={`/${locale}/questionnaire`}>
                         {t('ctaPrimary')}
                     </Button>
-                    <Button variant="secondary" href={`/${locale}/about`}>
+                    <Button variant="secondary" href={`/${locale}/glossary`}>
                         {t('ctaSecondary')}
                     </Button>
                 </div>

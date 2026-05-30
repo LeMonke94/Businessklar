@@ -571,7 +571,8 @@
                 "title": "Город регистрации",
                 "hint": "Город влияет на Gewerbesteuer. Вводите название города на немецком языке.",
                 "placeholder": "напр. Düsseldorf, München, Berlin (на немецком)…",
-                "fallback": "Город не найден в списке: используется средний Hebesatz 400%. Пожалуйста, введите название города на немецком языке или уточните ставку у Steuerberater."
+                "fallback": "Город не найден в списке: используется средний Hebesatz 400%. Пожалуйста, введите название города на немецком языке или уточните ставку у Steuerberater.",
+                "hebesatz": "Hebesatz"
             },
             "revenue": {
                 "title": "Планируемый оборот",
@@ -628,6 +629,7 @@
         }
     },
     "report": {
+        "pageTitle": "Ваш персональный отчёт",
         "empty": "Данных анкеты пока нет. Пожалуйста, сначала заполните анкету.",
         "error": "Не удалось сформировать отчёт. Пожалуйста, заполните анкету заново.",
         "backToSurvey": "К анкете",
@@ -683,6 +685,137 @@
             "gmbh": "Ответственность ограничена имуществом общества. Минимальный уставный капитал 25.000 EUR. Необходим нотариус и Handelsregister.",
             "gbr": "Простейшая форма для 2+ партнёров. Личная ответственность всех участников. Нет минимального уставного капитала. Gewerbeanmeldung для каждого партнёра.",
             "partg": "Специальная форма для 2+ представителей свободных профессий. Регистрация в Partnerschaftsregister обязательна. Без Gewerbesteuer."
+        },
+        "registrationSteps": {
+            "title": "Что сделать в первую очередь",
+            "subtitle": "Порядок действий",
+            "officialLink": "Официальный сайт",
+            "items": {
+                "gewerbeanmeldung": {
+                    "title": "Gewerbeanmeldung",
+                    "titlePerPartner": "Gewerbeanmeldung (je Gesellschafter)",
+                    "description": "В Gewerbeamt, ~15–65 €"
+                },
+                "notarHandelsregister": {
+                    "title": "Notar + Handelsregister",
+                    "descriptionGmbh": "Для GmbH обязательно, ~2.000–5.000 €",
+                    "descriptionUg": "Для UG обязательно, ~700–1.200 €"
+                },
+                "partnerschaftsregister": {
+                    "title": "Partnerschaftsregister",
+                    "description": "Обязательно для PartG, ~200–500 €"
+                },
+                "finanzamt": {
+                    "title": "Finanzamt (ELSTER)",
+                    "description": "Налоговая анкета, бесплатно"
+                },
+                "ihk": {
+                    "title": "IHK-Mitgliedschaft",
+                    "description": "Автоматически, ~100–300 €/год"
+                },
+                "berufsgenossenschaft": {
+                    "title": "Berufsgenossenschaft",
+                    "description": "Обязательно в течение 1 недели"
+                },
+                "krankenversicherung": {
+                    "title": "Krankenversicherung",
+                    "description": "Обязательно для самозанятых, ~350–900 €/мес"
+                }
+            }
+        },
+        "openQuestions": {
+            "title": "Открытые вопросы",
+            "subtitle": "Уточните у Steuerberater или IHK",
+            "kleinunternehmer": "Стоит ли оставаться Kleinunternehmer? Vorjahresumsatz bis 25.000 EUR, laufender Umsatz bis 100.000 EUR.",
+            "accounting": "Нужна ли полная бухгалтерия или достаточно EÜR?"
+        },
+        "multiFounderNote": "При нескольких учредителях распределяемая сумма делится между ними согласно долям участия.",
+        "insurance": {
+            "title": "Страховки и фонды",
+            "info": "Приблизительные цены. Точные варианты и цены разных страховых компаний уточняйте у страховых агентов.",
+            "mandatory": "Обязательно",
+            "recommended": "Рекомендуется",
+            "items": {
+                "betriebshaftpflicht": {
+                    "name": "Betriebshaftpflicht",
+                    "price": "от ~200 €/год",
+                    "description": "Защита от третьих лиц"
+                },
+                "krankenversicherung": {
+                    "name": "Krankenversicherung",
+                    "price": "~350–900 €/мес",
+                    "description": "Обязательно (GKV или PKV)"
+                },
+                "berufsgenossenschaft": {
+                    "name": "Berufsgenossenschaft",
+                    "price": "Зависит от BG",
+                    "description": "Страхование от несчастных случаев"
+                },
+                "vermoegensschaden": {
+                    "name": "Vermögensschadenhaftpflicht",
+                    "price": "от ~300 €/год",
+                    "description": "Для IT, консультантов"
+                },
+                "cyber": {
+                    "name": "Cyberversicherung",
+                    "price": "от ~500 €/год",
+                    "description": "При работе с персданными"
+                },
+                "rechtsschutz": {
+                    "name": "Rechtsschutzversicherung",
+                    "price": "от ~400 €/год",
+                    "description": "Юридическая защита"
+                },
+                "berufsunfaehigkeit": {
+                    "name": "Berufsunfähigkeitsversicherung",
+                    "price": "~50–200 €/мес",
+                    "description": "Очень важно для самозанятых"
+                }
+            }
+        },
+        "calendar": {
+            "title": "Календарь отчётности",
+            "heading": "Календарь обязательств",
+            "subtitle": "Типовые сроки",
+            "frequency": {
+                "monthly": "Ежемесячно",
+                "quarterly": "Ежеквартально",
+                "yearly": "Ежегодно"
+            },
+            "items": {
+                "ustVoranmeldung": {
+                    "name": "USt-Voranmeldung (ELSTER)",
+                    "detail": "до 10-го числа"
+                },
+                "lohnsteuer": {
+                    "name": "Lohnsteuer + Sozialabgaben",
+                    "detail": "ежемесячно"
+                },
+                "gewerbesteuerVorauszahlung": {
+                    "name": "Gewerbesteuer-Vorauszahlung",
+                    "detail": "15.02 · 15.05 · 15.08 · 15.11"
+                },
+                "einkommensteuerVorauszahlung": {
+                    "name": "Einkommensteuer-Vorauszahlung",
+                    "detail": "10.03 · 10.06 · 10.09 · 10.12"
+                },
+                "jahressteuererklaerung": {
+                    "name": "Jahressteuererklärung",
+                    "detail": "обычно до 31 июля"
+                },
+                "gewerbesteuererklaerung": {
+                    "name": "Gewerbesteuererklärung",
+                    "detail": "ежегодно"
+                },
+                "lohnsteuerjahresausgleich": {
+                    "name": "Lohnsteuerjahresausgleich",
+                    "detail": "до 28 февраля"
+                }
+            }
+        },
+        "closing": {
+            "quote": "Теперь ты понимаешь, что тебя ждёт. Ты можешь идти дальше — или не идти. Но ты больше не идёшь вслепую.",
+            "disclaimer": "Данная оценка носит информационный характер и не является юридической или налоговой консультацией."
         }
     },
     "compliance": {

@@ -571,7 +571,8 @@
                 "title": "Registration city",
                 "hint": "City affects Gewerbesteuer. Enter the city name in German.",
                 "placeholder": "e.g. Düsseldorf, München, Berlin (in German)…",
-                "fallback": "City not in list: the nationwide average trade-tax multiplier 400% is used for this estimate. Please enter the city name in German or verify with a tax advisor."
+                "fallback": "City not in list: the nationwide average trade-tax multiplier 400% is used for this estimate. Please enter the city name in German or verify with a tax advisor.",
+                "hebesatz": "Hebesatz"
             },
             "revenue": {
                 "title": "Planned revenue",
@@ -628,6 +629,7 @@
         }
     },
     "report": {
+        "pageTitle": "Your personal report",
         "empty": "No questionnaire data yet. Please complete the questionnaire first.",
         "error": "The report could not be generated. Please complete the questionnaire again.",
         "backToSurvey": "To the questionnaire",
@@ -683,6 +685,137 @@
             "gmbh": "Liability generally limited to company assets. Minimum share capital 25,000 EUR. Notary and Handelsregister required.",
             "gbr": "Simplest form for 2+ partners. Personal liability of all partners. No minimum capital required. Gewerbeanmeldung per partner.",
             "partg": "Special form for 2+ liberal professionals. Registration in Partnerschaftsregister required. No Gewerbesteuer."
+        },
+        "registrationSteps": {
+            "title": "What to do first",
+            "subtitle": "Order of steps",
+            "officialLink": "Official website",
+            "items": {
+                "gewerbeanmeldung": {
+                    "title": "Gewerbeanmeldung",
+                    "titlePerPartner": "Gewerbeanmeldung (per partner)",
+                    "description": "At Gewerbeamt, ~15–65 €"
+                },
+                "notarHandelsregister": {
+                    "title": "Notar + Handelsregister",
+                    "descriptionGmbh": "Required for GmbH, ~2,000–5,000 €",
+                    "descriptionUg": "Required for UG, ~700–1,200 €"
+                },
+                "partnerschaftsregister": {
+                    "title": "Partnerschaftsregister",
+                    "description": "Required for PartG, ~200–500 €"
+                },
+                "finanzamt": {
+                    "title": "Finanzamt (ELSTER)",
+                    "description": "Tax registration, free"
+                },
+                "ihk": {
+                    "title": "IHK-Mitgliedschaft",
+                    "description": "Automatic, ~100–300 €/year"
+                },
+                "berufsgenossenschaft": {
+                    "title": "Berufsgenossenschaft",
+                    "description": "Required within 1 week"
+                },
+                "krankenversicherung": {
+                    "title": "Krankenversicherung",
+                    "description": "Mandatory for self-employed, ~350–900 €/mon"
+                }
+            }
+        },
+        "openQuestions": {
+            "title": "Open questions",
+            "subtitle": "Clarify with Steuerberater or IHK",
+            "kleinunternehmer": "Keep Kleinunternehmer status? Prior-year revenue up to 25,000 EUR, current revenue up to 100,000 EUR.",
+            "accounting": "Full accounting or simple EÜR?"
+        },
+        "multiFounderNote": "With multiple founders, the distributable amount is divided between them according to their shareholding.",
+        "insurance": {
+            "title": "Insurance & funds",
+            "info": "Approximate prices. Exact options from insurance brokers.",
+            "mandatory": "Required",
+            "recommended": "Recommended",
+            "items": {
+                "betriebshaftpflicht": {
+                    "name": "Betriebshaftpflicht",
+                    "price": "from ~200 €/year",
+                    "description": "3rd party protection"
+                },
+                "krankenversicherung": {
+                    "name": "Krankenversicherung",
+                    "price": "~350–900 €/mon",
+                    "description": "Mandatory (GKV or PKV)"
+                },
+                "berufsgenossenschaft": {
+                    "name": "Berufsgenossenschaft",
+                    "price": "Depends on BG",
+                    "description": "Accident insurance"
+                },
+                "vermoegensschaden": {
+                    "name": "Vermögensschadenhaftpflicht",
+                    "price": "from ~300 €/year",
+                    "description": "For IT, consultants"
+                },
+                "cyber": {
+                    "name": "Cyberversicherung",
+                    "price": "from ~500 €/year",
+                    "description": "For personal data processing"
+                },
+                "rechtsschutz": {
+                    "name": "Rechtsschutzversicherung",
+                    "price": "from ~400 €/year",
+                    "description": "Legal protection"
+                },
+                "berufsunfaehigkeit": {
+                    "name": "Berufsunfähigkeitsversicherung",
+                    "price": "~50–200 €/mon",
+                    "description": "Very important for self-employed"
+                }
+            }
+        },
+        "calendar": {
+            "title": "Reporting calendar",
+            "heading": "Obligation Calendar",
+            "subtitle": "Typical deadlines",
+            "frequency": {
+                "monthly": "Monthly",
+                "quarterly": "Quarterly",
+                "yearly": "Annually"
+            },
+            "items": {
+                "ustVoranmeldung": {
+                    "name": "USt-Voranmeldung (ELSTER)",
+                    "detail": "by 10th"
+                },
+                "lohnsteuer": {
+                    "name": "Lohnsteuer + Sozialabgaben",
+                    "detail": "monthly"
+                },
+                "gewerbesteuerVorauszahlung": {
+                    "name": "Gewerbesteuer-Vorauszahlung",
+                    "detail": "15.02 · 15.05 · 15.08 · 15.11"
+                },
+                "einkommensteuerVorauszahlung": {
+                    "name": "Einkommensteuer-Vorauszahlung",
+                    "detail": "10.03 · 10.06 · 10.09 · 10.12"
+                },
+                "jahressteuererklaerung": {
+                    "name": "Jahressteuererklärung",
+                    "detail": "usually by July 31"
+                },
+                "gewerbesteuererklaerung": {
+                    "name": "Gewerbesteuererklärung",
+                    "detail": "annually"
+                },
+                "lohnsteuerjahresausgleich": {
+                    "name": "Lohnsteuerjahresausgleich",
+                    "detail": "by Feb 28"
+                }
+            }
+        },
+        "closing": {
+            "quote": "Now you understand what lies ahead. You can move forward — or not. But you no longer walk blind.",
+            "disclaimer": "This assessment is informational and is not legal or tax advice."
         }
     },
     "compliance": {

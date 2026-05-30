@@ -7,6 +7,14 @@
     padding: var(--space-8) var(--space-5) var(--space-16);
 }
 
+.pageTitle {
+    font-family: var(--font-display);
+    font-size: var(--font-size-3xl);
+    font-weight: var(--font-weight-medium);
+    margin: 0;
+    color: var(--color-text);
+}
+
 .message {
     display: flex;
     flex-direction: column;

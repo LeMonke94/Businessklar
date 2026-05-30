@@ -571,7 +571,8 @@
                 "title": "Anmeldestadt",
                 "hint": "Stadt beeinflusst die Gewerbesteuer. Bitte Stadtnamen auf Deutsch eingeben.",
                 "placeholder": "z.B. Düsseldorf, München, Berlin (auf Deutsch)…",
-                "fallback": "Stadt nicht in der Liste: Es wird der bundesweit übliche durchschnittliche Hebesatz 400 % verwendet. Bitte Stadtnamen auf Deutsch eingeben oder Zahl mit einem Steuerberater prüfen."
+                "fallback": "Stadt nicht in der Liste: Es wird der bundesweit übliche durchschnittliche Hebesatz 400 % verwendet. Bitte Stadtnamen auf Deutsch eingeben oder Zahl mit einem Steuerberater prüfen.",
+                "hebesatz": "Hebesatz"
             },
             "revenue": {
                 "title": "Geplanter Umsatz",
@@ -628,6 +629,7 @@
         }
     },
     "report": {
+        "pageTitle": "Ihr persönlicher Bericht",
         "empty": "Noch keine Fragebogen-Daten vorhanden. Bitte zuerst den Fragebogen ausfüllen.",
         "error": "Der Report konnte nicht erstellt werden. Bitte den Fragebogen erneut ausfüllen.",
         "backToSurvey": "Zum Fragebogen",
@@ -683,6 +685,137 @@
             "gmbh": "Haftung grundsätzlich auf das Gesellschaftsvermögen beschränkt. Mindeststammkapital 25.000 EUR. Notar und Handelsregister erforderlich.",
             "gbr": "Einfachste Form für 2+ Partner. Persönliche Haftung aller Gesellschafter. Kein Mindestkapital. Gewerbeanmeldung je Gesellschafter.",
             "partg": "Spezielle Form für 2+ Freiberufler. Eintragung im Partnerschaftsregister erforderlich. Keine Gewerbesteuer."
+        },
+        "registrationSteps": {
+            "title": "Was zuerst zu tun ist",
+            "subtitle": "Reihenfolge der Schritte",
+            "officialLink": "Offizielle Website",
+            "items": {
+                "gewerbeanmeldung": {
+                    "title": "Gewerbeanmeldung",
+                    "titlePerPartner": "Gewerbeanmeldung (je Gesellschafter)",
+                    "description": "Im Gewerbeamt, Gebühr 15–65 €"
+                },
+                "notarHandelsregister": {
+                    "title": "Notar + Handelsregister",
+                    "descriptionGmbh": "Pflicht für GmbH, ~2.000–5.000 €",
+                    "descriptionUg": "Pflicht für UG, ~700–1.200 €"
+                },
+                "partnerschaftsregister": {
+                    "title": "Partnerschaftsregister",
+                    "description": "Pflicht für PartG, ~200–500 €"
+                },
+                "finanzamt": {
+                    "title": "Finanzamt (ELSTER)",
+                    "description": "Steuerlichen Erfassungsbogen, kostenlos"
+                },
+                "ihk": {
+                    "title": "IHK-Mitgliedschaft",
+                    "description": "Automatisch, Beitrag ~100–300 €/Jahr"
+                },
+                "berufsgenossenschaft": {
+                    "title": "Berufsgenossenschaft",
+                    "description": "Pflicht innerhalb 1 Woche"
+                },
+                "krankenversicherung": {
+                    "title": "Krankenversicherung",
+                    "description": "Pflicht für Selbständige, ~350–900 €/Mon."
+                }
+            }
+        },
+        "openQuestions": {
+            "title": "Offene Fragen",
+            "subtitle": "Beim Steuerberater klären",
+            "kleinunternehmer": "Kleinunternehmer sinnvoll? Vorjahresumsatz bis 25.000 EUR, laufender Umsatz bis 100.000 EUR.",
+            "accounting": "Doppelte Buchführung oder EÜR?"
+        },
+        "multiFounderNote": "Bei mehreren Gesellschaftern wird der verteilbare Betrag entsprechend den Beteiligungsquoten aufgeteilt.",
+        "insurance": {
+            "title": "Versicherungen & Sozialabgaben",
+            "info": "Orientierungspreise. Genaue Konditionen bei einem Versicherungsvertreter erfragen.",
+            "mandatory": "Pflicht",
+            "recommended": "Empfohlen",
+            "items": {
+                "betriebshaftpflicht": {
+                    "name": "Betriebshaftpflicht",
+                    "price": "ab ~200 €/Jahr",
+                    "description": "Drittschadenabsicherung"
+                },
+                "krankenversicherung": {
+                    "name": "Krankenversicherung",
+                    "price": "~350–900 €/Mon.",
+                    "description": "Pflicht (GKV oder PKV)"
+                },
+                "berufsgenossenschaft": {
+                    "name": "Berufsgenossenschaft",
+                    "price": "Abhängig von BG",
+                    "description": "Unfallversicherung"
+                },
+                "vermoegensschaden": {
+                    "name": "Vermögensschadenhaftpflicht",
+                    "price": "ab ~300 €/Jahr",
+                    "description": "Für IT, Berater"
+                },
+                "cyber": {
+                    "name": "Cyberversicherung",
+                    "price": "ab ~500 €/Jahr",
+                    "description": "Bei Datenspeicherung"
+                },
+                "rechtsschutz": {
+                    "name": "Rechtsschutzversicherung",
+                    "price": "ab ~400 €/Jahr",
+                    "description": "Rechtliche Absicherung"
+                },
+                "berufsunfaehigkeit": {
+                    "name": "Berufsunfähigkeitsversicherung",
+                    "price": "~50–200 €/Mon.",
+                    "description": "Sehr wichtig für Selbständige"
+                }
+            }
+        },
+        "calendar": {
+            "title": "Kalender der Pflichten",
+            "heading": "Pflichtkalender",
+            "subtitle": "Typische Fristen",
+            "frequency": {
+                "monthly": "Monatlich",
+                "quarterly": "Quartalsweise",
+                "yearly": "Jährlich"
+            },
+            "items": {
+                "ustVoranmeldung": {
+                    "name": "USt-Voranmeldung (ELSTER)",
+                    "detail": "bis 10. des Folgemonats"
+                },
+                "lohnsteuer": {
+                    "name": "Lohnsteuer + Sozialabgaben",
+                    "detail": "monatlich"
+                },
+                "gewerbesteuerVorauszahlung": {
+                    "name": "Gewerbesteuer-Vorauszahlung",
+                    "detail": "15.02 · 15.05 · 15.08 · 15.11"
+                },
+                "einkommensteuerVorauszahlung": {
+                    "name": "Einkommensteuer-Vorauszahlung",
+                    "detail": "10.03 · 10.06 · 10.09 · 10.12"
+                },
+                "jahressteuererklaerung": {
+                    "name": "Jahressteuererklärung",
+                    "detail": "i.d.R. bis 31. Juli"
+                },
+                "gewerbesteuererklaerung": {
+                    "name": "Gewerbesteuererklärung",
+                    "detail": "jährlich"
+                },
+                "lohnsteuerjahresausgleich": {
+                    "name": "Lohnsteuerjahresausgleich",
+                    "detail": "bis 28. Februar"
+                }
+            }
+        },
+        "closing": {
+            "quote": "Jetzt verstehen Sie, was auf Sie zukommt. Sie können weitergehen — oder nicht. Aber Sie gehen nicht mehr blind.",
+            "disclaimer": "Diese Berechnung ist informativ und keine Rechts- oder Steuerberatung."
         }
     },
     "compliance": {
