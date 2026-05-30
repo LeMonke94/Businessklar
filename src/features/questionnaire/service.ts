@@ -1,5 +1,7 @@
 import { legalFormEngine, complianceEngine } from '@/lib/rules';
+import { findCity, FALLBACK_HEBESATZ } from '@/lib/rules/data/cities';
 import type { Result } from '@/lib/rules/types';
+import { resolveAuthorities, type ResolvedAuthorities } from '@/lib/rules/authority-resolver';
 import type { LegalFormRecommendation } from '@/lib/rules/legal-form-engine';
 import type { ComplianceResult } from '@/lib/rules/compliance-engine';
 import type {
@@ -18,9 +20,9 @@ import type {
  * ReportData — the assembled, validated projection the report renders from.
  *
  * It holds the orchestrated decisions (legal form + compliance) plus the data
- * the report needs to present and to compute finances. The tax computation
- * itself is NOT here: the report does it in Phase 9.5, where the Hebesatz is
- * added — hence finance carries only the raw inputs.
+ * the report needs to present and to compute finances. The per-city Hebesatz is
+ * resolved here so the report can compute the Gewerbesteuer; finance otherwise
+ * carries only the raw inputs.
  */
 type ReportData = {
     activity: {
@@ -31,10 +33,15 @@ type ReportData = {
     };
     legalForm: LegalFormRecommendation;
     compliance: ComplianceResult;
+    // Per-rule responsible body + official link, resolved from the city
+    // authority map. Mirrors compliance.rules 1:1 (same order, keyed by ruleKey).
+    authorities: ResolvedAuthorities;
     city: {
         name: string;
         bundesland?: BundeslandCode;
         matchSource?: CityMatchSource;
+        // Gewerbesteuer multiplier (%) for this city, or the nationwide fallback.
+        hebesatz: number;
     };
     // Raw finance inputs; the report computes taxes from these in Phase 9.5.
     finance: {
@@ -123,10 +130,16 @@ async function buildReport(answers: SurveyAnswers): Promise<Result<ReportData>> 
             },
             legalForm: legalForm.data,
             compliance: compliance.data,
+            authorities: resolveAuthorities(
+                city_name,
+                answers.city_bundesland ?? null,
+                compliance.data.rules,
+            ),
             city: {
                 name: city_name,
                 bundesland: answers.city_bundesland,
                 matchSource: answers.city_match_source,
+                hebesatz: findCity(city_name)?.hebesatz ?? FALLBACK_HEBESATZ,
             },
             finance: {
                 revenueY1: revenue_y1,

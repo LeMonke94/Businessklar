@@ -1,0 +1,132 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.heading {
+    font-family: var(--font-display);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-medium);
+    margin: 0;
+    color: var(--color-text);
+}
+
+.legal {
+    margin: 0 0 var(--space-2);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.card {
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-left-width: 3px;
+    border-radius: var(--radius-lg);
+    padding: var(--space-4) var(--space-5);
+}
+
+/* Severity accents on the left border. */
+.sevHigh {
+    border-left-color: var(--color-error);
+}
+
+.sevMedium {
+    border-left-color: var(--color-gold);
+}
+
+.sevInfo {
+    border-left-color: var(--color-border-strong);
+}
+
+.badge {
+    display: inline-block;
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-2);
+}
+
+.sevHigh .badge {
+    color: var(--color-error);
+}
+
+.cardTitle {
+    font-family: var(--font-display);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+    margin: 0 0 var(--space-3);
+    color: var(--color-text);
+}
+
+.row {
+    margin: 0 0 var(--space-2);
+    font-size: var(--font-size-sm);
+    color: var(--color-text);
+    line-height: 1.5;
+}
+
+.row strong {
+    color: var(--color-text);
+    font-weight: var(--font-weight-medium);
+}
+
+.risk {
+    color: var(--color-text-muted);
+}
+
+.footnote {
+    margin: var(--space-2) 0 0;
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+.body {
+    margin: 0;
+    font-size: var(--font-size-sm);
+    color: var(--color-text);
+    line-height: 1.5;
+}
+
+/* Link block: portal label + URL + German chamber label + note. */
+.row a {
+    color: var(--color-gold);
+    word-break: break-word;
+}
+
+.authDe {
+    color: var(--color-text-muted);
+}
+
+.note {
+    display: inline-block;
+    margin-top: var(--space-1);
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    line-height: 1.5;
+}
+
+/* Shown when only a generic portal/finder could be resolved (link not exact). */
+.disclaimer {
+    margin: 0 0 var(--space-2);
+    padding: var(--space-2) var(--space-3);
+    background: rgba(201, 168, 76, 0.12);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    line-height: 1.5;
+}
+
+/* Official finder/portal links on the fallback cards. */
+.finders {
+    margin: var(--space-3) 0 0;
+    font-size: var(--font-size-sm);
+    line-height: 1.6;
+}
+
+.finders a {
+    color: var(--color-gold);
+}

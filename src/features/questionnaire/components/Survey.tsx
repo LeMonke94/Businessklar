@@ -1,7 +1,8 @@
 'use client';
 
 import { useCallback } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import { useRouter } from 'next/navigation';
 import { useQuestionnaire } from '@/features/questionnaire/hooks/useQuestionnaire';
 import { steps } from '@/features/questionnaire/steps';
 import { validateStep } from '@/features/questionnaire/schemas';
@@ -18,6 +19,8 @@ import styles from './Survey.module.css';
  */
 function Survey() {
     const t = useTranslations();
+    const locale = useLocale();
+    const router = useRouter();
 
     // Per-step validation backed by the Zod schemas.
     const validate = useCallback(
@@ -51,7 +54,9 @@ function Survey() {
         if (!trySubmit()) {
             return;
         }
-        // TODO (Etappe 9.4 / 9.5): run the engines and render the report.
+        // All visible steps valid — answers are already saved in sessionStorage,
+        // the report reads them there.
+        router.push(`/${locale}/report`);
     };
 
     return (

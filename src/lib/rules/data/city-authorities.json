@@ -1,0 +1,4922 @@
+{
+  "Berlin": {
+    "ihk": {
+      "key": "ihk_berlin",
+      "url": "https://www.ihk.de/berlin/",
+      "label_de": "IHK Berlin",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_berlin",
+      "url": "https://www.hwk-berlin.de/",
+      "label_de": "HWK Berlin",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_berlin",
+      "url": "https://service.berlin.de/",
+      "label_de": "service.berlin.de",
+      "exact": true
+    }
+  },
+  "Hamburg": {
+    "ihk": {
+      "key": "ihk_hamburg",
+      "url": "https://www.handelskammer-hamburg.de/",
+      "label_de": "Handelskammer Hamburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hamburg",
+      "url": "https://www.hwk-hamburg.de/",
+      "label_de": "HWK Hamburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_hamburg",
+      "url": "https://www.hamburg.de/verwaltung/",
+      "label_de": "hamburg.de Verwaltung",
+      "exact": true
+    }
+  },
+  "München": {
+    "ihk": {
+      "key": "ihk_muenchen",
+      "url": "https://www.muenchen.ihk.de/",
+      "label_de": "IHK für München und Oberbayern",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenchen",
+      "url": "https://www.hwk-muenchen.de/",
+      "label_de": "HWK für München und Oberbayern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_muenchen",
+      "url": "https://www.muenchen.de/rathaus/verwaltung.html",
+      "label_de": "muenchen.de Verwaltung",
+      "exact": true
+    }
+  },
+  "Köln": {
+    "ihk": {
+      "key": "ihk_koeln",
+      "url": "https://www.ihk.de/koeln/",
+      "label_de": "IHK zu Köln",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koeln",
+      "url": "https://www.hwk-koeln.de/",
+      "label_de": "HWK Köln",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_koeln",
+      "url": "https://www.stadt-koeln.de/",
+      "label_de": "stadt-koeln.de",
+      "exact": true
+    }
+  },
+  "Frankfurt am Main": {
+    "ihk": {
+      "key": "ihk_frankfurt",
+      "url": "https://www.frankfurt-main.ihk.de/",
+      "label_de": "IHK Frankfurt am Main",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_frankfurt",
+      "url": "https://www.hwk-frankfurt.de/",
+      "label_de": "HWK Frankfurt-Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_frankfurt",
+      "url": "https://frankfurt.de/",
+      "label_de": "frankfurt.de",
+      "exact": true
+    }
+  },
+  "Düsseldorf": {
+    "ihk": {
+      "key": "ihk_duesseldorf",
+      "url": "https://www.ihk.de/duesseldorf/",
+      "label_de": "IHK Düsseldorf",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_duesseldorf",
+      "url": "https://www.hwk-duesseldorf.de/",
+      "label_de": "HWK Düsseldorf",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_duesseldorf",
+      "url": "https://www.duesseldorf.de/",
+      "label_de": "duesseldorf.de",
+      "exact": true
+    }
+  },
+  "Stuttgart": {
+    "ihk": {
+      "key": "ihk_stuttgart",
+      "url": "https://www.ihk.de/stuttgart/",
+      "label_de": "IHK Region Stuttgart",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_stuttgart",
+      "url": "https://www.stuttgart.de/",
+      "label_de": "stuttgart.de",
+      "exact": true
+    }
+  },
+  "Dortmund": {
+    "ihk": {
+      "key": "ihk_dortmund",
+      "url": "https://www.ihk.de/dortmund/",
+      "label_de": "IHK zu Dortmund",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dortmund",
+      "url": "https://www.hwk-do.de/",
+      "label_de": "HWK Dortmund",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_dortmund",
+      "url": "https://www.dortmund.de/",
+      "label_de": "dortmund.de",
+      "exact": true
+    }
+  },
+  "Essen": {
+    "ihk": {
+      "key": "ihk_essen",
+      "url": "https://www.essen.ihk.de/",
+      "label_de": "IHK zu Essen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_essen",
+      "url": "https://www.hwk-essen.de/",
+      "label_de": "HWK Essen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_essen",
+      "url": "https://www.essen.de/",
+      "label_de": "essen.de",
+      "exact": true
+    }
+  },
+  "Leipzig": {
+    "ihk": {
+      "key": "ihk_leipzig",
+      "url": "https://www.ihk.de/leipzig/",
+      "label_de": "IHK zu Leipzig",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_leipzig",
+      "url": "https://www.hwk-leipzig.de/",
+      "label_de": "HWK Leipzig",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bremen": {
+    "ihk": {
+      "key": "ihk_bremen",
+      "url": "https://www.ihk.de/bremen-bremerhaven/",
+      "label_de": "Handelskammer Bremen – IHK für Bremen und Bremerhaven",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_bremen",
+      "url": "https://www.hwk-bremen.de/",
+      "label_de": "HWK Bremen / Oldenburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bremen",
+      "url": "https://www.bremen.de/",
+      "label_de": "bremen.de",
+      "exact": true
+    }
+  },
+  "Hannover": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Dresden": {
+    "ihk": {
+      "key": "ihk_dresden",
+      "url": "https://www.ihk.de/dresden/",
+      "label_de": "IHK Dresden",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dresden",
+      "url": "https://www.hwk-dresden.de/",
+      "label_de": "HWK Dresden",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Duisburg": {
+    "ihk": {
+      "key": "ihk_niederrhein",
+      "url": "https://www.ihk.de/niederrhein/",
+      "label_de": "IHK Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_niederrhein",
+      "url": "https://www.hwk-niederrhein.de/",
+      "label_de": "HWK Duisburg-Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bochum": {
+    "ihk": {
+      "key": "ihk_mittleres_ruhr",
+      "url": "https://www.ihk.de/bochum/",
+      "label_de": "IHK Mittleres Ruhrgebiet",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dortmund",
+      "url": "https://www.hwk-do.de/",
+      "label_de": "HWK Dortmund",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Wuppertal": {
+    "ihk": {
+      "key": "ihk_bergische",
+      "url": "https://www.ihk.de/bergische/",
+      "label_de": "Bergische IHK (Wuppertal, Solingen, Remscheid)",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_wuppertal",
+      "url": "https://www.hwk-wuppertal.de/",
+      "label_de": "HWK Wuppertal-Solingen-Remscheid",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bielefeld": {
+    "ihk": {
+      "key": "ihk_ostwestfalen",
+      "url": "https://www.ihk.de/ostwestfalen/",
+      "label_de": "IHK Ostwestfalen zu Bielefeld",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_ostwestfalen",
+      "url": "https://www.hwk-owl.de/",
+      "label_de": "HWK Ostwestfalen-Lippe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bonn": {
+    "ihk": {
+      "key": "ihk_bonn_rhein_sieg",
+      "url": "https://www.bonn.ihk.de/",
+      "label_de": "IHK Bonn/Rhein-Sieg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_bonn",
+      "url": "https://www.hwk-bonn.de/",
+      "label_de": "HWK Rhein-Sieg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Münster": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Karlsruhe": {
+    "ihk": {
+      "key": "ihk_karlsruhe",
+      "url": "https://www.ihk.de/karlsruhe/",
+      "label_de": "IHK Karlsruhe",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_karlsruhe",
+      "url": "https://www.hwk-karlsruhe.de/",
+      "label_de": "HWK Karlsruhe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Mannheim": {
+    "ihk": {
+      "key": "ihk_rhein_neckar",
+      "url": "https://www.ihk.de/rhein-neckar/",
+      "label_de": "IHK Rhein-Neckar",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Augsburg": {
+    "ihk": {
+      "key": "ihk_augsburg",
+      "url": "https://www.ihk.de/augsburg/",
+      "label_de": "IHK Schwaben (Augsburg)",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_schwaben",
+      "url": "https://www.hwk-schwaben.de/",
+      "label_de": "HWK Schwaben",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Wiesbaden": {
+    "ihk": {
+      "key": "ihk_wiesbaden",
+      "url": "https://www.ihk.de/wiesbaden/",
+      "label_de": "IHK Wiesbaden",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_wiesbaden",
+      "url": "https://www.hwk-rhein-main.de/",
+      "label_de": "HWK Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Gelsenkirchen": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Mönchengladbach": {
+    "ihk": {
+      "key": "ihk_mittlerer_niederrhein",
+      "url": "https://mittlerer-niederrhein.ihk.de/",
+      "label_de": "IHK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittlerer_niederrhein",
+      "url": "https://www.hwk-mnr.de/",
+      "label_de": "HWK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Braunschweig": {
+    "ihk": {
+      "key": "ihk_braunschweig",
+      "url": "https://www.ihk.de/braunschweig/",
+      "label_de": "IHK Braunschweig",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Chemnitz": {
+    "ihk": {
+      "key": "ihk_chemnitz",
+      "url": "https://www.ihk.de/chemnitz/",
+      "label_de": "IHK Chemnitz",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_chemnitz",
+      "url": "https://www.hwk-chemnitz.de/",
+      "label_de": "HWK Chemnitz",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Kiel": {
+    "ihk": {
+      "key": "ihk_kiel",
+      "url": "https://www.ihk.de/kiel/",
+      "label_de": "IHK zu Kiel",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_kiel",
+      "url": "https://www.hwk-kiel.de/",
+      "label_de": "HWK Kiel",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Aachen": {
+    "ihk": {
+      "key": "ihk_aachen",
+      "url": "https://www.ihk.de/aachen/",
+      "label_de": "IHK Aachen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_aachen",
+      "url": "https://www.hwk-aachen.de/",
+      "label_de": "HWK Aachen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Halle (Saale)": {
+    "ihk": {
+      "key": "ihk_halle",
+      "url": "https://www.ihk.de/halle-dessau/",
+      "label_de": "IHK Halle-Dessau",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_magdeburg",
+      "url": "https://www.hwk-sachsen-anhalt.de/",
+      "label_de": "HWK Sachsen-Anhalt",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Magdeburg": {
+    "ihk": {
+      "key": "ihk_magdeburg",
+      "url": "https://www.ihk.de/magdeburg/",
+      "label_de": "IHK Magdeburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_magdeburg",
+      "url": "https://www.hwk-sachsen-anhalt.de/",
+      "label_de": "HWK Sachsen-Anhalt",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Freiburg im Breisgau": {
+    "ihk": {
+      "key": "ihk_freiburg",
+      "url": "https://www.ihk.de/freiburg/",
+      "label_de": "IHK Südlicher Oberrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_freiburg",
+      "url": "https://www.hwk-freiburg.de/",
+      "label_de": "HWK Südlicher Oberrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Krefeld": {
+    "ihk": {
+      "key": "ihk_mittlerer_niederrhein",
+      "url": "https://mittlerer-niederrhein.ihk.de/",
+      "label_de": "IHK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittlerer_niederrhein",
+      "url": "https://www.hwk-mnr.de/",
+      "label_de": "HWK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Lübeck": {
+    "ihk": {
+      "key": "ihk_luebeck",
+      "url": "https://www.ihk.de/luebeck/",
+      "label_de": "IHK zu Lübeck",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_luebeck",
+      "url": "https://www.hwk-luebeck.de/",
+      "label_de": "HWK Lübeck",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Oberhausen": {
+    "ihk": {
+      "key": "ihk_essen",
+      "url": "https://www.essen.ihk.de/",
+      "label_de": "IHK zu Essen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_essen",
+      "url": "https://www.hwk-essen.de/",
+      "label_de": "HWK Essen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Erfurt": {
+    "ihk": {
+      "key": "ihk_erfurt",
+      "url": "https://www.ihk.de/erfurt/",
+      "label_de": "IHK Erfurt",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_erfurt",
+      "url": "https://www.hwk-mittelthueringen.de/",
+      "label_de": "HWK Mittelthüringen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Mainz": {
+    "ihk": {
+      "key": "ihk_rheinhessen",
+      "url": "https://www.ihk.de/rheinhessen/",
+      "label_de": "IHK Rheinhessen (Mainz/Wiesbaden)",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_wiesbaden",
+      "url": "https://www.hwk-rhein-main.de/",
+      "label_de": "HWK Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Rostock": {
+    "ihk": {
+      "key": "ihk_rostock",
+      "url": "https://www.ihk.de/rostock/",
+      "label_de": "IHK zu Rostock",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_rostock",
+      "url": "https://www.hwk-do-schwerin.de/",
+      "label_de": "HWK Mecklenburg-Vorpommern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Kassel": {
+    "ihk": {
+      "key": "ihk_kassel",
+      "url": "https://www.ihk.de/kassel-marburg/",
+      "label_de": "IHK Kassel-Marburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_kassel",
+      "url": "https://www.hwk-kassel.de/",
+      "label_de": "HWK Kassel-Marburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Hagen": {
+    "ihk": {
+      "key": "ihk_hagen",
+      "url": "https://www.ihk.de/hagen/",
+      "label_de": "SIHK zu Hagen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hagen",
+      "url": "https://www.hwk-hagen.de/",
+      "label_de": "HWK Hagen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Hamm": {
+    "ihk": {
+      "key": "ihk_dortmund",
+      "url": "https://www.ihk.de/dortmund/",
+      "label_de": "IHK zu Dortmund",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dortmund",
+      "url": "https://www.hwk-do.de/",
+      "label_de": "HWK Dortmund",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Saarbrücken": {
+    "ihk": {
+      "key": "ihk_saarland",
+      "url": "https://www.saarland.ihk.de/",
+      "label_de": "IHK Saarland",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_saarland",
+      "url": "https://www.hwk-saar.de/",
+      "label_de": "HWK des Saarlandes",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Mülheim an der Ruhr": {
+    "ihk": {
+      "key": "ihk_essen",
+      "url": "https://www.essen.ihk.de/",
+      "label_de": "IHK zu Essen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_essen",
+      "url": "https://www.hwk-essen.de/",
+      "label_de": "HWK Essen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Potsdam": {
+    "ihk": {
+      "key": "ihk_potsdam",
+      "url": "https://www.ihk.de/potsdam/",
+      "label_de": "IHK Potsdam",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_potsdam",
+      "url": "https://www.hwk-potsdam.de/",
+      "label_de": "HWK Potsdam (Brandenburg)",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Ludwigshafen am Rhein": {
+    "ihk": {
+      "key": "ihk_pfalz",
+      "url": "https://www.ihk.de/pfalz/",
+      "label_de": "IHK Pfalz",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koblenz",
+      "url": "https://www.hwk-koblenz.de/",
+      "label_de": "HWK Koblenz",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Oldenburg": {
+    "ihk": {
+      "key": "ihk_oldenburg",
+      "url": "https://www.ihk.de/oldenburg/",
+      "label_de": "Oldenburgische IHK",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_bremen",
+      "url": "https://www.hwk-bremen.de/",
+      "label_de": "HWK Bremen / Oldenburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Leverkusen": {
+    "ihk": {
+      "key": "ihk_koeln",
+      "url": "https://www.ihk.de/koeln/",
+      "label_de": "IHK zu Köln",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koeln",
+      "url": "https://www.hwk-koeln.de/",
+      "label_de": "HWK Köln",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Osnabrück": {
+    "ihk": {
+      "key": "ihk_osnabrueck",
+      "url": "https://www.ihk.de/osnabrueck/",
+      "label_de": "IHK Osnabrück – Emsland – Grafschaft Bentheim",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Solingen": {
+    "ihk": {
+      "key": "ihk_bergische",
+      "url": "https://www.ihk.de/bergische/",
+      "label_de": "Bergische IHK (Wuppertal, Solingen, Remscheid)",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_wuppertal",
+      "url": "https://www.hwk-wuppertal.de/",
+      "label_de": "HWK Wuppertal-Solingen-Remscheid",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Heidelberg": {
+    "ihk": {
+      "key": "ihk_rhein_neckar",
+      "url": "https://www.ihk.de/rhein-neckar/",
+      "label_de": "IHK Rhein-Neckar",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Herne": {
+    "ihk": {
+      "key": "ihk_mittleres_ruhr",
+      "url": "https://www.ihk.de/bochum/",
+      "label_de": "IHK Mittleres Ruhrgebiet",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dortmund",
+      "url": "https://www.hwk-do.de/",
+      "label_de": "HWK Dortmund",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Neuss": {
+    "ihk": {
+      "key": "ihk_mittlerer_niederrhein",
+      "url": "https://mittlerer-niederrhein.ihk.de/",
+      "label_de": "IHK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittlerer_niederrhein",
+      "url": "https://www.hwk-mnr.de/",
+      "label_de": "HWK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Darmstadt": {
+    "ihk": {
+      "key": "ihk_darmstadt",
+      "url": "https://www.darmstadt.ihk.de/",
+      "label_de": "IHK Darmstadt (Südhessen)",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_frankfurt",
+      "url": "https://www.hwk-frankfurt.de/",
+      "label_de": "HWK Frankfurt-Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Paderborn": {
+    "ihk": {
+      "key": "ihk_ostwestfalen",
+      "url": "https://www.ihk.de/ostwestfalen/",
+      "label_de": "IHK Ostwestfalen zu Bielefeld",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_ostwestfalen",
+      "url": "https://www.hwk-owl.de/",
+      "label_de": "HWK Ostwestfalen-Lippe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Regensburg": {
+    "ihk": {
+      "key": "ihk_regensburg",
+      "url": "https://www.ihk.de/regensburg/",
+      "label_de": "IHK Regensburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenchen",
+      "url": "https://www.hwk-muenchen.de/",
+      "label_de": "HWK für München und Oberbayern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Ingolstadt": {
+    "ihk": {
+      "key": "ihk_muenchen",
+      "url": "https://www.muenchen.ihk.de/",
+      "label_de": "IHK für München und Oberbayern",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenchen",
+      "url": "https://www.hwk-muenchen.de/",
+      "label_de": "HWK für München und Oberbayern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Würzburg": {
+    "ihk": {
+      "key": "ihk_wuerzburg",
+      "url": "https://www.wuerzburg.ihk.de/",
+      "label_de": "IHK Würzburg-Schweinfurt",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittelfranken",
+      "url": "https://www.hwk-mittelfranken.de/",
+      "label_de": "HWK Mittelfranken",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Fürth": {
+    "ihk": {
+      "key": "ihk_nuernberg",
+      "url": "https://www.ihk-nuernberg.de/",
+      "label_de": "IHK Nürnberg für Mittelfranken",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittelfranken",
+      "url": "https://www.hwk-mittelfranken.de/",
+      "label_de": "HWK Mittelfranken",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Ulm": {
+    "ihk": {
+      "key": "ihk_ulm",
+      "url": "https://www.ihk.de/ulm/",
+      "label_de": "IHK Ulm",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_schwaben",
+      "url": "https://www.hwk-schwaben.de/",
+      "label_de": "HWK Schwaben",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Heilbronn": {
+    "ihk": {
+      "key": "ihk_heilbronn",
+      "url": "https://www.ihk.de/heilbronn-franken/",
+      "label_de": "IHK Heilbronn-Franken",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_heilbronn",
+      "url": "https://www.hwk-heilbronn.de/",
+      "label_de": "HWK Heilbronn",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Pforzheim": {
+    "ihk": {
+      "key": "ihk_karlsruhe",
+      "url": "https://www.ihk.de/karlsruhe/",
+      "label_de": "IHK Karlsruhe",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_karlsruhe",
+      "url": "https://www.hwk-karlsruhe.de/",
+      "label_de": "HWK Karlsruhe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Wolfsburg": {
+    "ihk": {
+      "key": "ihk_braunschweig",
+      "url": "https://www.ihk.de/braunschweig/",
+      "label_de": "IHK Braunschweig",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Göttingen": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bottrop": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Reutlingen": {
+    "ihk": {
+      "key": "ihk_reutlingen",
+      "url": "https://www.reutlingen.ihk.de/",
+      "label_de": "IHK Reutlingen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Koblenz": {
+    "ihk": {
+      "key": "ihk_koblenz",
+      "url": "https://www.ihk.de/koblenz/",
+      "label_de": "IHK Mittlerer Rhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koblenz",
+      "url": "https://www.hwk-koblenz.de/",
+      "label_de": "HWK Koblenz",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bremerhaven": {
+    "ihk": {
+      "key": "ihk_bremen",
+      "url": "https://www.ihk.de/bremen-bremerhaven/",
+      "label_de": "Handelskammer Bremen – IHK für Bremen und Bremerhaven",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_bremen",
+      "url": "https://www.hwk-bremen.de/",
+      "label_de": "HWK Bremen / Oldenburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bergisch Gladbach": {
+    "ihk": {
+      "key": "ihk_koeln",
+      "url": "https://www.ihk.de/koeln/",
+      "label_de": "IHK zu Köln",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koeln",
+      "url": "https://www.hwk-koeln.de/",
+      "label_de": "HWK Köln",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Recklinghausen": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Erlangen": {
+    "ihk": {
+      "key": "ihk_nuernberg",
+      "url": "https://www.ihk-nuernberg.de/",
+      "label_de": "IHK Nürnberg für Mittelfranken",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittelfranken",
+      "url": "https://www.hwk-mittelfranken.de/",
+      "label_de": "HWK Mittelfranken",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Remscheid": {
+    "ihk": {
+      "key": "ihk_bergische",
+      "url": "https://www.ihk.de/bergische/",
+      "label_de": "Bergische IHK (Wuppertal, Solingen, Remscheid)",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_wuppertal",
+      "url": "https://www.hwk-wuppertal.de/",
+      "label_de": "HWK Wuppertal-Solingen-Remscheid",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Trier": {
+    "ihk": {
+      "key": "ihk_trier",
+      "url": "https://www.ihk.de/trier/",
+      "label_de": "IHK Trier",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_trier",
+      "url": "https://www.hwk-trier.de/",
+      "label_de": "HWK Trier",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Jena": {
+    "ihk": {
+      "key": "ihk_gera",
+      "url": "https://www.ihk.de/gera/",
+      "label_de": "IHK Ostthüringen zu Gera",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_erfurt",
+      "url": "https://www.hwk-mittelthueringen.de/",
+      "label_de": "HWK Mittelthüringen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Moers": {
+    "ihk": {
+      "key": "ihk_niederrhein",
+      "url": "https://www.ihk.de/niederrhein/",
+      "label_de": "IHK Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_niederrhein",
+      "url": "https://www.hwk-niederrhein.de/",
+      "label_de": "HWK Duisburg-Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Salzgitter": {
+    "ihk": {
+      "key": "ihk_braunschweig",
+      "url": "https://www.ihk.de/braunschweig/",
+      "label_de": "IHK Braunschweig",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Siegen": {
+    "ihk": {
+      "key": "ihk_siegen",
+      "url": "https://www.ihk.de/siegen/",
+      "label_de": "IHK Siegen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_siegen",
+      "url": "https://www.hwk-siegen.de/",
+      "label_de": "HWK Siegen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Hildesheim": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Cottbus": {
+    "ihk": {
+      "key": "ihk_cottbus",
+      "url": "https://www.ihk.de/cottbus/",
+      "label_de": "IHK Südbrandenburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_potsdam",
+      "url": "https://www.hwk-potsdam.de/",
+      "label_de": "HWK Potsdam (Brandenburg)",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Gütersloh": {
+    "ihk": {
+      "key": "ihk_ostwestfalen",
+      "url": "https://www.ihk.de/ostwestfalen/",
+      "label_de": "IHK Ostwestfalen zu Bielefeld",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_ostwestfalen",
+      "url": "https://www.hwk-owl.de/",
+      "label_de": "HWK Ostwestfalen-Lippe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Hanau": {
+    "ihk": {
+      "key": "ihk_frankfurt",
+      "url": "https://www.frankfurt-main.ihk.de/",
+      "label_de": "IHK Frankfurt am Main",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_frankfurt",
+      "url": "https://www.hwk-frankfurt.de/",
+      "label_de": "HWK Frankfurt-Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Schwerin": {
+    "ihk": {
+      "key": "ihk_schwerin",
+      "url": "https://www.ihk.de/schwerin/",
+      "label_de": "IHK Schwerin",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_rostock",
+      "url": "https://www.hwk-do-schwerin.de/",
+      "label_de": "HWK Mecklenburg-Vorpommern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Witten": {
+    "ihk": {
+      "key": "ihk_mittleres_ruhr",
+      "url": "https://www.ihk.de/bochum/",
+      "label_de": "IHK Mittleres Ruhrgebiet",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dortmund",
+      "url": "https://www.hwk-do.de/",
+      "label_de": "HWK Dortmund",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Esslingen am Neckar": {
+    "ihk": {
+      "key": "ihk_stuttgart",
+      "url": "https://www.ihk.de/stuttgart/",
+      "label_de": "IHK Region Stuttgart",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Ludwigsburg": {
+    "ihk": {
+      "key": "ihk_stuttgart",
+      "url": "https://www.ihk.de/stuttgart/",
+      "label_de": "IHK Region Stuttgart",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Gera": {
+    "ihk": {
+      "key": "ihk_gera",
+      "url": "https://www.ihk.de/gera/",
+      "label_de": "IHK Ostthüringen zu Gera",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_erfurt",
+      "url": "https://www.hwk-mittelthueringen.de/",
+      "label_de": "HWK Mittelthüringen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Kaiserslautern": {
+    "ihk": {
+      "key": "ihk_pfalz",
+      "url": "https://www.ihk.de/pfalz/",
+      "label_de": "IHK Pfalz",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koblenz",
+      "url": "https://www.hwk-koblenz.de/",
+      "label_de": "HWK Koblenz",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Iserlohn": {
+    "ihk": {
+      "key": "ihk_hagen",
+      "url": "https://www.ihk.de/hagen/",
+      "label_de": "SIHK zu Hagen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hagen",
+      "url": "https://www.hwk-hagen.de/",
+      "label_de": "HWK Hagen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Düren": {
+    "ihk": {
+      "key": "ihk_aachen",
+      "url": "https://www.ihk.de/aachen/",
+      "label_de": "IHK Aachen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_aachen",
+      "url": "https://www.hwk-aachen.de/",
+      "label_de": "HWK Aachen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Tübingen": {
+    "ihk": {
+      "key": "ihk_reutlingen",
+      "url": "https://www.reutlingen.ihk.de/",
+      "label_de": "IHK Reutlingen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Flensburg": {
+    "ihk": {
+      "key": "ihk_flensburg",
+      "url": "https://www.ihk.de/flensburg/",
+      "label_de": "IHK Flensburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_flensburg",
+      "url": "https://www.hwk-flensburg.de/",
+      "label_de": "HWK Flensburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Zwickau": {
+    "ihk": {
+      "key": "ihk_zwickau",
+      "url": "https://www.ihk.de/zwickau/",
+      "label_de": "IHK Zwickau",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_plauen",
+      "url": "https://www.hwk-zwickau-plauen.de/",
+      "label_de": "HWK Zwickau-Plauen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Ratingen": {
+    "ihk": {
+      "key": "ihk_duesseldorf",
+      "url": "https://www.ihk.de/duesseldorf/",
+      "label_de": "IHK Düsseldorf",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_duesseldorf",
+      "url": "https://www.hwk-duesseldorf.de/",
+      "label_de": "HWK Düsseldorf",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Lüdenscheid": {
+    "ihk": {
+      "key": "ihk_hagen",
+      "url": "https://www.ihk.de/hagen/",
+      "label_de": "SIHK zu Hagen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hagen",
+      "url": "https://www.hwk-hagen.de/",
+      "label_de": "HWK Hagen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Villingen-Schwenningen": {
+    "ihk": {
+      "key": "ihk_sbh",
+      "url": "https://www.ihk.de/sbh/",
+      "label_de": "IHK Schwarzwald-Baar-Heuberg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_freiburg",
+      "url": "https://www.hwk-freiburg.de/",
+      "label_de": "HWK Südlicher Oberrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Konstanz": {
+    "ihk": {
+      "key": "ihk_bodensee_oberschwaben",
+      "url": "https://www.ihk.de/bodensee-oberschwaben/",
+      "label_de": "IHK Bodensee-Oberschwaben",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_freiburg",
+      "url": "https://www.hwk-freiburg.de/",
+      "label_de": "HWK Südlicher Oberrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Marl": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Minden": {
+    "ihk": {
+      "key": "ihk_ostwestfalen",
+      "url": "https://www.ihk.de/ostwestfalen/",
+      "label_de": "IHK Ostwestfalen zu Bielefeld",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_ostwestfalen",
+      "url": "https://www.hwk-owl.de/",
+      "label_de": "HWK Ostwestfalen-Lippe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Velbert": {
+    "ihk": {
+      "key": "ihk_duesseldorf",
+      "url": "https://www.ihk.de/duesseldorf/",
+      "label_de": "IHK Düsseldorf",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_duesseldorf",
+      "url": "https://www.hwk-duesseldorf.de/",
+      "label_de": "HWK Düsseldorf",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Norderstedt": {
+    "ihk": {
+      "key": "ihk_hamburg",
+      "url": "https://www.handelskammer-hamburg.de/",
+      "label_de": "Handelskammer Hamburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hamburg",
+      "url": "https://www.hwk-hamburg.de/",
+      "label_de": "HWK Hamburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Delmenhorst": {
+    "ihk": {
+      "key": "ihk_oldenburg",
+      "url": "https://www.ihk.de/oldenburg/",
+      "label_de": "Oldenburgische IHK",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_bremen",
+      "url": "https://www.hwk-bremen.de/",
+      "label_de": "HWK Bremen / Oldenburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bamberg": {
+    "ihk": {
+      "key": "ihk_bayreuth",
+      "url": "https://www.ihk.de/bayreuth/",
+      "label_de": "IHK für Oberfranken Bayreuth",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittelfranken",
+      "url": "https://www.hwk-mittelfranken.de/",
+      "label_de": "HWK Mittelfranken",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Viersen": {
+    "ihk": {
+      "key": "ihk_mittlerer_niederrhein",
+      "url": "https://mittlerer-niederrhein.ihk.de/",
+      "label_de": "IHK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittlerer_niederrhein",
+      "url": "https://www.hwk-mnr.de/",
+      "label_de": "HWK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Marburg": {
+    "ihk": {
+      "key": "ihk_kassel",
+      "url": "https://www.ihk.de/kassel-marburg/",
+      "label_de": "IHK Kassel-Marburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_kassel",
+      "url": "https://www.hwk-kassel.de/",
+      "label_de": "HWK Kassel-Marburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Rheine": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Dessau-Roßlau": {
+    "ihk": {
+      "key": "ihk_halle",
+      "url": "https://www.ihk.de/halle-dessau/",
+      "label_de": "IHK Halle-Dessau",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_magdeburg",
+      "url": "https://www.hwk-sachsen-anhalt.de/",
+      "label_de": "HWK Sachsen-Anhalt",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Lüneburg": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Neumünster": {
+    "ihk": {
+      "key": "ihk_kiel",
+      "url": "https://www.ihk.de/kiel/",
+      "label_de": "IHK zu Kiel",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_kiel",
+      "url": "https://www.hwk-kiel.de/",
+      "label_de": "HWK Kiel",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Wilhelmshaven": {
+    "ihk": {
+      "key": "ihk_oldenburg",
+      "url": "https://www.ihk.de/oldenburg/",
+      "label_de": "Oldenburgische IHK",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_bremen",
+      "url": "https://www.hwk-bremen.de/",
+      "label_de": "HWK Bremen / Oldenburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Troisdorf": {
+    "ihk": {
+      "key": "ihk_bonn_rhein_sieg",
+      "url": "https://www.bonn.ihk.de/",
+      "label_de": "IHK Bonn/Rhein-Sieg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_bonn",
+      "url": "https://www.hwk-bonn.de/",
+      "label_de": "HWK Rhein-Sieg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Castrop-Rauxel": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Arnsberg": {
+    "ihk": {
+      "key": "ihk_arnsberg",
+      "url": "https://www.ihk-arnsberg.de/",
+      "label_de": "IHK Arnsberg, Hellweg-Sauerland",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_suedwestfalen",
+      "url": "https://www.hwk-suedwestfalen.de/",
+      "label_de": "HWK Südwestfalen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Gladbeck": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Ahlen": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Baden-Baden": {
+    "ihk": {
+      "key": "ihk_karlsruhe",
+      "url": "https://www.ihk.de/karlsruhe/",
+      "label_de": "IHK Karlsruhe",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_karlsruhe",
+      "url": "https://www.hwk-karlsruhe.de/",
+      "label_de": "HWK Karlsruhe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bayreuth": {
+    "ihk": {
+      "key": "ihk_bayreuth",
+      "url": "https://www.ihk.de/bayreuth/",
+      "label_de": "IHK für Oberfranken Bayreuth",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittelfranken",
+      "url": "https://www.hwk-mittelfranken.de/",
+      "label_de": "HWK Mittelfranken",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Celle": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Detmold": {
+    "ihk": {
+      "key": "ihk_ostwestfalen",
+      "url": "https://www.ihk.de/ostwestfalen/",
+      "label_de": "IHK Ostwestfalen zu Bielefeld",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_ostwestfalen",
+      "url": "https://www.hwk-owl.de/",
+      "label_de": "HWK Ostwestfalen-Lippe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Dinslaken": {
+    "ihk": {
+      "key": "ihk_niederrhein",
+      "url": "https://www.ihk.de/niederrhein/",
+      "label_de": "IHK Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_niederrhein",
+      "url": "https://www.hwk-niederrhein.de/",
+      "label_de": "HWK Duisburg-Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Dorsten": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Eisenach": {
+    "ihk": {
+      "key": "ihk_erfurt",
+      "url": "https://www.ihk.de/erfurt/",
+      "label_de": "IHK Erfurt",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_erfurt",
+      "url": "https://www.hwk-mittelthueringen.de/",
+      "label_de": "HWK Mittelthüringen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Emden": {
+    "ihk": {
+      "key": "ihk_oldenburg",
+      "url": "https://www.ihk.de/oldenburg/",
+      "label_de": "Oldenburgische IHK",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_bremen",
+      "url": "https://www.hwk-bremen.de/",
+      "label_de": "HWK Bremen / Oldenburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Falkensee": {
+    "ihk": {
+      "key": "ihk_potsdam",
+      "url": "https://www.ihk.de/potsdam/",
+      "label_de": "IHK Potsdam",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_potsdam",
+      "url": "https://www.hwk-potsdam.de/",
+      "label_de": "HWK Potsdam (Brandenburg)",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Freising": {
+    "ihk": {
+      "key": "ihk_muenchen",
+      "url": "https://www.muenchen.ihk.de/",
+      "label_de": "IHK für München und Oberbayern",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenchen",
+      "url": "https://www.hwk-muenchen.de/",
+      "label_de": "HWK für München und Oberbayern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Friedrichshafen": {
+    "ihk": {
+      "key": "ihk_bodensee_oberschwaben",
+      "url": "https://www.ihk.de/bodensee-oberschwaben/",
+      "label_de": "IHK Bodensee-Oberschwaben",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_freiburg",
+      "url": "https://www.hwk-freiburg.de/",
+      "label_de": "HWK Südlicher Oberrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Fulda": {
+    "ihk": {
+      "key": "ihk_fulda",
+      "url": "https://www.ihk.de/fulda/",
+      "label_de": "IHK Fulda",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_kassel",
+      "url": "https://www.hwk-kassel.de/",
+      "label_de": "HWK Kassel-Marburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Garbsen": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Greifswald": {
+    "ihk": {
+      "key": "ihk_rostock",
+      "url": "https://www.ihk.de/rostock/",
+      "label_de": "IHK zu Rostock",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_rostock",
+      "url": "https://www.hwk-do-schwerin.de/",
+      "label_de": "HWK Mecklenburg-Vorpommern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Hameln": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Hattingen": {
+    "ihk": {
+      "key": "ihk_mittleres_ruhr",
+      "url": "https://www.ihk.de/bochum/",
+      "label_de": "IHK Mittleres Ruhrgebiet",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dortmund",
+      "url": "https://www.hwk-do.de/",
+      "label_de": "HWK Dortmund",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Herten": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Hürth": {
+    "ihk": {
+      "key": "ihk_koeln",
+      "url": "https://www.ihk.de/koeln/",
+      "label_de": "IHK zu Köln",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koeln",
+      "url": "https://www.hwk-koeln.de/",
+      "label_de": "HWK Köln",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Kerpen": {
+    "ihk": {
+      "key": "ihk_koeln",
+      "url": "https://www.ihk.de/koeln/",
+      "label_de": "IHK zu Köln",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koeln",
+      "url": "https://www.hwk-koeln.de/",
+      "label_de": "HWK Köln",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Landshut": {
+    "ihk": {
+      "key": "ihk_niederbayern",
+      "url": "https://www.ihk-niederbayern.de/",
+      "label_de": "IHK Niederbayern",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenchen",
+      "url": "https://www.hwk-muenchen.de/",
+      "label_de": "HWK für München und Oberbayern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Lingen (Ems)": {
+    "ihk": {
+      "key": "ihk_osnabrueck",
+      "url": "https://www.ihk.de/osnabrueck/",
+      "label_de": "IHK Osnabrück – Emsland – Grafschaft Bentheim",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Lippstadt": {
+    "ihk": {
+      "key": "ihk_arnsberg",
+      "url": "https://www.ihk-arnsberg.de/",
+      "label_de": "IHK Arnsberg, Hellweg-Sauerland",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_suedwestfalen",
+      "url": "https://www.hwk-suedwestfalen.de/",
+      "label_de": "HWK Südwestfalen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Memmingen": {
+    "ihk": {
+      "key": "ihk_augsburg",
+      "url": "https://www.ihk.de/augsburg/",
+      "label_de": "IHK Schwaben (Augsburg)",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_schwaben",
+      "url": "https://www.hwk-schwaben.de/",
+      "label_de": "HWK Schwaben",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Merseburg": {
+    "ihk": {
+      "key": "ihk_halle",
+      "url": "https://www.ihk.de/halle-dessau/",
+      "label_de": "IHK Halle-Dessau",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_magdeburg",
+      "url": "https://www.hwk-sachsen-anhalt.de/",
+      "label_de": "HWK Sachsen-Anhalt",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Mettmann": {
+    "ihk": {
+      "key": "ihk_duesseldorf",
+      "url": "https://www.ihk.de/duesseldorf/",
+      "label_de": "IHK Düsseldorf",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_duesseldorf",
+      "url": "https://www.hwk-duesseldorf.de/",
+      "label_de": "HWK Düsseldorf",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Nagold": {
+    "ihk": {
+      "key": "ihk_reutlingen",
+      "url": "https://www.reutlingen.ihk.de/",
+      "label_de": "IHK Reutlingen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Neu-Ulm": {
+    "ihk": {
+      "key": "ihk_ulm",
+      "url": "https://www.ihk.de/ulm/",
+      "label_de": "IHK Ulm",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_schwaben",
+      "url": "https://www.hwk-schwaben.de/",
+      "label_de": "HWK Schwaben",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Offenburg": {
+    "ihk": {
+      "key": "ihk_freiburg",
+      "url": "https://www.ihk.de/freiburg/",
+      "label_de": "IHK Südlicher Oberrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_freiburg",
+      "url": "https://www.hwk-freiburg.de/",
+      "label_de": "HWK Südlicher Oberrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Passau": {
+    "ihk": {
+      "key": "ihk_niederbayern",
+      "url": "https://www.ihk-niederbayern.de/",
+      "label_de": "IHK Niederbayern",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenchen",
+      "url": "https://www.hwk-muenchen.de/",
+      "label_de": "HWK für München und Oberbayern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Peine": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Pinneberg": {
+    "ihk": {
+      "key": "ihk_hamburg",
+      "url": "https://www.handelskammer-hamburg.de/",
+      "label_de": "Handelskammer Hamburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hamburg",
+      "url": "https://www.hwk-hamburg.de/",
+      "label_de": "HWK Hamburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Plauen": {
+    "ihk": {
+      "key": "ihk_zwickau",
+      "url": "https://www.ihk.de/zwickau/",
+      "label_de": "IHK Zwickau",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_plauen",
+      "url": "https://www.hwk-zwickau-plauen.de/",
+      "label_de": "HWK Zwickau-Plauen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Radebeul": {
+    "ihk": {
+      "key": "ihk_dresden",
+      "url": "https://www.ihk.de/dresden/",
+      "label_de": "IHK Dresden",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dresden",
+      "url": "https://www.hwk-dresden.de/",
+      "label_de": "HWK Dresden",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Rosenheim": {
+    "ihk": {
+      "key": "ihk_muenchen",
+      "url": "https://www.muenchen.ihk.de/",
+      "label_de": "IHK für München und Oberbayern",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenchen",
+      "url": "https://www.hwk-muenchen.de/",
+      "label_de": "HWK für München und Oberbayern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Rüsselsheim am Main": {
+    "ihk": {
+      "key": "ihk_frankfurt",
+      "url": "https://www.frankfurt-main.ihk.de/",
+      "label_de": "IHK Frankfurt am Main",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_frankfurt",
+      "url": "https://www.hwk-frankfurt.de/",
+      "label_de": "HWK Frankfurt-Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Schwäbisch Gmünd": {
+    "ihk": {
+      "key": "ihk_ostwuerttemberg",
+      "url": "https://www.ihk.de/ostwuerttemberg/",
+      "label_de": "IHK Ostwürttemberg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Schwäbisch Hall": {
+    "ihk": {
+      "key": "ihk_heilbronn",
+      "url": "https://www.ihk.de/heilbronn-franken/",
+      "label_de": "IHK Heilbronn-Franken",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_heilbronn",
+      "url": "https://www.hwk-heilbronn.de/",
+      "label_de": "HWK Heilbronn",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Singen (Hohentwiel)": {
+    "ihk": {
+      "key": "ihk_bodensee_oberschwaben",
+      "url": "https://www.ihk.de/bodensee-oberschwaben/",
+      "label_de": "IHK Bodensee-Oberschwaben",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_freiburg",
+      "url": "https://www.hwk-freiburg.de/",
+      "label_de": "HWK Südlicher Oberrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Speyer": {
+    "ihk": {
+      "key": "ihk_pfalz",
+      "url": "https://www.ihk.de/pfalz/",
+      "label_de": "IHK Pfalz",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koblenz",
+      "url": "https://www.hwk-koblenz.de/",
+      "label_de": "HWK Koblenz",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Stade": {
+    "ihk": {
+      "key": "ihk_elbeweser",
+      "url": "https://www.ihk.de/elbeweser/",
+      "label_de": "IHK Elbe-Weser",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Straubing": {
+    "ihk": {
+      "key": "ihk_niederbayern",
+      "url": "https://www.ihk-niederbayern.de/",
+      "label_de": "IHK Niederbayern",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenchen",
+      "url": "https://www.hwk-muenchen.de/",
+      "label_de": "HWK für München und Oberbayern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Suhl": {
+    "ihk": {
+      "key": "ihk_gera",
+      "url": "https://www.ihk.de/gera/",
+      "label_de": "IHK Ostthüringen zu Gera",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_erfurt",
+      "url": "https://www.hwk-mittelthueringen.de/",
+      "label_de": "HWK Mittelthüringen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Unna": {
+    "ihk": {
+      "key": "ihk_dortmund",
+      "url": "https://www.ihk.de/dortmund/",
+      "label_de": "IHK zu Dortmund",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dortmund",
+      "url": "https://www.hwk-do.de/",
+      "label_de": "HWK Dortmund",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Velten": {
+    "ihk": {
+      "key": "ihk_potsdam",
+      "url": "https://www.ihk.de/potsdam/",
+      "label_de": "IHK Potsdam",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_potsdam",
+      "url": "https://www.hwk-potsdam.de/",
+      "label_de": "HWK Potsdam (Brandenburg)",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Waiblingen": {
+    "ihk": {
+      "key": "ihk_stuttgart",
+      "url": "https://www.ihk.de/stuttgart/",
+      "label_de": "IHK Region Stuttgart",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Weimar": {
+    "ihk": {
+      "key": "ihk_erfurt",
+      "url": "https://www.ihk.de/erfurt/",
+      "label_de": "IHK Erfurt",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_erfurt",
+      "url": "https://www.hwk-mittelthueringen.de/",
+      "label_de": "HWK Mittelthüringen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Wetzlar": {
+    "ihk": {
+      "key": "ihk_giessen_friedberg",
+      "url": "https://www.ihk.de/giessen-friedberg/",
+      "label_de": "IHK Gießen-Friedberg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_kassel",
+      "url": "https://www.hwk-kassel.de/",
+      "label_de": "HWK Kassel-Marburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Wismar": {
+    "ihk": {
+      "key": "ihk_rostock",
+      "url": "https://www.ihk.de/rostock/",
+      "label_de": "IHK zu Rostock",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_rostock",
+      "url": "https://www.hwk-do-schwerin.de/",
+      "label_de": "HWK Mecklenburg-Vorpommern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Worms": {
+    "ihk": {
+      "key": "ihk_pfalz",
+      "url": "https://www.ihk.de/pfalz/",
+      "label_de": "IHK Pfalz",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koblenz",
+      "url": "https://www.hwk-koblenz.de/",
+      "label_de": "HWK Koblenz",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Wunstorf": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Zeitz": {
+    "ihk": {
+      "key": "ihk_halle",
+      "url": "https://www.ihk.de/halle-dessau/",
+      "label_de": "IHK Halle-Dessau",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_magdeburg",
+      "url": "https://www.hwk-sachsen-anhalt.de/",
+      "label_de": "HWK Sachsen-Anhalt",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Zweibrücken": {
+    "ihk": {
+      "key": "ihk_pfalz",
+      "url": "https://www.ihk.de/pfalz/",
+      "label_de": "IHK Pfalz",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koblenz",
+      "url": "https://www.hwk-koblenz.de/",
+      "label_de": "HWK Koblenz",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Aalen": {
+    "ihk": {
+      "key": "ihk_ostwuerttemberg",
+      "url": "https://www.ihk.de/ostwuerttemberg/",
+      "label_de": "IHK Ostwürttemberg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bad Homburg vor der Höhe": {
+    "ihk": {
+      "key": "ihk_frankfurt",
+      "url": "https://www.frankfurt-main.ihk.de/",
+      "label_de": "IHK Frankfurt am Main",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_frankfurt",
+      "url": "https://www.hwk-frankfurt.de/",
+      "label_de": "HWK Frankfurt-Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bad Kreuznach": {
+    "ihk": {
+      "key": "ihk_rheinhessen",
+      "url": "https://www.ihk.de/rheinhessen/",
+      "label_de": "IHK Rheinhessen (Mainz/Wiesbaden)",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_wiesbaden",
+      "url": "https://www.hwk-rhein-main.de/",
+      "label_de": "HWK Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bensheim": {
+    "ihk": {
+      "key": "ihk_darmstadt",
+      "url": "https://www.darmstadt.ihk.de/",
+      "label_de": "IHK Darmstadt (Südhessen)",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_frankfurt",
+      "url": "https://www.hwk-frankfurt.de/",
+      "label_de": "HWK Frankfurt-Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Böblingen": {
+    "ihk": {
+      "key": "ihk_stuttgart",
+      "url": "https://www.ihk.de/stuttgart/",
+      "label_de": "IHK Region Stuttgart",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bruchsal": {
+    "ihk": {
+      "key": "ihk_karlsruhe",
+      "url": "https://www.ihk.de/karlsruhe/",
+      "label_de": "IHK Karlsruhe",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_karlsruhe",
+      "url": "https://www.hwk-karlsruhe.de/",
+      "label_de": "HWK Karlsruhe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Buchholz in der Nordheide": {
+    "ihk": {
+      "key": "ihk_elbeweser",
+      "url": "https://www.ihk.de/elbeweser/",
+      "label_de": "IHK Elbe-Weser",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Cloppenburg": {
+    "ihk": {
+      "key": "ihk_oldenburg",
+      "url": "https://www.ihk.de/oldenburg/",
+      "label_de": "Oldenburgische IHK",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_bremen",
+      "url": "https://www.hwk-bremen.de/",
+      "label_de": "HWK Bremen / Oldenburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Coesfeld": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Dachau": {
+    "ihk": {
+      "key": "ihk_muenchen",
+      "url": "https://www.muenchen.ihk.de/",
+      "label_de": "IHK für München und Oberbayern",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenchen",
+      "url": "https://www.hwk-muenchen.de/",
+      "label_de": "HWK für München und Oberbayern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Deggendorf": {
+    "ihk": {
+      "key": "ihk_niederbayern",
+      "url": "https://www.ihk-niederbayern.de/",
+      "label_de": "IHK Niederbayern",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenchen",
+      "url": "https://www.hwk-muenchen.de/",
+      "label_de": "HWK für München und Oberbayern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Eschweiler": {
+    "ihk": {
+      "key": "ihk_aachen",
+      "url": "https://www.ihk.de/aachen/",
+      "label_de": "IHK Aachen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_aachen",
+      "url": "https://www.hwk-aachen.de/",
+      "label_de": "HWK Aachen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Euskirchen": {
+    "ihk": {
+      "key": "ihk_aachen",
+      "url": "https://www.ihk.de/aachen/",
+      "label_de": "IHK Aachen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_aachen",
+      "url": "https://www.hwk-aachen.de/",
+      "label_de": "HWK Aachen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Frechen": {
+    "ihk": {
+      "key": "ihk_koeln",
+      "url": "https://www.ihk.de/koeln/",
+      "label_de": "IHK zu Köln",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koeln",
+      "url": "https://www.hwk-koeln.de/",
+      "label_de": "HWK Köln",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Gießen": {
+    "ihk": {
+      "key": "ihk_giessen_friedberg",
+      "url": "https://www.ihk.de/giessen-friedberg/",
+      "label_de": "IHK Gießen-Friedberg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_kassel",
+      "url": "https://www.hwk-kassel.de/",
+      "label_de": "HWK Kassel-Marburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Gummersbach": {
+    "ihk": {
+      "key": "ihk_hagen",
+      "url": "https://www.ihk.de/hagen/",
+      "label_de": "SIHK zu Hagen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hagen",
+      "url": "https://www.hwk-hagen.de/",
+      "label_de": "HWK Hagen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Hof": {
+    "ihk": {
+      "key": "ihk_bayreuth",
+      "url": "https://www.ihk.de/bayreuth/",
+      "label_de": "IHK für Oberfranken Bayreuth",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittelfranken",
+      "url": "https://www.hwk-mittelfranken.de/",
+      "label_de": "HWK Mittelfranken",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Hoyerswerda": {
+    "ihk": {
+      "key": "ihk_dresden",
+      "url": "https://www.ihk.de/dresden/",
+      "label_de": "IHK Dresden",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dresden",
+      "url": "https://www.hwk-dresden.de/",
+      "label_de": "HWK Dresden",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Kehl": {
+    "ihk": {
+      "key": "ihk_freiburg",
+      "url": "https://www.ihk.de/freiburg/",
+      "label_de": "IHK Südlicher Oberrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_freiburg",
+      "url": "https://www.hwk-freiburg.de/",
+      "label_de": "HWK Südlicher Oberrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Kempen": {
+    "ihk": {
+      "key": "ihk_mittlerer_niederrhein",
+      "url": "https://mittlerer-niederrhein.ihk.de/",
+      "label_de": "IHK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittlerer_niederrhein",
+      "url": "https://www.hwk-mnr.de/",
+      "label_de": "HWK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Kempten (Allgäu)": {
+    "ihk": {
+      "key": "ihk_augsburg",
+      "url": "https://www.ihk.de/augsburg/",
+      "label_de": "IHK Schwaben (Augsburg)",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_schwaben",
+      "url": "https://www.hwk-schwaben.de/",
+      "label_de": "HWK Schwaben",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Korbach": {
+    "ihk": {
+      "key": "ihk_kassel",
+      "url": "https://www.ihk.de/kassel-marburg/",
+      "label_de": "IHK Kassel-Marburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_kassel",
+      "url": "https://www.hwk-kassel.de/",
+      "label_de": "HWK Kassel-Marburg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Limburg an der Lahn": {
+    "ihk": {
+      "key": "ihk_limburg",
+      "url": "https://www.ihk.de/limburg/",
+      "label_de": "IHK Limburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_frankfurt",
+      "url": "https://www.hwk-frankfurt.de/",
+      "label_de": "HWK Frankfurt-Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Lörrach": {
+    "ihk": {
+      "key": "ihk_freiburg",
+      "url": "https://www.ihk.de/freiburg/",
+      "label_de": "IHK Südlicher Oberrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_freiburg",
+      "url": "https://www.hwk-freiburg.de/",
+      "label_de": "HWK Südlicher Oberrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Meppen": {
+    "ihk": {
+      "key": "ihk_osnabrueck",
+      "url": "https://www.ihk.de/osnabrueck/",
+      "label_de": "IHK Osnabrück – Emsland – Grafschaft Bentheim",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Mühlhausen": {
+    "ihk": {
+      "key": "ihk_erfurt",
+      "url": "https://www.ihk.de/erfurt/",
+      "label_de": "IHK Erfurt",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_erfurt",
+      "url": "https://www.hwk-mittelthueringen.de/",
+      "label_de": "HWK Mittelthüringen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Nordhausen": {
+    "ihk": {
+      "key": "ihk_erfurt",
+      "url": "https://www.ihk.de/erfurt/",
+      "label_de": "IHK Erfurt",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_erfurt",
+      "url": "https://www.hwk-mittelthueringen.de/",
+      "label_de": "HWK Mittelthüringen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Riesa": {
+    "ihk": {
+      "key": "ihk_dresden",
+      "url": "https://www.ihk.de/dresden/",
+      "label_de": "IHK Dresden",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dresden",
+      "url": "https://www.hwk-dresden.de/",
+      "label_de": "HWK Dresden",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Schwerte": {
+    "ihk": {
+      "key": "ihk_dortmund",
+      "url": "https://www.ihk.de/dortmund/",
+      "label_de": "IHK zu Dortmund",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dortmund",
+      "url": "https://www.hwk-do.de/",
+      "label_de": "HWK Dortmund",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Stendal": {
+    "ihk": {
+      "key": "ihk_magdeburg",
+      "url": "https://www.ihk.de/magdeburg/",
+      "label_de": "IHK Magdeburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_magdeburg",
+      "url": "https://www.hwk-sachsen-anhalt.de/",
+      "label_de": "HWK Sachsen-Anhalt",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Achim": {
+    "ihk": {
+      "key": "ihk_elbeweser",
+      "url": "https://www.ihk.de/elbeweser/",
+      "label_de": "IHK Elbe-Weser",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Ahaus": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Albstadt": {
+    "ihk": {
+      "key": "ihk_reutlingen",
+      "url": "https://www.reutlingen.ihk.de/",
+      "label_de": "IHK Reutlingen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Alsdorf": {
+    "ihk": {
+      "key": "ihk_aachen",
+      "url": "https://www.ihk.de/aachen/",
+      "label_de": "IHK Aachen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_aachen",
+      "url": "https://www.hwk-aachen.de/",
+      "label_de": "HWK Aachen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Andernach": {
+    "ihk": {
+      "key": "ihk_koblenz",
+      "url": "https://www.ihk.de/koblenz/",
+      "label_de": "IHK Mittlerer Rhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_koblenz",
+      "url": "https://www.hwk-koblenz.de/",
+      "label_de": "HWK Koblenz",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Aschaffenburg": {
+    "ihk": {
+      "key": "ihk_aschaffenburg",
+      "url": "https://www.ihk.de/aschaffenburg/",
+      "label_de": "IHK Aschaffenburg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittelfranken",
+      "url": "https://www.hwk-mittelfranken.de/",
+      "label_de": "HWK Mittelfranken",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bad Nauheim": {
+    "ihk": {
+      "key": "ihk_wiesbaden",
+      "url": "https://www.ihk.de/wiesbaden/",
+      "label_de": "IHK Wiesbaden",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_wiesbaden",
+      "url": "https://www.hwk-rhein-main.de/",
+      "label_de": "HWK Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bad Oeynhausen": {
+    "ihk": {
+      "key": "ihk_ostwestfalen",
+      "url": "https://www.ihk.de/ostwestfalen/",
+      "label_de": "IHK Ostwestfalen zu Bielefeld",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_ostwestfalen",
+      "url": "https://www.hwk-owl.de/",
+      "label_de": "HWK Ostwestfalen-Lippe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bad Salzuflen": {
+    "ihk": {
+      "key": "ihk_ostwestfalen",
+      "url": "https://www.ihk.de/ostwestfalen/",
+      "label_de": "IHK Ostwestfalen zu Bielefeld",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_ostwestfalen",
+      "url": "https://www.hwk-owl.de/",
+      "label_de": "HWK Ostwestfalen-Lippe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bad Vilbel": {
+    "ihk": {
+      "key": "ihk_wiesbaden",
+      "url": "https://www.ihk.de/wiesbaden/",
+      "label_de": "IHK Wiesbaden",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_wiesbaden",
+      "url": "https://www.hwk-rhein-main.de/",
+      "label_de": "HWK Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Balingen": {
+    "ihk": {
+      "key": "ihk_reutlingen",
+      "url": "https://www.reutlingen.ihk.de/",
+      "label_de": "IHK Reutlingen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Barsinghausen": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Beckum": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bietigheim-Bissingen": {
+    "ihk": {
+      "key": "ihk_stuttgart",
+      "url": "https://www.ihk.de/stuttgart/",
+      "label_de": "IHK Region Stuttgart",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Bramsche": {
+    "ihk": {
+      "key": "ihk_osnabrueck",
+      "url": "https://www.ihk.de/osnabrueck/",
+      "label_de": "IHK Osnabrück – Emsland – Grafschaft Bentheim",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Burgdorf": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Burgwedel": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Buxtehude": {
+    "ihk": {
+      "key": "ihk_elbeweser",
+      "url": "https://www.ihk.de/elbeweser/",
+      "label_de": "IHK Elbe-Weser",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Delbrück": {
+    "ihk": {
+      "key": "ihk_ostwestfalen",
+      "url": "https://www.ihk.de/ostwestfalen/",
+      "label_de": "IHK Ostwestfalen zu Bielefeld",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_ostwestfalen",
+      "url": "https://www.hwk-owl.de/",
+      "label_de": "HWK Ostwestfalen-Lippe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Diepholz": {
+    "ihk": {
+      "key": "ihk_osnabrueck",
+      "url": "https://www.ihk.de/osnabrueck/",
+      "label_de": "IHK Osnabrück – Emsland – Grafschaft Bentheim",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Dietzenbach": {
+    "ihk": {
+      "key": "ihk_darmstadt",
+      "url": "https://www.darmstadt.ihk.de/",
+      "label_de": "IHK Darmstadt (Südhessen)",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_frankfurt",
+      "url": "https://www.hwk-frankfurt.de/",
+      "label_de": "HWK Frankfurt-Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Dormagen": {
+    "ihk": {
+      "key": "ihk_mittlerer_niederrhein",
+      "url": "https://mittlerer-niederrhein.ihk.de/",
+      "label_de": "IHK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittlerer_niederrhein",
+      "url": "https://www.hwk-mnr.de/",
+      "label_de": "HWK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Eberswalde": {
+    "ihk": {
+      "key": "ihk_potsdam",
+      "url": "https://www.ihk.de/potsdam/",
+      "label_de": "IHK Potsdam",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_potsdam",
+      "url": "https://www.hwk-potsdam.de/",
+      "label_de": "HWK Potsdam (Brandenburg)",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Ellwangen (Jagst)": {
+    "ihk": {
+      "key": "ihk_ostwuerttemberg",
+      "url": "https://www.ihk.de/ostwuerttemberg/",
+      "label_de": "IHK Ostwürttemberg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Ennepetal": {
+    "ihk": {
+      "key": "ihk_hagen",
+      "url": "https://www.ihk.de/hagen/",
+      "label_de": "SIHK zu Hagen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hagen",
+      "url": "https://www.hwk-hagen.de/",
+      "label_de": "HWK Hagen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Forchheim": {
+    "ihk": {
+      "key": "ihk_bayreuth",
+      "url": "https://www.ihk.de/bayreuth/",
+      "label_de": "IHK für Oberfranken Bayreuth",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittelfranken",
+      "url": "https://www.hwk-mittelfranken.de/",
+      "label_de": "HWK Mittelfranken",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Germering": {
+    "ihk": {
+      "key": "ihk_muenchen",
+      "url": "https://www.muenchen.ihk.de/",
+      "label_de": "IHK für München und Oberbayern",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenchen",
+      "url": "https://www.hwk-muenchen.de/",
+      "label_de": "HWK für München und Oberbayern",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Gevelsberg": {
+    "ihk": {
+      "key": "ihk_hagen",
+      "url": "https://www.ihk.de/hagen/",
+      "label_de": "SIHK zu Hagen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hagen",
+      "url": "https://www.hwk-hagen.de/",
+      "label_de": "HWK Hagen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Grevenbroich": {
+    "ihk": {
+      "key": "ihk_mittlerer_niederrhein",
+      "url": "https://mittlerer-niederrhein.ihk.de/",
+      "label_de": "IHK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittlerer_niederrhein",
+      "url": "https://www.hwk-mnr.de/",
+      "label_de": "HWK Mittlerer Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Gronau (Westf.)": {
+    "ihk": {
+      "key": "ihk_nordwestfalen",
+      "url": "https://www.ihk.de/nordwestfalen/",
+      "label_de": "IHK Nord Westfalen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_muenster",
+      "url": "https://www.hwk-muenster.de/",
+      "label_de": "HWK Münster",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Haan": {
+    "ihk": {
+      "key": "ihk_duesseldorf",
+      "url": "https://www.ihk.de/duesseldorf/",
+      "label_de": "IHK Düsseldorf",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_duesseldorf",
+      "url": "https://www.hwk-duesseldorf.de/",
+      "label_de": "HWK Düsseldorf",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Heinsberg": {
+    "ihk": {
+      "key": "ihk_aachen",
+      "url": "https://www.ihk.de/aachen/",
+      "label_de": "IHK Aachen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_aachen",
+      "url": "https://www.hwk-aachen.de/",
+      "label_de": "HWK Aachen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Helmstedt": {
+    "ihk": {
+      "key": "ihk_braunschweig",
+      "url": "https://www.ihk.de/braunschweig/",
+      "label_de": "IHK Braunschweig",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Hemer": {
+    "ihk": {
+      "key": "ihk_hagen",
+      "url": "https://www.ihk.de/hagen/",
+      "label_de": "SIHK zu Hagen",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hagen",
+      "url": "https://www.hwk-hagen.de/",
+      "label_de": "HWK Hagen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Herford": {
+    "ihk": {
+      "key": "ihk_ostwestfalen",
+      "url": "https://www.ihk.de/ostwestfalen/",
+      "label_de": "IHK Ostwestfalen zu Bielefeld",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_ostwestfalen",
+      "url": "https://www.hwk-owl.de/",
+      "label_de": "HWK Ostwestfalen-Lippe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Hockenheim": {
+    "ihk": {
+      "key": "ihk_rhein_neckar",
+      "url": "https://www.ihk.de/rhein-neckar/",
+      "label_de": "IHK Rhein-Neckar",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_stuttgart",
+      "url": "https://www.hwk-stuttgart.de/",
+      "label_de": "HWK Stuttgart",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Hohen Neuendorf": {
+    "ihk": {
+      "key": "ihk_potsdam",
+      "url": "https://www.ihk.de/potsdam/",
+      "label_de": "IHK Potsdam",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_potsdam",
+      "url": "https://www.hwk-potsdam.de/",
+      "label_de": "HWK Potsdam (Brandenburg)",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Holzminden": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Idar-Oberstein": {
+    "ihk": {
+      "key": "ihk_trier",
+      "url": "https://www.ihk.de/trier/",
+      "label_de": "IHK Trier",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_trier",
+      "url": "https://www.hwk-trier.de/",
+      "label_de": "HWK Trier",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Ilmenau": {
+    "ihk": {
+      "key": "ihk_gera",
+      "url": "https://www.ihk.de/gera/",
+      "label_de": "IHK Ostthüringen zu Gera",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_erfurt",
+      "url": "https://www.hwk-mittelthueringen.de/",
+      "label_de": "HWK Mittelthüringen",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Kamp-Lintfort": {
+    "ihk": {
+      "key": "ihk_niederrhein",
+      "url": "https://www.ihk.de/niederrhein/",
+      "label_de": "IHK Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_niederrhein",
+      "url": "https://www.hwk-niederrhein.de/",
+      "label_de": "HWK Duisburg-Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Kamen": {
+    "ihk": {
+      "key": "ihk_dortmund",
+      "url": "https://www.ihk.de/dortmund/",
+      "label_de": "IHK zu Dortmund",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_dortmund",
+      "url": "https://www.hwk-do.de/",
+      "label_de": "HWK Dortmund",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Kevelaer": {
+    "ihk": {
+      "key": "ihk_niederrhein",
+      "url": "https://www.ihk.de/niederrhein/",
+      "label_de": "IHK Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_niederrhein",
+      "url": "https://www.hwk-niederrhein.de/",
+      "label_de": "HWK Duisburg-Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Kleve": {
+    "ihk": {
+      "key": "ihk_niederrhein",
+      "url": "https://www.ihk.de/niederrhein/",
+      "label_de": "IHK Niederrhein",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_niederrhein",
+      "url": "https://www.hwk-niederrhein.de/",
+      "label_de": "HWK Duisburg-Niederrhein",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Königswinter": {
+    "ihk": {
+      "key": "ihk_bonn_rhein_sieg",
+      "url": "https://www.bonn.ihk.de/",
+      "label_de": "IHK Bonn/Rhein-Sieg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_bonn",
+      "url": "https://www.hwk-bonn.de/",
+      "label_de": "HWK Rhein-Sieg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Langen (Hessen)": {
+    "ihk": {
+      "key": "ihk_darmstadt",
+      "url": "https://www.darmstadt.ihk.de/",
+      "label_de": "IHK Darmstadt (Südhessen)",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_frankfurt",
+      "url": "https://www.hwk-frankfurt.de/",
+      "label_de": "HWK Frankfurt-Rhein-Main",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Lehrte": {
+    "ihk": {
+      "key": "ihk_hannover",
+      "url": "https://www.ihk.de/hannover/",
+      "label_de": "IHK Hannover",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_hannover",
+      "url": "https://www.hwk-hannover.de/",
+      "label_de": "HWK Hannover",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Lemgo": {
+    "ihk": {
+      "key": "ihk_ostwestfalen",
+      "url": "https://www.ihk.de/ostwestfalen/",
+      "label_de": "IHK Ostwestfalen zu Bielefeld",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_ostwestfalen",
+      "url": "https://www.hwk-owl.de/",
+      "label_de": "HWK Ostwestfalen-Lippe",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Lohmar": {
+    "ihk": {
+      "key": "ihk_bonn_rhein_sieg",
+      "url": "https://www.bonn.ihk.de/",
+      "label_de": "IHK Bonn/Rhein-Sieg",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_bonn",
+      "url": "https://www.hwk-bonn.de/",
+      "label_de": "HWK Rhein-Sieg",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Nürnberg": {
+    "ihk": {
+      "key": "ihk_nuernberg",
+      "url": "https://www.ihk-nuernberg.de/",
+      "label_de": "IHK Nürnberg für Mittelfranken",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittelfranken",
+      "url": "https://www.hwk-mittelfranken.de/",
+      "label_de": "HWK Mittelfranken",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  },
+  "Nörenberg": {
+    "ihk": {
+      "key": "ihk_nuernberg",
+      "url": "https://www.ihk-nuernberg.de/",
+      "label_de": "IHK Nürnberg für Mittelfranken",
+      "exact": true
+    },
+    "hwk": {
+      "key": "hwk_mittelfranken",
+      "url": "https://www.hwk-mittelfranken.de/",
+      "label_de": "HWK Mittelfranken",
+      "exact": true
+    },
+    "gewerbe": {
+      "key": "service_bund",
+      "url": "https://www.service-bund.de/Service/DE/Home/home_node.html",
+      "label_de": "service-bund.de (Bundesportal)",
+      "exact": false
+    }
+  }
+}

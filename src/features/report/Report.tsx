@@ -7,24 +7,14 @@ import { computeTax } from '@/lib/finance/tax';
 import type { SurveyAnswers } from '@/features/questionnaire/types';
 import type { LegalForm } from '@/lib/rules/legal-form-engine';
 import { FinanceSection } from './FinanceSection';
+import { LegalFormSection } from './LegalFormSection';
+import { ComplianceSection } from './ComplianceSection';
 import { Button } from '@/components/ui/Button';
 import styles from './Report.module.css';
 
 
 // Legacy survey draft key — the same one the questionnaire writes.
 const STORAGE_KEY = 'bk_survey_sess';
-// TODO(9.5 part 1): replace with the per-city Hebesatz once the CITIES data is
-// added; until then every city uses the nationwide average.
-const HEBESATZ_FALLBACK = 400;
-
-// German display labels for the legal forms (legacy used these across locales).
-const LEGAL_FORM_LABELS: Record<LegalForm, string> = {
-    einzelunternehmen: 'Einzelunternehmen',
-    ug: 'UG (haftungsbeschränkt)',
-    gmbh: 'GmbH',
-    gbr: 'GbR',
-    partg: 'PartG',
-};
 
 type ReportState =
     | { status: 'loading' }
@@ -47,10 +37,10 @@ function readAnswers(): SurveyAnswers | null {
 
 /**
  * Report container. Reads the saved answers on the client, orchestrates them
- * via buildReport, holds the active legal form (the switcher in a later step
- * changes it) and computes the tax for that form. Renders the legal-form header
- * and the finance section; the legal-form switcher and compliance section are
- * added in later steps.
+ * via buildReport, holds the active legal form (the switcher changes it) and
+ * computes the tax for that form with the city's Hebesatz. Renders the
+ * legal-form section and the finance section; the compliance section is added
+ * in a later step.
  */
 function Report() {
     const t = useTranslations('report');
@@ -104,24 +94,28 @@ function Report() {
         staffFulltime: data.finance.staffFulltime,
         staffMinijob: data.finance.staffMinijob,
         staffSalaryFt: data.finance.staffSalaryFt,
-        hebesatz: HEBESATZ_FALLBACK,
+        hebesatz: data.city.hebesatz,
         legalForm: form,
         freiberuflerEligible: data.activity.freiberuflerEligible,
     });
 
     return (
         <div className={styles.wrap}>
-            <header className={styles.header}>
-                <div className={styles.legalForm}>
-                    <span className={styles.legalFormLabel}>{t('legalFormLabel')}</span>{' '}
-                    <strong>{LEGAL_FORM_LABELS[form]}</strong>
-                </div>
-                <span className={data.legalForm.status === 'freiberuflich' ? styles.badgeFb : styles.badgeGew}>
-                    {t(`status.${data.legalForm.status}`)}
-                </span>
-            </header>
+            <LegalFormSection
+                recommended={data.legalForm.recommended}
+                eligible={data.legalForm.eligible}
+                activeForm={form}
+                status={data.legalForm.status}
+                onSelectForm={(selected) => setActiveForm(selected)}
+            />
 
-            <FinanceSection report={data} tax={tax} hebesatz={HEBESATZ_FALLBACK} />
+            <FinanceSection report={data} tax={tax} hebesatz={data.city.hebesatz} />
+
+            <ComplianceSection
+                compliance={data.compliance}
+                authorities={data.authorities.organs}
+                bundesland={data.city.bundesland}
+            />
         </div>
     );
 }

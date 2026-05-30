@@ -29,8 +29,8 @@ function normalizeActivityText(text: string): string {
     return text.toLowerCase().replace(/\s+/g, ' ').trim();
 }
 
-// Strip a data rule down to the port's output shape (drops keywords /
-// linkOverride, which are matching / link-resolution concerns).
+// Strip a data rule down to the port's output shape (drops keywords, which is
+// a matching concern; keeps linkOverride, which the authority resolver needs).
 function toRule(data: ComplianceRuleData): ComplianceRule {
     return {
         key: data.key,
@@ -41,6 +41,7 @@ function toRule(data: ComplianceRuleData): ComplianceRule {
         requiresRecognition: data.requiresRecognition,
         requiresMeisterbrief: data.requiresMeisterbrief,
         authorityType: data.authorityType,
+        linkOverride: data.linkOverride,
     };
 }
 

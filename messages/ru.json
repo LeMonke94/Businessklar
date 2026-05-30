@@ -675,6 +675,251 @@
             "voranmeldung": "USt-Voranmeldung",
             "voranmeldungHint": "через ELSTER, до 10-го числа"
         },
-        "kleinunternehmer": "Ваш оборот ниже 25.000 EUR: возможен режим Kleinunternehmerregelung (§ 19 UStG). НДС не взимается, но нельзя указывать 19% в счёте. Уточните у Steuerberater."
+        "kleinunternehmer": "Ваш оборот ниже 25.000 EUR: возможен режим Kleinunternehmerregelung (§ 19 UStG). НДС не взимается, но нельзя указывать 19% в счёте. Уточните у Steuerberater.",
+        "recommended": "Рекомендуется",
+        "legalFormDescriptions": {
+            "einzelunternehmen": "Вы несёте личную ответственность своим имуществом. Нет минимального уставного капитала.",
+            "ug": "Ответственность ограничена имуществом общества. Необходим нотариус и Handelsregister. Обязательное формирование резерва.",
+            "gmbh": "Ответственность ограничена имуществом общества. Минимальный уставный капитал 25.000 EUR. Необходим нотариус и Handelsregister.",
+            "gbr": "Простейшая форма для 2+ партнёров. Личная ответственность всех участников. Нет минимального уставного капитала. Gewerbeanmeldung для каждого партнёра.",
+            "partg": "Специальная форма для 2+ представителей свободных профессий. Регистрация в Partnerschaftsregister обязательна. Без Gewerbesteuer."
+        }
+    },
+    "compliance": {
+        "title": "Требования и ограничения",
+        "legalIntro": "Информационный обзор, не заменяет консультацию юриста. Земля по городу:",
+        "legalUnknown": "не определена автоматически — уточните для своего Ortsteil.",
+        "fbSensitive": {
+            "title": "Внимание",
+            "body": "Для этого вида деятельности в Германии могут действовать особые требования: лицензия, регистрация, признание квалификации или членство в палате. Проверьте zuständige IHK, Handwerkskammer или официальные finder."
+        },
+        "noMatch": {
+            "title": "Справка",
+            "body": "По описанию нет явного совпадения с профилями. Это не значит, что лицензии не нужны — проверьте GewO, земельное право и палаты."
+        },
+        "severity": {
+            "high": "Высокий риск",
+            "medium": "Внимание",
+            "info": "Справка"
+        },
+        "label": {
+            "what": "Что важно",
+            "mayNeed": "Что может потребоваться",
+            "next": "Дальше",
+            "risk": "Риск",
+            "legal": "Примечание",
+            "authority": "Орган (пояснение)",
+            "handwerk": "Handwerk",
+            "recognition": "Признание квалификации",
+            "link": "Ссылка"
+        },
+        "extraFb": "Дополнительно: описание похоже на чувствительную сферу — перепроверьте требования в камере и у регулятора.",
+        "bundesland": {
+            "BE": "Берлин (город-земля)",
+            "HH": "Гамбург (город-земля)",
+            "HB": "Бремен (город-земля)",
+            "BB": "Бранденбург",
+            "NW": "Северный Рейн-Вестфалия",
+            "NI": "Нижняя Саксония",
+            "HE": "Гессен",
+            "RP": "Рейнланд-Пфальц",
+            "BW": "Баден-Вюртемберг",
+            "BY": "Бавария",
+            "SL": "Саар",
+            "TH": "Тюрингия",
+            "SN": "Саксония",
+            "ST": "Саксония-Анхальт",
+            "MV": "Мекленбург-Передняя Померания",
+            "SH": "Шлезвиг-Гольштейн"
+        },
+        "ruleText": {
+            "steuerberatung": {
+                "title": "Налоговое консультирование / Steuerberatung",
+                "authority": "Камера налоговых консультантов земли (Steuerberaterkammer)",
+                "docs": "Членство в Steuerberaterkammer, экзамен Steuerberaterprüfung (или признание диплома).",
+                "message": "Консультирование как Steuerberater регулируется; нужна квалификация и камера.",
+                "next": "Steuerberaterkammer земли и при необходимости Anerkennung.",
+                "risk": "Консультирование без допуска влечёт профессиональные санкции.",
+                "legal": "Не юридическая консультация."
+            },
+            "wirtschaftspruefung": {
+                "title": "Аудит / Wirtschaftsprüfung",
+                "authority": "Wirtschaftsprüferkammer",
+                "docs": "Статус WP — отдельное регулирование.",
+                "message": "Аудит и услуги WP строго регулируются.",
+                "next": "WPK / региональные требования.",
+                "risk": "Высокий риск при неправильном титуле.",
+                "legal": "Информационно."
+            },
+            "rechtsanwalt": {
+                "title": "Юридические услуги / Rechtsanwalt",
+                "authority": "Rechtsanwaltskammer земли",
+                "docs": "Допуск к Rechtsanwaltskammer (2. Staatsexamen и др.).",
+                "message": "Услуги как Rechtsanwalt требуют допуска.",
+                "next": "Rechtsanwaltskammer соответствующей земли.",
+                "risk": "Консультирование без допуска может быть уголовно наказуемым.",
+                "legal": "Информационно."
+            },
+            "notar": {
+                "title": "Нотариус / Notar",
+                "authority": "Landesjustizbehörde / Notarkammer",
+                "docs": "Amtsnotar — особый путь.",
+                "message": "Нотариат регулируется государством.",
+                "next": "Только через органы юстиции земли.",
+                "risk": "Имитация нотариальных действий недопустима.",
+                "legal": "Информационно."
+            },
+            "medizin": {
+                "title": "Медицина / Approbation",
+                "authority": "Landesprüfungsamt / Landesärztekammer",
+                "docs": "Approbation / Berufserlaubnis.",
+                "message": "Меддеятельность требует Approbation или разрешения.",
+                "next": "Landesbehörde; Anerkennung.",
+                "risk": "Лечение без допуска — серьёзные последствия.",
+                "legal": "Информационно."
+            },
+            "apotheke": {
+                "title": "Фармацевтика / Apotheke",
+                "authority": "Landesbehörden / Apothekenkammer",
+                "docs": "Erlaubnis nach Apothekengesetz.",
+                "message": "Аптеки и часть фармдеятельности строго регулируются.",
+                "next": "Органы здравоохранения земли.",
+                "risk": "Высокий риск без лицензии.",
+                "legal": "Информационно."
+            },
+            "vers34d": {
+                "title": "Страхование § 34d GewO",
+                "authority": "BaFin / регистрация",
+                "docs": "Erlaubnis § 34d, IHK.",
+                "message": "Посредничество обычно требует § 34d.",
+                "next": "IHK и BaFin.",
+                "risk": "Без допуска — риск по GewO.",
+                "legal": "Информационно."
+            },
+            "fin34f": {
+                "title": "Инвестиции § 34f GewO",
+                "authority": "IHK / BaFin",
+                "docs": "Erlaubnis § 34f.",
+                "message": "Посредничество по финпродуктам регулируется.",
+                "next": "IHK и BaFin.",
+                "risk": "Высокий регуляторный риск.",
+                "legal": "Информационно."
+            },
+            "immob34c": {
+                "title": "Недвижимость § 34c GewO",
+                "authority": "IHK — § 34c",
+                "docs": "Gewerbeanmeldung и § 34c.",
+                "message": "Посредничество требует разрешения.",
+                "next": "Zuständige IHK.",
+                "risk": "Без Erlaubnis — нарушение GewO.",
+                "legal": "Информационно."
+            },
+            "immob34i": {
+                "title": "Кредиты § 34i GewO",
+                "authority": "IHK — § 34i",
+                "docs": "Erlaubnis § 34i.",
+                "message": "Посредничество по кредитам — отдельное разрешение.",
+                "next": "IHK региона.",
+                "risk": "Существенные санкции.",
+                "legal": "Информационно."
+            },
+            "sicher34a": {
+                "title": "Охрана § 34a GewO",
+                "authority": "IHK — § 34a",
+                "docs": "Sachkundeprüfung.",
+                "message": "Охрана требует квалификации § 34a.",
+                "next": "IHK Organisationfinder.",
+                "risk": "Риск без квалификации.",
+                "legal": "Информационно."
+            },
+            "transport": {
+                "title": "Перевозки",
+                "authority": "Straßenverkehrsbehörde / Ordnungsamt",
+                "docs": "Konzessionen по виду.",
+                "message": "Коммерческие перевозки — разрешения.",
+                "next": "Земельный департамент / город.",
+                "risk": "Штрафы без лицензий.",
+                "legal": "Информационно."
+            },
+            "gastro_alk": {
+                "title": "Гастрономия и алкоголь",
+                "authority": "Ordnungsamt / Gewerbeamt",
+                "docs": "Gaststättenkonzession, Anzeigen.",
+                "message": "Алкоголь и заведение — разрешения.",
+                "next": "Gemeinde / Ordnungsamt.",
+                "risk": "Штрафы и закрытие.",
+                "legal": "Информационно."
+            },
+            "handwerk_a": {
+                "title": "Handwerk Anlage A",
+                "authority": "Handwerkskammer",
+                "docs": "Handwerksrolle; Meisterbrief.",
+                "message": "Anlage A — внесение в Handwerksrolle.",
+                "next": "Handwerkskammer региона.",
+                "risk": "Санкции без внесения.",
+                "legal": "Информационно."
+            },
+            "handwerk_b": {
+                "title": "Handwerk Anlage B",
+                "authority": "Handwerkskammer",
+                "docs": "Anzeige bei HWK.",
+                "message": "Часть услуг Anlage B — уведомление HWK.",
+                "next": "Региональная HWK.",
+                "risk": "Штрафы.",
+                "legal": "Информационно."
+            },
+            "buchhaltung_eu": {
+                "title": "Бухгалтерия (ограничения)",
+                "authority": "Gewerbeanmeldung",
+                "docs": "Не путать с Steuerberater.",
+                "message": "Простая бухгалтерия — регистрация; без ложных титулов.",
+                "next": "IHK / Finanzamt.",
+                "risk": "Неправильные титулы.",
+                "legal": "Информационно."
+            },
+            "lehrer_reg": {
+                "title": "Педагогические профессии",
+                "authority": "Министерство образования",
+                "docs": "Anerkennung.",
+                "message": "Часто нужно признание диплома.",
+                "next": "Anerkennungs-Finder.",
+                "risk": "Риск с детьми без допуска.",
+                "legal": "Информационно."
+            },
+            "it_low_risk": {
+                "title": "IT / дизайн (часто без §)",
+                "authority": "Gewerbeanmeldung / Freiberufler",
+                "docs": "Регистрация.",
+                "message": "Многие IT-услуги без §§ 34a–34i, но нужна форма бизнеса.",
+                "next": "Finanzamt / IHK.",
+                "risk": "Низкий отраслевой риск.",
+                "legal": "Информационно."
+            }
+        },
+        "portal": {
+            "exact": "Ваш zuständige орган (официальный сайт)",
+            "fallback": "Официальный finder / портал"
+        },
+        "fallbackDisclaimer": "Показан общий официальный портал или finder; точный местный орган зависит от города/земли (Ortsteil) — уточните на сайте выбора региона.",
+        "note": {
+            "linkOverride": "Официальный источник надзора/информации (Bund/Landesstelle).",
+            "hwkExact": "Региональная Handwerkskammer для выбранного города (официальный сайт).",
+            "hwkFb": "Портал ZDH — выберите региональную HWK на сайте.",
+            "ihkExact": "Региональная IHK для выбранного города (официальный сайт).",
+            "ihkFb": "IHK-Organisationfinder — выберите регион на dihk.de.",
+            "gewExact": "Официальный городской/земельный портал услуг (Gewerbe/Verwaltung).",
+            "gewFb": "Федеральный портал — уточните локальный Gewerbeamt/Finanzamt.",
+            "anerk": "Anerkennung in Deutschland — выбор профессии и земли; для допуска затем Landesbehörde.",
+            "taxiExact": "Локальный портал; разрешения — у Ordnungsamt/Straßenverkehrsbehörde.",
+            "taxiFb": "Общий портал; транспортные разрешения зависят от вида и земли.",
+            "ordExact": "Локальный портал; Gaststätte — в Gemeinde/Ordnungsamt.",
+            "ordFb": "Уточните Gemeinde/Ordnungsamt; алкоголь — при необходимости zoll.de.",
+            "defExact": "Региональная IHK.",
+            "defFb": "IHK-Organisationfinder.",
+            "handA": "Anlage A: Handwerksrolle; Meisterbrief — уточняйте в HWK.",
+            "handB": "Anlage B: по профессии Anzeige bei HWK; список на сайте HWK.",
+            "recogAn": "Иностранное образование: маршрут через Anerkennung in Deutschland, затем Landesbehörde.",
+            "recogGen": "При иностранной квалификации проверьте Gleichwertigkeit — Anerkennung in Deutschland."
+        }
     }
 }

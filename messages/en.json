@@ -675,6 +675,251 @@
             "voranmeldung": "USt-Voranmeldung",
             "voranmeldungHint": "via ELSTER, by 10th"
         },
-        "kleinunternehmer": "Your revenue is below 25,000 EUR: Kleinunternehmerregelung (§ 19 UStG) may be available. No VAT charged, but 19% cannot be shown on invoices. Clarify with a Steuerberater."
+        "kleinunternehmer": "Your revenue is below 25,000 EUR: Kleinunternehmerregelung (§ 19 UStG) may be available. No VAT charged, but 19% cannot be shown on invoices. Clarify with a Steuerberater.",
+        "recommended": "Recommended",
+        "legalFormDescriptions": {
+            "einzelunternehmen": "Personal liability with your private assets. No minimum capital required.",
+            "ug": "Liability generally limited to company assets. Notary and Handelsregister required. Mandatory reserve accumulation.",
+            "gmbh": "Liability generally limited to company assets. Minimum share capital 25,000 EUR. Notary and Handelsregister required.",
+            "gbr": "Simplest form for 2+ partners. Personal liability of all partners. No minimum capital required. Gewerbeanmeldung per partner.",
+            "partg": "Special form for 2+ liberal professionals. Registration in Partnerschaftsregister required. No Gewerbesteuer."
+        }
+    },
+    "compliance": {
+        "title": "Requirements and limits",
+        "legalIntro": "Information only, not legal advice. Federal state from city:",
+        "legalUnknown": "not detected automatically — check your district (Ortsteil).",
+        "fbSensitive": {
+            "title": "Notice",
+            "body": "This activity may need licences, registration, recognition of qualifications, or chamber membership in Germany. Check the competent IHK, Handwerkskammer, or chamber, or use the official finders."
+        },
+        "noMatch": {
+            "title": "Notice",
+            "body": "No automatic match to our stored profiles. That does not mean no licences apply — check GewO, state law, and chambers."
+        },
+        "severity": {
+            "high": "High risk",
+            "medium": "Notice",
+            "info": "Info"
+        },
+        "label": {
+            "what": "What matters",
+            "mayNeed": "Possible documents / requirements",
+            "next": "Next steps",
+            "risk": "Risk",
+            "legal": "Note",
+            "authority": "Responsible body (explanation)",
+            "handwerk": "Handwerk",
+            "recognition": "Recognition of qualifications",
+            "link": "Link"
+        },
+        "extraFb": "Also: your description looks sensitive — double-check requirements with the chamber and authority.",
+        "bundesland": {
+            "BE": "Berlin (city-state)",
+            "HH": "Hamburg (city-state)",
+            "HB": "Bremen (city-state)",
+            "BB": "Brandenburg",
+            "NW": "North Rhine-Westphalia",
+            "NI": "Lower Saxony",
+            "HE": "Hesse",
+            "RP": "Rhineland-Palatinate",
+            "BW": "Baden-Württemberg",
+            "BY": "Bavaria",
+            "SL": "Saarland",
+            "TH": "Thuringia",
+            "SN": "Saxony",
+            "ST": "Saxony-Anhalt",
+            "MV": "Mecklenburg-Vorpommern",
+            "SH": "Schleswig-Holstein"
+        },
+        "ruleText": {
+            "steuerberatung": {
+                "title": "Tax advisory / Steuerberatung",
+                "authority": "State chamber of tax advisors (Steuerberaterkammer)",
+                "docs": "Chamber membership, Steuerberaterprüfung (or recognition of foreign degrees).",
+                "message": "Acting as Steuerberater is regulated; you need qualification and chamber membership.",
+                "next": "Check the Steuerberaterkammer of your state and recognition if needed.",
+                "risk": "Advising without admission can trigger professional sanctions.",
+                "legal": "Information only; verify your case."
+            },
+            "wirtschaftspruefung": {
+                "title": "Audit / Wirtschaftsprüfung",
+                "authority": "Wirtschaftsprüferkammer (WPK)",
+                "docs": "WP status — strictly regulated.",
+                "message": "Audits of public companies and WP services are strictly regulated.",
+                "next": "Contact WPK / regional requirements.",
+                "risk": "High regulatory risk if titles are misused.",
+                "legal": "Informational."
+            },
+            "rechtsanwalt": {
+                "title": "Legal services / Rechtsanwalt",
+                "authority": "Bar association of the state (Rechtsanwaltskammer)",
+                "docs": "Admission to Rechtsanwaltskammer (2. Staatsexamen, etc.).",
+                "message": "Offering legal services as Rechtsanwalt requires admission.",
+                "next": "Rechtsanwaltskammer of the relevant state.",
+                "risk": "Legal advice without admission may be criminal (e.g. § 203 StGB).",
+                "legal": "Informational."
+            },
+            "notar": {
+                "title": "Notary / Notar",
+                "authority": "State justice authority / Notarkammer",
+                "docs": "Amtsnotar — separate career path.",
+                "message": "Notarial activity is state-regulated.",
+                "next": "Only via state justice authorities.",
+                "risk": "Imitating notarial acts is not allowed.",
+                "legal": "Informational."
+            },
+            "medizin": {
+                "title": "Healthcare / Approbation",
+                "authority": "State examination office / medical chamber (depending on case)",
+                "docs": "Approbation / Berufserlaubnis, registration.",
+                "message": "Medical practice requires Approbation or permit.",
+                "next": "State health authority; recognition of foreign degrees.",
+                "risk": "Treating patients without admission has serious consequences.",
+                "legal": "Informational."
+            },
+            "apotheke": {
+                "title": "Pharmacy / Apotheke",
+                "authority": "State health authorities / Apothekenkammer",
+                "docs": "Permit under Apothekengesetz.",
+                "message": "Pharmacy activities are strictly regulated.",
+                "next": "State health authorities.",
+                "risk": "High risk when trading medicines without a licence.",
+                "legal": "Informational."
+            },
+            "vers34d": {
+                "title": "Insurance intermediation § 34d GewO",
+                "authority": "BaFin / register",
+                "docs": "§ 34d GewO permission, IHK registration.",
+                "message": "Insurance mediation usually requires a § 34d permit.",
+                "next": "Check IHK and BaFin requirements.",
+                "risk": "Mediation without a permit may breach GewO.",
+                "legal": "Informational; verify licence type."
+            },
+            "fin34f": {
+                "title": "Financial investments § 34f GewO",
+                "authority": "IHK / BaFin (depending on product)",
+                "docs": "§ 34f GewO permit.",
+                "message": "Intermediation for financial products is regulated.",
+                "next": "Check IHK and BaFin.",
+                "risk": "High regulatory risk.",
+                "legal": "Informational."
+            },
+            "immob34c": {
+                "title": "Real estate § 34c GewO",
+                "authority": "IHK — § 34c GewO",
+                "docs": "Business registration and § 34c permit.",
+                "message": "Professional real estate brokerage requires a permit.",
+                "next": "Competent IHK.",
+                "risk": "Working without a permit may breach GewO.",
+                "legal": "Informational."
+            },
+            "immob34i": {
+                "title": "Mortgage intermediation § 34i GewO",
+                "authority": "IHK — § 34i GewO",
+                "docs": "§ 34i permit.",
+                "message": "Mortgage loan intermediation needs a separate permit.",
+                "next": "Regional IHK.",
+                "risk": "Substantial sanctions if violated.",
+                "legal": "Informational."
+            },
+            "sicher34a": {
+                "title": "Security services § 34a GewO",
+                "authority": "IHK — § 34a qualification",
+                "docs": "Sachkundeprüfung / instruction.",
+                "message": "Security work requires § 34a qualification.",
+                "next": "IHK organisation finder.",
+                "risk": "Risk without required qualification.",
+                "legal": "Informational."
+            },
+            "transport": {
+                "title": "Passenger transport",
+                "authority": "Road traffic authority / Ordnungsamt",
+                "docs": "Permits depend on transport type.",
+                "message": "Commercial passenger transport usually needs permits.",
+                "next": "State transport department / municipality.",
+                "risk": "Fines and seizure without licences.",
+                "legal": "Informational."
+            },
+            "gastro_alk": {
+                "title": "Gastronomy / alcohol",
+                "authority": "Ordnungsamt / trade office — restaurant licence",
+                "docs": "Restaurant permit, notifications, business registration.",
+                "message": "Serving alcohol and operating require permits.",
+                "next": "Municipality / Ordnungsamt.",
+                "risk": "Fines and closure if violated.",
+                "legal": "Informational."
+            },
+            "handwerk_a": {
+                "title": "Craft Anlage A (Handwerksrolle)",
+                "authority": "Competent Handwerkskammer",
+                "docs": "Entry in Handwerksrolle; Meisterbrief or authorised person.",
+                "message": "Anlage A trades must be entered in the Handwerksrolle.",
+                "next": "Regional Handwerkskammer (see link).",
+                "risk": "Serious sanctions without registration.",
+                "legal": "Informational."
+            },
+            "handwerk_b": {
+                "title": "Craft-related / Anlage B",
+                "authority": "Handwerkskammer — notification",
+                "docs": "Depending on trade: notification to HWK.",
+                "message": "Some Anlage B services require HWK notification.",
+                "next": "Check regional HWK.",
+                "risk": "Fines if notification missing.",
+                "legal": "Informational."
+            },
+            "buchhaltung_eu": {
+                "title": "Bookkeeping (trade)",
+                "authority": "Business registration; do not advertise as Steuerberater",
+                "docs": "Do not confuse with Steuerberater.",
+                "message": "Simple bookkeeping as a trade needs registration; no false titles.",
+                "next": "IHK / Finanzamt.",
+                "risk": "Misuse of titles.",
+                "legal": "Informational."
+            },
+            "lehrer_reg": {
+                "title": "Regulated teaching professions",
+                "authority": "Ministry of education / recognition",
+                "docs": "Recognition of foreign certificates.",
+                "message": "Teaching roles often need recognition of your degree.",
+                "next": "Anerkennung finder / authority.",
+                "risk": "High risk working with children without clearance.",
+                "legal": "Informational."
+            },
+            "it_low_risk": {
+                "title": "IT / creative (often no special permit)",
+                "authority": "Business registration / freelancer — Finanzamt",
+                "docs": "Register your activity.",
+                "message": "Many IT/creative services do not need §§ 34a–34i, but correct legal form matters.",
+                "next": "Finanzamt / IHK info.",
+                "risk": "Low sector risk; still check contracts and taxes.",
+                "legal": "Informational; exceptions exist."
+            }
+        },
+        "portal": {
+            "exact": "Your competent authority (official site)",
+            "fallback": "Official finder / portal"
+        },
+        "fallbackDisclaimer": "A general official portal or finder is shown; the exact local office depends on city and state (Ortsteil) — select the region on the site.",
+        "note": {
+            "linkOverride": "Official supervisory information source (federal/state).",
+            "hwkExact": "Regional Handwerkskammer for your city (official website).",
+            "hwkFb": "ZDH portal — select the regional HWK on the site.",
+            "ihkExact": "Regional IHK for your city (official website).",
+            "ihkFb": "IHK organisation finder — choose region on dihk.de.",
+            "gewExact": "Official city/state services portal (trade/admin).",
+            "gewFb": "Federal portal — confirm local Gewerbeamt/Finanzamt.",
+            "anerk": "Anerkennung in Deutschland — pick profession and state; for licensing, then the state authority.",
+            "taxiExact": "Local portal; concessions/permits from Ordnungsamt/road traffic authority.",
+            "taxiFb": "General portal; transport permits depend on type and state.",
+            "ordExact": "Local portal; restaurant licence/notifications with municipality/Ordnungsamt.",
+            "ordFb": "Check municipality/Ordnungsamt; for alcohol see federal topics on zoll.de if needed.",
+            "defExact": "Regional IHK.",
+            "defFb": "IHK organisation finder.",
+            "handA": "Anlage A: entry in Handwerksrolle; Meisterbrief / registration — confirm with your HWK.",
+            "handB": "Anlage B (handwerk-like): depending on trade, notification to HWK; occupation list on the regional site.",
+            "recogAn": "Foreign professional qualification: route via Anerkennung in Deutschland, then the state chamber/licensing body.",
+            "recogGen": "If your qualification is foreign, also check equivalence — see Anerkennung in Deutschland."
+        }
     }
 }

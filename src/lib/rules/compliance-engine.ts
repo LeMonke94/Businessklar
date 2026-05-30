@@ -36,6 +36,11 @@ type ComplianceRule = {
     requiresMeisterbrief: boolean;
     // e.g. 'STB_Kammer', 'WPK', 'RAK', 'GESUNDHEIT' — verbatim from legacy.
     authorityType: string;
+    // Legacy link_override: an official-source key (into OFFICIAL_FALLBACKS)
+    // that wins over authorityType when resolving the authority link. Not
+    // human-readable text — a structural pointer, resolved to a URL by the
+    // authority resolver (Phase 9.5). null when there is no override.
+    linkOverride: string | null;
 };
 
 type ComplianceInput = {

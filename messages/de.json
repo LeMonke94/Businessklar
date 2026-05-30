@@ -675,6 +675,251 @@
             "voranmeldung": "USt-Voranmeldung",
             "voranmeldungHint": "via ELSTER, bis 10."
         },
-        "kleinunternehmer": "Ihr Umsatz liegt unter 25.000 EUR: Kleinunternehmerregelung (§ 19 UStG) kann anwendbar sein. Keine USt-Pflicht, aber kein Ausweis auf Rechnung. Bitte mit Steuerberater klären."
+        "kleinunternehmer": "Ihr Umsatz liegt unter 25.000 EUR: Kleinunternehmerregelung (§ 19 UStG) kann anwendbar sein. Keine USt-Pflicht, aber kein Ausweis auf Rechnung. Bitte mit Steuerberater klären.",
+        "recommended": "Empfohlen",
+        "legalFormDescriptions": {
+            "einzelunternehmen": "Sie haften grundsätzlich persönlich mit Ihrem Privatvermögen. Kein gesetzliches Mindestkapital.",
+            "ug": "Haftung grundsätzlich auf das Gesellschaftsvermögen beschränkt. Notar und Handelsregister erforderlich. Rücklagenpflicht.",
+            "gmbh": "Haftung grundsätzlich auf das Gesellschaftsvermögen beschränkt. Mindeststammkapital 25.000 EUR. Notar und Handelsregister erforderlich.",
+            "gbr": "Einfachste Form für 2+ Partner. Persönliche Haftung aller Gesellschafter. Kein Mindestkapital. Gewerbeanmeldung je Gesellschafter.",
+            "partg": "Spezielle Form für 2+ Freiberufler. Eintragung im Partnerschaftsregister erforderlich. Keine Gewerbesteuer."
+        }
+    },
+    "compliance": {
+        "title": "Anforderungen und Grenzen",
+        "legalIntro": "Informationsüberblick, ersetzt keine Rechtsberatung. Bundesland laut Ort:",
+        "legalUnknown": "nicht automatisch erkannt — prüfen Sie Ihren Ortsteil.",
+        "fbSensitive": {
+            "title": "Hinweis",
+            "body": "Für diese Tätigkeit können in Deutschland besondere Anforderungen gelten: Lizenz, Anmeldung, Anerkennung oder Kammermitgliedschaft. Prüfen Sie die zuständige IHK, Handwerkskammer oder Kammer bzw. die offiziellen Finder."
+        },
+        "noMatch": {
+            "title": "Hinweis",
+            "body": "Zu Ihrer Beschreibung gibt es keine automatische Übereinstimmung mit den hinterlegten Profilen. Das heißt nicht, dass keine Lizenzen nötig sind — prüfen Sie GewO, Landesrecht und Kammern."
+        },
+        "severity": {
+            "high": "Hohes Risiko",
+            "medium": "Hinweis",
+            "info": "Info"
+        },
+        "label": {
+            "what": "Was wichtig ist",
+            "mayNeed": "Mögliche Unterlagen / Voraussetzungen",
+            "next": "Nächste Schritte",
+            "risk": "Risiko",
+            "legal": "Hinweis",
+            "authority": "Zuständigkeit (Erklärung)",
+            "handwerk": "Handwerk",
+            "recognition": "Anerkennung der Qualifikation",
+            "link": "Link"
+        },
+        "extraFb": "Zusätzlich: Die Beschreibung wirkt sensibel — prüfen Sie Anforderungen bei Kammer und Behörde.",
+        "bundesland": {
+            "BE": "Berlin (Stadtstaat)",
+            "HH": "Hamburg (Stadtstaat)",
+            "HB": "Bremen (Stadtstaat)",
+            "BB": "Brandenburg",
+            "NW": "Nordrhein-Westfalen",
+            "NI": "Niedersachsen",
+            "HE": "Hessen",
+            "RP": "Rheinland-Pfalz",
+            "BW": "Baden-Württemberg",
+            "BY": "Bayern",
+            "SL": "Saarland",
+            "TH": "Thüringen",
+            "SN": "Sachsen",
+            "ST": "Sachsen-Anhalt",
+            "MV": "Mecklenburg-Vorpommern",
+            "SH": "Schleswig-Holstein"
+        },
+        "ruleText": {
+            "steuerberatung": {
+                "title": "Steuerberatung",
+                "authority": "Steuerberaterkammer des Bundeslandes — Kammer für Steuerberater",
+                "docs": "Mitgliedschaft in der Steuerberaterkammer, Steuerberaterprüfung (oder Anerkennung ausländischer Abschlüsse).",
+                "message": "Beratung als Steuerberater ist reguliert; Qualifikation und Kammerzugehörigkeit nötig.",
+                "next": "Steuerberaterkammer des Bundeslandes und ggf. Anerkennung prüfen.",
+                "risk": "Beratung ohne Zulassung kann berufsrechtliche Folgen haben.",
+                "legal": "Keine Rechtsberatung; Einzelfall prüfen."
+            },
+            "wirtschaftspruefung": {
+                "title": "Wirtschaftsprüfung / Audit",
+                "authority": "Wirtschaftsprüferkammer (WPK)",
+                "docs": "WP-Status / Vorläufer — streng reguliert.",
+                "message": "Prüfung öffentlicher Unternehmen und WP-Tätigkeiten ist streng reguliert.",
+                "next": "WPK und landesspezifische Anforderungen.",
+                "risk": "Hohes Regulierungsrisiko bei falscher Titelführung.",
+                "legal": "Informationshinweis."
+            },
+            "rechtsanwalt": {
+                "title": "Rechtsanwalt / juristische Beratung",
+                "authority": "Rechtsanwaltskammer des Bundeslandes",
+                "docs": "Zulassung zur Rechtsanwaltskammer (2. Staatsexamen u. a.).",
+                "message": "Rechtsdienstleistungen als Rechtsanwalt erfordern Zulassung.",
+                "next": "Rechtsanwaltskammer des jeweiligen Bundeslandes.",
+                "risk": "Rechtsberatung ohne Zulassung kann strafbar sein (u. a. § 203 StGB).",
+                "legal": "Informationshinweis."
+            },
+            "notar": {
+                "title": "Notariat / Notar",
+                "authority": "Landesjustizbehörde / Notarkammer",
+                "docs": "Amtsnotar — eigener Werdegang.",
+                "message": "Notariat ist staatlich/reguliert.",
+                "next": "Nur über Landesjustiz / offizielle Kanäle.",
+                "risk": "Nachahmung notarieller Handlungen ist unzulässig.",
+                "legal": "Informationshinweis."
+            },
+            "medizin": {
+                "title": "Medizin / Approbation",
+                "authority": "Landesprüfungsamt / Landesärztekammer (je nach Status)",
+                "docs": "Approbation / Berufserlaubnis, Registrierung.",
+                "message": "Medizinische Tätigkeit erfordert Approbation oder Erlaubnis.",
+                "next": "Landesgesundheitsbehörde; Anerkennung ausländischer Abschlüsse.",
+                "risk": "Behandlung ohne Zulassung — schwerwiegende Folgen.",
+                "legal": "Informationshinweis."
+            },
+            "apotheke": {
+                "title": "Apotheke / Pharmazie",
+                "authority": "Landesbehörden Gesundheitswesen / Apothekenkammer",
+                "docs": "Erlaubnis nach Apothekengesetz.",
+                "message": "Apotheken und Teile der Pharmatätigkeit sind streng reguliert.",
+                "next": "Landesbehörden Gesundheitswesen.",
+                "risk": "Hohes Risiko beim Handel ohne Lizenz.",
+                "legal": "Informationshinweis."
+            },
+            "vers34d": {
+                "title": "Versicherung § 34d GewO",
+                "authority": "BaFin / Vermittlerregister",
+                "docs": "Erlaubnis nach § 34d GewO, IHK-Eintrag.",
+                "message": "Versicherungsvermittlung erfordert in der Regel § 34d-Erlaubnis.",
+                "next": "IHK und BaFin-Anforderungen prüfen.",
+                "risk": "Vermittlung ohne Erlaubnis kann gegen GewO verstoßen.",
+                "legal": "Informationshinweis; genaue Lizenzart prüfen."
+            },
+            "fin34f": {
+                "title": "Finanzanlagen § 34f GewO",
+                "authority": "IHK / BaFin (je nach Produkt)",
+                "docs": "Erlaubnis nach § 34f GewO.",
+                "message": "Vermittlung von Finanzanlagen ist reguliert.",
+                "next": "IHK und BaFin prüfen.",
+                "risk": "Hohes Regulierungsrisiko.",
+                "legal": "Informationshinweis."
+            },
+            "immob34c": {
+                "title": "Immobilien § 34c GewO",
+                "authority": "IHK — § 34c GewO",
+                "docs": "Gewerbeanmeldung und § 34c-Erlaubnis.",
+                "message": "Gewerbsmäßige Immobilienvermittlung erfordert eine Erlaubnis.",
+                "next": "Zuständige IHK.",
+                "risk": "Tätigkeit ohne Erlaubnis kann gegen GewO verstoßen.",
+                "legal": "Informationshinweis."
+            },
+            "immob34i": {
+                "title": "Immobiliardarlehen § 34i GewO",
+                "authority": "IHK — § 34i GewO",
+                "docs": "Erlaubnis nach § 34i.",
+                "message": "Kreditvermittlung für Immobilien — gesonderte Erlaubnis.",
+                "next": "IHK der Region.",
+                "risk": "Erhebliche Sanktionen bei Verstößen.",
+                "legal": "Informationshinweis."
+            },
+            "sicher34a": {
+                "title": "Sicherheitsgewerbe § 34a GewO",
+                "authority": "IHK — Sachkundeprüfung § 34a",
+                "docs": "Sachkundeprüfung / Unterrichtung.",
+                "message": "Sicherheitsdienst erfordert Qualifikation nach § 34a.",
+                "next": "IHK-Organisationfinder.",
+                "risk": "Risiko ohne erforderliche Qualifikation.",
+                "legal": "Informationshinweis."
+            },
+            "transport": {
+                "title": "Personenbeförderung / Transport",
+                "authority": "Straßenverkehrsbehörde / Ordnungsamt",
+                "docs": "Konzessionen, Genehmigungen — je nach Transportart.",
+                "message": "Gewerblicher Personenverkehr erfordert in der Regel Genehmigungen.",
+                "next": "Landesverkehrsbehörde / Kommune.",
+                "risk": "Bußgelder und Entzug ohne Konzessionen.",
+                "legal": "Informationshinweis."
+            },
+            "gastro_alk": {
+                "title": "Gastronomie / Alkohol",
+                "authority": "Ordnungsamt / Gewerbeamt — Gaststättenerlaubnis",
+                "docs": "Gaststättenkonzession, Anzeigen, Gewerbeanmeldung.",
+                "message": "Alkoholausschank und Betrieb erfordern Genehmigungen.",
+                "next": "Gemeinde / Ordnungsamt.",
+                "risk": "Bußgelder und Schließung bei Verstößen.",
+                "legal": "Informationshinweis."
+            },
+            "handwerk_a": {
+                "title": "Handwerk Anlage A (Handwerksrolle)",
+                "authority": "Zuständige Handwerkskammer",
+                "docs": "Eintragung in die Handwerksrolle; Meisterbrief oder berechtigte Person.",
+                "message": "Anlage-A-Handwerke müssen in die Handwerksrolle eingetragen werden.",
+                "next": "Regionale Handwerkskammer (siehe Link).",
+                "risk": "Erhebliche Sanktionen ohne Eintragung.",
+                "legal": "Informationshinweis."
+            },
+            "handwerk_b": {
+                "title": "Handwerk nahe / Anlage B",
+                "authority": "Handwerkskammer — Anzeige nach Liste",
+                "docs": "Je nach Beruf: Anzeige bei HWK.",
+                "message": "Einige Anlage-B-Berufe erfordern Anzeige bei der HWK.",
+                "next": "Regionale HWK prüfen.",
+                "risk": "Ordnungswidrigkeiten bei fehlender Anzeige.",
+                "legal": "Informationshinweis."
+            },
+            "buchhaltung_eu": {
+                "title": "Buchhaltung (Gewerbe)",
+                "authority": "Gewerbeanmeldung; keine Steuerberater-Werbung",
+                "docs": "Nicht mit Steuerberater verwechseln.",
+                "message": "Einfache Buchhaltung als Gewerbe — Anmeldung; keine Titelmissbräuche.",
+                "next": "IHK / Finanzamt.",
+                "risk": "Falsche Titelnutzung.",
+                "legal": "Informationshinweis."
+            },
+            "lehrer_reg": {
+                "title": "Reglementierte pädagogische Berufe",
+                "authority": "Kultusministerium / Anerkennung",
+                "docs": "Anerkennung ausländischer Zeugnisse.",
+                "message": "Pädagogische Tätigkeiten erfordern oft Anerkennung.",
+                "next": "Anerkennungs-Finder / Behörde.",
+                "risk": "Hohes Risiko bei Arbeit mit Kindern ohne Zulassung.",
+                "legal": "Informationshinweis."
+            },
+            "it_low_risk": {
+                "title": "IT / Kreativ (oft ohne Sondererlaubnis)",
+                "authority": "Gewerbeanmeldung / Freiberufler — Finanzamt",
+                "docs": "Tätigkeitsanmeldung.",
+                "message": "Viele IT-/Kreativdienste brauchen keine §§ 34a–34i, aber korrekte Rechtsform.",
+                "next": "Finanzamt / IHK-Infocenter.",
+                "risk": "Geringes Branchenrisiko; Verträge und Steuern prüfen.",
+                "legal": "Informationshinweis; Ausnahmen möglich."
+            }
+        },
+        "portal": {
+            "exact": "Ihre zuständige Stelle (offizielle Website)",
+            "fallback": "Offizieller Finder / Portal"
+        },
+        "fallbackDisclaimer": "Es wird ein allgemeines offizielles Portal oder Finder gezeigt; die genaue lokale Stelle hängt von Stadt und Bundesland (Ortsteil) ab — wählen Sie die Region auf der Website.",
+        "note": {
+            "linkOverride": "Offizielle Informationsquelle der Aufsicht (Bund/Land).",
+            "hwkExact": "Regionale Handwerkskammer für Ihren Ort (offizielle Website).",
+            "hwkFb": "ZDH-Portal — wählen Sie die regionale HWK auf der Website.",
+            "ihkExact": "Regionale IHK für Ihren Ort (offizielle Website).",
+            "ihkFb": "IHK-Organisationfinder — Region auf dihk.de wählen.",
+            "gewExact": "Offizielles Stadt-/Landesportal (Gewerbe/Verwaltung).",
+            "gewFb": "Bundesportal — lokalen Gewerbeamt/Finanzamt prüfen.",
+            "anerk": "Anerkennung in Deutschland — Beruf und Land wählen; für die Zulassung danach die Landesbehörde.",
+            "taxiExact": "Lokales Portal; Konzessionen/Genehmigungen bei Ordnungsamt/Straßenverkehrsbehörde.",
+            "taxiFb": "Allgemeines Portal; Transportgenehmigungen hängen von Art und Land ab.",
+            "ordExact": "Lokales Portal; Gaststättenkonzession/Anzeigen bei Gemeinde/Ordnungsamt.",
+            "ordFb": "Gemeinde/Ordnungsamt prüfen; zu Alkohol ggf. Bundesthemen auf zoll.de.",
+            "defExact": "Regionale IHK.",
+            "defFb": "IHK-Organisationfinder.",
+            "handA": "Anlage A: Eintragung in die Handwerksrolle; Meisterbrief / Eintrag — Details bei Ihrer HWK.",
+            "handB": "Anlage B (handwerksähnlich): je nach Beruf Anzeige bei der HWK; Berufsliste auf der regionalen Website.",
+            "recogAn": "Ausländische Berufsqualifikation: Weg über Anerkennung in Deutschland, dann Landesbehörde der Kammer/Zulassung.",
+            "recogGen": "Bei ausländischer Qualifikation zusätzlich Gleichwertigkeit prüfen — siehe Anerkennung in Deutschland."
+        }
     }
 }
