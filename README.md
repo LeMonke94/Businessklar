@@ -161,20 +161,31 @@ routing on static pages
 
 # Changes
 
-| Feature             | Legacy                               | Rebuild                                           | Advantage                                               |
-|---------------------|--------------------------------------|---------------------------------------------------|---------------------------------------------------------|
-| Routing             | HTML-File for each Page              | Dynamic File-System based                         | Persistent state across pages - no full page reload     |
-| Env-Secrets         | Hardcoded for each HTML              | Zod-validated central                             | Fail-fast on missing config                             |   
-| Server-State        | No Cache                             | TanStack Query as Cache-Layer with Auto-Refetch   | Fewer network calls, less code                          |
-| Supabase-Connection | One Supabase Client in Browser       | 3 Context-Based Clients (Browser, Server, Proxy)  | Server-side auth, automatic refresh                     | 
-| i18n                | Inline Objects                       | next-intl with JSON-Files type-safe               | Type-safe keys, new languages without code change       |
-| Home-Page           | Monolithic HTML                      | Component-Based                                   | Reusable components, isolated styles, easier to extend  |
-| Auth                | Inline Supabase calls in bk-auth.js  | Layered: UI → Hook → Service → Provider Interface | Swap auth backend by changing one file; testable layers |
-| Auth-Errors         | Raw Supabase error strings           | Stable error codes (union type) → translations    | Errors survive backend changes, fully localized         |
-| Auth-State (UI)     | Manual reload to sync login state    | TanStack Query + cross-tab subscription           | Live sync across tabs, no reload needed                 |
-| Forms               | Manual DOM validation                | React Hook Form + Zod, two-layer validation       | Type-safe, instant feedback, shared validation schema   |
-| Language Switch     | Query-param + localStorage + reload  | Path-based, preserves current page                | Shareable URLs, no reload, no lost state                |
-| Glossary            | Inline JS data + DOM toggle          | Structure (TS) + content (JSON), accordion state  | Iterable, type-safe structure, content isolated         |
+| Feature                    | Legacy                                          | Rebuild                                                        | Advantage                                                             |
+|----------------------------|-------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------------------------|
+| Routing                    | HTML-File for each Page                         | Dynamic File-System based                                      | Persistent state across pages - no full page reload                   |
+| Env-Secrets                | Hardcoded for each HTML                         | Zod-validated central                                          | Fail-fast on missing config                                           |
+| Server-State               | No Cache                                        | TanStack Query as Cache-Layer with Auto-Refetch                | Fewer network calls, less code                                        |
+| Supabase-Connection        | One Supabase Client in Browser                  | 3 Context-Based Clients (Browser, Server, Proxy)               | Server-side auth, automatic refresh                                   |
+| i18n                       | Inline Objects                                  | next-intl with JSON-Files type-safe                            | Type-safe keys, new languages without code change                     |
+| Home-Page                  | Monolithic HTML                                 | Component-Based                                                | Reusable components, isolated styles, easier to extend                |
+| Auth                       | Inline Supabase calls in bk-auth.js             | Layered: UI → Hook → Service → Provider Interface              | Swap auth backend by changing one file; testable layers               |
+| Auth-Errors                | Raw Supabase error strings                      | Stable error codes (union type) → translations                 | Errors survive backend changes, fully localized                       |
+| Auth-State (UI)            | Manual reload to sync login state               | TanStack Query + cross-tab subscription                        | Live sync across tabs, no reload needed                               |
+| Forms                      | Manual DOM validation                           | React Hook Form + Zod, two-layer validation                    | Type-safe, instant feedback, shared validation schema                 |
+| Language Switch            | Query-param + localStorage + reload             | Path-based, preserves current page                             | Shareable URLs, no reload, no lost state                              |
+| Glossary                   | Inline JS data + DOM toggle                     | Structure (TS) + content (JSON), accordion state               | Iterable, type-safe structure, content isolated                       |
+| Questionnaire              | Global state + DOM mutation in index.html       | useQuestionnaire hook, sessionStorage autosave, Zod validation | Typed answers, resumable on reload, step conditions declarative       |
+| Activity Detection         | Inline keyword match in generateReport          | Port/Adapter engine (local → swappable for LLM/Supabase)       | Same interface, implementation replaceable without touching UI        |
+| Legal Form Engine          | Decision tree hardcoded in generateReport       | Port/Adapter engine, pure + async-wrapped                      | Isolated, testable, swappable                                         |
+| Compliance Engine          | activityComplianceRules global in JS file       | Port/Adapter engine + data file, language-neutral rule keys    | Rules in one file, UI needs no change when rules change               |
+| Authority Resolver         | resolveAuthorities baked i18n into HTML output  | Pure resolver returning keys only; view resolves via next-intl | lib stays i18n-free; can run server-side                              |
+| Tax Calculation            | Inline in generateReport (5000-line function)   | lib/finance/tax.ts — pure, both branches, same constants       | Independently testable, no DOM dependency                             |
+| Registration Steps         | Hardcoded step list in generateReport           | deriveRegistrationSteps — pure, driven by legal form + city    | Legal-form switcher recalculates steps live                           |
+| Insurance Recommendations  | Hardcoded insData array in generateReport       | deriveInsurances — pure, driven by activity + extras           | Declarative conditions, easy to extend                                |
+| Obligations Calendar       | Hardcoded cal array in generateReport           | deriveObligations — pure, driven by form + staff + FB flag     | Single source of truth per condition                                  |
+| Report                     | One 400-line generateReport function, DOM write | Composed sections, each a typed React component                | Sections independent, active legal form rerenders only affected parts |
+| City Autocomplete          | Bundesland code shown as badge                  | Hebesatz (%) shown as badge, city_hb stored on selection       | Matches legacy UX, report uses correct per-city trade-tax rate        |
 
 ---
 
