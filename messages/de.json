@@ -544,7 +544,10 @@
         "steps": {
             "activity": {
                 "title": "Art der Tätigkeit",
-                "hint": "Tätigkeit eingeben — das System erkennt Kategorie und BG automatisch."
+                "hint": "Tätigkeit eingeben — das System erkennt Kategorie und BG automatisch.",
+                "placeholder": "z.B.: Webentwicklung, Restaurant, Beratung…",
+                "detected": "Erkannt:",
+                "freiberufler": "Freiberufler möglich"
             },
             "founders": {
                 "title": "Anzahl der Gründer",
@@ -566,7 +569,9 @@
             },
             "city": {
                 "title": "Anmeldestadt",
-                "hint": "Stadt beeinflusst die Gewerbesteuer. Bitte Stadtnamen auf Deutsch eingeben."
+                "hint": "Stadt beeinflusst die Gewerbesteuer. Bitte Stadtnamen auf Deutsch eingeben.",
+                "placeholder": "z.B. Düsseldorf, München, Berlin (auf Deutsch)…",
+                "fallback": "Stadt nicht in der Liste: Es wird der bundesweit übliche durchschnittliche Hebesatz 400 % verwendet. Bitte Stadtnamen auf Deutsch eingeben oder Zahl mit einem Steuerberater prüfen."
             },
             "revenue": {
                 "title": "Geplanter Umsatz",
@@ -610,6 +615,16 @@
                     "none": "Nichts davon"
                 }
             }
+        },
+        "validation": {
+            "activity": "Bitte die Art der Tätigkeit eingeben.",
+            "activityDetect": "Bitte eine erkannte Kategorie wählen oder die Beschreibung präzisieren.",
+            "founders": "Bitte die Anzahl der Gründer wählen.",
+            "liability": "Bitte die Haftungspräferenz wählen.",
+            "city": "Bitte die Anmeldestadt eingeben.",
+            "revenue": "Bitte einen gültigen Umsatz (Zahl ≥ 0) eingeben.",
+            "expenses": "Bitte gültige monatliche Ausgaben (Zahl ≥ 0) eingeben.",
+            "salary": "Bitte einen gültigen Bruttolohn für Vollzeit eingeben."
         }
     }
 }

@@ -1,20 +1,30 @@
 'use client';
 
+import { useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import { useQuestionnaire } from '@/features/questionnaire/hooks/useQuestionnaire';
 import { steps } from '@/features/questionnaire/steps';
+import { validateStep } from '@/features/questionnaire/schemas';
 import { QuestionnaireStep } from './QuestionnaireStep';
 import { Button } from '@/components/ui/Button';
+import type { Step, SurveyAnswers } from '@/features/questionnaire/types';
 import styles from './Survey.module.css';
 
 
 /**
  * The questionnaire shell: progress bar, the active step (its title, hint and
  * control via QuestionnaireStep) and back/next navigation. All survey state
- * lives in useQuestionnaire; this component is only the chrome around it.
+ * lives in useQuestionnaire; this component is the chrome around it.
  */
 function Survey() {
     const t = useTranslations();
+
+    // Per-step validation backed by the Zod schemas.
+    const validate = useCallback(
+        (step: Step, answers: SurveyAnswers) => validateStep(step.id, answers),
+        [],
+    );
+
     const {
         answers,
         setAnswers,
@@ -24,10 +34,12 @@ function Survey() {
         progress,
         isFirstStep,
         isLastStep,
+        currentError,
         goNext,
         goBack,
+        trySubmit,
         isHydrated,
-    } = useQuestionnaire({ steps });
+    } = useQuestionnaire({ steps, validate });
 
     // Hold rendering until the saved draft has been read, so a resumed session
     // does not flash the first step before being restored.
@@ -35,10 +47,11 @@ function Survey() {
         return null;
     }
 
-    // TODO (Etappe 9.4 / 9.5): on the final step, run the engines and render the
-    // report. For now finishing is a no-op — the report does not exist yet.
     const handleFinish = () => {
-        // report generation will be wired here
+        if (!trySubmit()) {
+            return;
+        }
+        // TODO (Etappe 9.4 / 9.5): run the engines and render the report.
     };
 
     return (
@@ -55,7 +68,12 @@ function Survey() {
                 <h2 className={styles.title}>{t(currentStep.titleKey)}</h2>
                 <p className={styles.hint}>{t(currentStep.hintKey)}</p>
 
-                <QuestionnaireStep step={currentStep} answers={answers} setAnswers={setAnswers} />
+                <QuestionnaireStep
+                    step={currentStep}
+                    answers={answers}
+                    setAnswers={setAnswers}
+                    error={currentError ? t(currentError) : undefined}
+                />
             </div>
 
             <div className={styles.nav}>

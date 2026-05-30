@@ -1,0 +1,97 @@
+.wrap {
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    padding: var(--space-4) var(--space-5);
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-family: var(--font-sans);
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    transition: var(--transition-fast);
+}
+
+.input:focus {
+    outline: none;
+    border-color: var(--color-gold);
+}
+
+.inputError {
+    border-color: var(--color-error);
+}
+
+.list {
+    position: absolute;
+    top: calc(100% + var(--space-1));
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin: 0;
+    padding: var(--space-1);
+    list-style: none;
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-card);
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    width: 100%;
+    padding: var(--space-3) var(--space-4);
+    background: transparent;
+    border: none;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-family: var(--font-sans);
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    text-align: left;
+}
+
+.item:hover {
+    background: rgba(201, 168, 76, 0.12);
+}
+
+.term {
+    flex: 1;
+}
+
+.badge {
+    flex-shrink: 0;
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-pill);
+    padding: 2px var(--space-2);
+}
+
+.detected {
+    margin-top: var(--space-3);
+    font-size: var(--font-size-sm);
+    color: var(--color-success);
+}
+
+.check {
+    font-weight: 700;
+}
+
+.fallback {
+    margin-top: var(--space-3);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.error {
+    margin-top: var(--space-3);
+    font-size: var(--font-size-xs);
+    color: var(--color-error);
+}

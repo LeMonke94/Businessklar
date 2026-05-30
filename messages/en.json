@@ -544,7 +544,10 @@
         "steps": {
             "activity": {
                 "title": "Type of activity",
-                "hint": "Type your activity — the system will detect the category and Berufsgenossenschaft."
+                "hint": "Type your activity — the system will detect the category and Berufsgenossenschaft.",
+                "placeholder": "e.g.: web development, restaurant, consulting…",
+                "detected": "Detected:",
+                "freiberufler": "Freiberufler possible"
             },
             "founders": {
                 "title": "Number of founders",
@@ -566,7 +569,9 @@
             },
             "city": {
                 "title": "Registration city",
-                "hint": "City affects Gewerbesteuer. Enter the city name in German."
+                "hint": "City affects Gewerbesteuer. Enter the city name in German.",
+                "placeholder": "e.g. Düsseldorf, München, Berlin (in German)…",
+                "fallback": "City not in list: the nationwide average trade-tax multiplier 400% is used for this estimate. Please enter the city name in German or verify with a tax advisor."
             },
             "revenue": {
                 "title": "Planned revenue",
@@ -610,6 +615,16 @@
                     "none": "None"
                 }
             }
+        },
+        "validation": {
+            "activity": "Please describe your activity.",
+            "activityDetect": "Pick a detected category or refine your description.",
+            "founders": "Please select the number of founders.",
+            "liability": "Please select a liability preference.",
+            "city": "Please enter your registration city.",
+            "revenue": "Please enter a valid revenue (number ≥ 0).",
+            "expenses": "Please enter valid monthly expenses (number ≥ 0).",
+            "salary": "Please enter a valid full-time gross salary."
         }
     }
 }

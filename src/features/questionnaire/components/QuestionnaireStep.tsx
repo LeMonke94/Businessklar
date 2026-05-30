@@ -12,7 +12,8 @@ import { StepCheck } from './StepCheck';
 import { StepNumber } from './StepNumber';
 import { StepDual } from './StepDual';
 import { StepTextarea } from './StepTextarea';
-import { StepPlaceholder } from './StepPlaceholder';
+import { StepActivityAc } from './StepActivityAc';
+import { StepCityAc } from './StepCityAc';
 
 
 type QuestionnaireStepProps = {
@@ -95,8 +96,10 @@ function QuestionnaireStep({ step, answers, setAnswers, error }: QuestionnaireSt
             );
 
         case 'activity_ac':
+            return <StepActivityAc answers={answers} setAnswers={setAnswers} error={error} />;
+
         case 'city_ac':
-            return <StepPlaceholder stepType={step.type} />;
+            return <StepCityAc answers={answers} setAnswers={setAnswers} error={error} />;
 
         default:
             return null;

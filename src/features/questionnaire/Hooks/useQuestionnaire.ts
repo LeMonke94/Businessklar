@@ -2,12 +2,13 @@
 
 /**
  * useQuestionnaire — owns the survey's client state: the collected answers,
- * which step is active, navigation between steps, and autosave.
+ * which step is active, navigation between steps, autosave, and (optionally)
+ * per-step validation gating.
  *
  * It is deliberately engine-agnostic: detection / recommendation happen in the
- * step components and the report, not here. Step definitions are passed in (the
- * survey page supplies them from steps.ts), so the hook stays pure and testable
- * with mock steps.
+ * step components and the report, not here. Step definitions and the validator
+ * are passed in (the survey page supplies them), so the hook stays pure and
+ * testable with mocks.
  *
  * Conditional steps: `visibleSteps` is recomputed from the current answers via
  * each step's `showWhen`, mirroring the legacy `getSteps()` recompute (e.g.
@@ -27,13 +28,19 @@ const STORAGE_KEY = 'bk_survey_sess';
 const LEGACY_DRAFT_KEY = 'bk_draft';
 
 
+type StepValidator = (step: Step, answers: SurveyAnswers) => string | null;
+
 type UseQuestionnaireOptions = {
     steps: Step[];
+    // Returns an error (i18n key) for a step, or null when valid. Optional:
+    // without it, navigation is never blocked.
+    validate?: StepValidator;
 };
 
 type UseQuestionnaireResult = {
     answers: SurveyAnswers;
-    // Merge a partial patch into the answers. Triggers autosave.
+    // Merge a partial patch into the answers. Triggers autosave and clears any
+    // shown validation error.
     setAnswers: (patch: Partial<SurveyAnswers>) => void;
 
     // Steps currently shown, after applying every step's showWhen.
@@ -49,19 +56,24 @@ type UseQuestionnaireResult = {
     isFirstStep: boolean;
     isLastStep: boolean;
 
+    // Validation error (i18n key) for the current step, or null.
+    currentError: string | null;
+
+    // Advance if the current step validates; otherwise set currentError and stay.
     goNext: () => void;
     goBack: () => void;
+    // Validate every visible step. On the first failure, jump to that step, set
+    // currentError, and return false. Returns true when the whole survey is valid.
+    trySubmit: () => boolean;
     reset: () => void;
 
-    // False until the saved draft has been read on the client. Lets the page
-    // hold rendering until answers are hydrated, avoiding a flash of empty state.
+    // False until the saved draft has been read on the client.
     isHydrated: boolean;
 };
 
 
 // Reads the saved draft from sessionStorage. Returns {} on the server, when
-// nothing is saved, or when the stored value is corrupted (legacy behaviour:
-// fail soft rather than crash).
+// nothing is saved, or when the stored value is corrupted (fail soft).
 function readSavedAnswers(): SurveyAnswers {
     if (typeof window === 'undefined') {
         return {};
@@ -76,12 +88,14 @@ function readSavedAnswers(): SurveyAnswers {
 
 
 /**
- * Drives the questionnaire. Pass the step definitions; get back the answers,
- * navigation actions, and progress needed to render the survey.
+ * Drives the questionnaire. Pass the step definitions (and optionally a
+ * validator); get back the answers, navigation actions, validation error and
+ * progress needed to render the survey.
  */
-function useQuestionnaire({ steps }: UseQuestionnaireOptions): UseQuestionnaireResult {
+function useQuestionnaire({ steps, validate }: UseQuestionnaireOptions): UseQuestionnaireResult {
     const [answers, setAnswersState] = useState<SurveyAnswers>({});
     const [currentStepIndex, setCurrentStepIndex] = useState(0);
+    const [currentError, setCurrentError] = useState<string | null>(null);
     const [isHydrated, setIsHydrated] = useState(false);
 
     // Recompute the visible steps whenever answers change (conditional steps).
@@ -132,19 +146,47 @@ function useQuestionnaire({ steps }: UseQuestionnaireOptions): UseQuestionnaireR
 
     const setAnswers = useCallback((patch: Partial<SurveyAnswers>) => {
         setAnswersState((prev) => ({ ...prev, ...patch }));
+        // Editing the answer clears any error shown for the current step.
+        setCurrentError(null);
     }, []);
 
     const goNext = useCallback(() => {
+        const step = visibleSteps[safeIndex];
+        if (step && validate) {
+            const error = validate(step, answers);
+            if (error) {
+                setCurrentError(error);
+                return;
+            }
+        }
+        setCurrentError(null);
         setCurrentStepIndex((index) => Math.min(index + 1, Math.max(0, visibleSteps.length - 1)));
-    }, [visibleSteps.length]);
+    }, [visibleSteps, safeIndex, validate, answers]);
 
     const goBack = useCallback(() => {
+        setCurrentError(null);
         setCurrentStepIndex((index) => Math.max(index - 1, 0));
     }, []);
+
+    const trySubmit = useCallback((): boolean => {
+        if (validate) {
+            for (let i = 0; i < visibleSteps.length; i += 1) {
+                const error = validate(visibleSteps[i], answers);
+                if (error) {
+                    setCurrentStepIndex(i);
+                    setCurrentError(error);
+                    return false;
+                }
+            }
+        }
+        setCurrentError(null);
+        return true;
+    }, [visibleSteps, validate, answers]);
 
     const reset = useCallback(() => {
         setAnswersState({});
         setCurrentStepIndex(0);
+        setCurrentError(null);
         try {
             window.sessionStorage.removeItem(STORAGE_KEY);
         } catch {
@@ -163,8 +205,10 @@ function useQuestionnaire({ steps }: UseQuestionnaireOptions): UseQuestionnaireR
         progress: totalSteps === 0 ? 0 : (safeIndex + 1) / totalSteps,
         isFirstStep: safeIndex === 0,
         isLastStep: totalSteps > 0 && safeIndex === totalSteps - 1,
+        currentError,
         goNext,
         goBack,
+        trySubmit,
         reset,
         isHydrated,
     };
@@ -172,4 +216,4 @@ function useQuestionnaire({ steps }: UseQuestionnaireOptions): UseQuestionnaireR
 
 
 export { useQuestionnaire };
-export type { UseQuestionnaireOptions, UseQuestionnaireResult };
+export type { UseQuestionnaireOptions, UseQuestionnaireResult, StepValidator };
