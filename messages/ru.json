@@ -626,5 +626,55 @@
             "expenses": "Укажите корректные месячные расходы (число ≥ 0).",
             "salary": "Укажите корректную зарплату полной занятости."
         }
+    },
+    "report": {
+        "empty": "Данных анкеты пока нет. Пожалуйста, сначала заполните анкету.",
+        "error": "Не удалось сформировать отчёт. Пожалуйста, заполните анкету заново.",
+        "backToSurvey": "К анкете",
+        "legalFormLabel": "Rechtsform:",
+        "status": {
+            "freiberuflich": "Freiberuflich (§ 18 EStG)",
+            "gewerblich": "Gewerblich"
+        },
+        "revenueExpenses": {
+            "title": "Доходы и расходы",
+            "revenue": "Оборот (Umsatz)",
+            "expenses": "Расходы (Betriebskosten)",
+            "expensesHint": "Аренда, ПО, телефон",
+            "payroll": "Зарплата {count} FTE (×1.23)",
+            "minijob": "Minijob {count} чел. (×1.30)",
+            "profitBeforeTax": "Прибыль до налогов"
+        },
+        "tax": {
+            "title": "Налоговый расчёт (базовый режим)",
+            "approxNote": "Ориентировочные цифры. Точный расчёт — в режиме Business.",
+            "incomeTax": "Einkommensteuer (прогрессивная)",
+            "marginalRate": "Примерная ставка {rate}%",
+            "tradeTax": "Gewerbesteuer",
+            "tradeTaxRate": "Ставка {hb}% ({city})",
+            "tradeTaxCredit": "− Зачёт Gewerbesteuer",
+            "tradeTaxCreditHint": "Уменьшает подоходный налог",
+            "soli": "Solidaritätszuschlag",
+            "soliIncomeHint": "5,5% от Einkommensteuer (от 18.130 EUR)",
+            "netIncome": "Чистая прибыль (Nettoeinkommen)",
+            "corporateTax": "Körperschaftsteuer 15%",
+            "corporateTaxHint": "15% от прибыли",
+            "soliCorporateHint": "5,5% от Körperschaftsteuer",
+            "profitAfterTax": "Прибыль после налогов",
+            "staysInCompany": "Остаётся в компании",
+            "dividendPayout": "При выводе дивидендов",
+            "capitalGainsTax": "Kapitalertragsteuer 25%",
+            "onDividends": "на дивиденды",
+            "soliShortHint": "5,5%",
+            "netInOwnerHands": "Итого на руках владельца"
+        },
+        "vat": {
+            "title": "Umsatzsteuer (USt / MwSt)",
+            "standardRate": "Стандартная ставка",
+            "reducedRate": "Сниженная ставка (еда, книги)",
+            "voranmeldung": "USt-Voranmeldung",
+            "voranmeldungHint": "через ELSTER, до 10-го числа"
+        },
+        "kleinunternehmer": "Ваш оборот ниже 25.000 EUR: возможен режим Kleinunternehmerregelung (§ 19 UStG). НДС не взимается, но нельзя указывать 19% в счёте. Уточните у Steuerberater."
     }
 }

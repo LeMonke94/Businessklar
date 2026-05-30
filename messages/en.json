@@ -626,5 +626,55 @@
             "expenses": "Please enter valid monthly expenses (number ≥ 0).",
             "salary": "Please enter a valid full-time gross salary."
         }
+    },
+    "report": {
+        "empty": "No questionnaire data yet. Please complete the questionnaire first.",
+        "error": "The report could not be generated. Please complete the questionnaire again.",
+        "backToSurvey": "To the questionnaire",
+        "legalFormLabel": "Legal form:",
+        "status": {
+            "freiberuflich": "Freiberuflich (§ 18 EStG)",
+            "gewerblich": "Gewerblich"
+        },
+        "revenueExpenses": {
+            "title": "Revenue & Expenses",
+            "revenue": "Revenue (annual)",
+            "expenses": "Operating expenses",
+            "expensesHint": "Rent, software, phone",
+            "payroll": "Payroll {count} FTE (×1.23)",
+            "minijob": "Minijob {count} pers. (×1.30)",
+            "profitBeforeTax": "Profit before taxes"
+        },
+        "tax": {
+            "title": "Tax calculation (basic mode)",
+            "approxNote": "Approximate figures. Exact calculation in Business mode.",
+            "incomeTax": "Einkommensteuer (progressive)",
+            "marginalRate": "Approx. rate {rate}%",
+            "tradeTax": "Gewerbesteuer",
+            "tradeTaxRate": "Rate {hb}% ({city})",
+            "tradeTaxCredit": "− Gewerbesteuer credit",
+            "tradeTaxCreditHint": "Reduces income tax",
+            "soli": "Solidaritätszuschlag",
+            "soliIncomeHint": "5.5% of income tax (from 18,130 EUR)",
+            "netIncome": "Net income",
+            "corporateTax": "Körperschaftsteuer 15%",
+            "corporateTaxHint": "15% of profit",
+            "soliCorporateHint": "5.5% of Körperschaftsteuer",
+            "profitAfterTax": "Profit after tax",
+            "staysInCompany": "Stays in company",
+            "dividendPayout": "Upon dividend payout",
+            "capitalGainsTax": "Kapitalertragsteuer 25%",
+            "onDividends": "on dividends",
+            "soliShortHint": "5.5%",
+            "netInOwnerHands": "Net in owner's hands"
+        },
+        "vat": {
+            "title": "Umsatzsteuer (USt / MwSt)",
+            "standardRate": "Standard rate",
+            "reducedRate": "Reduced rate (food, books)",
+            "voranmeldung": "USt-Voranmeldung",
+            "voranmeldungHint": "via ELSTER, by 10th"
+        },
+        "kleinunternehmer": "Your revenue is below 25,000 EUR: Kleinunternehmerregelung (§ 19 UStG) may be available. No VAT charged, but 19% cannot be shown on invoices. Clarify with a Steuerberater."
     }
 }

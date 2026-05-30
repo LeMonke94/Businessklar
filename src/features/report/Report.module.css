@@ -1,0 +1,60 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+    padding: var(--space-8) var(--space-5) var(--space-16);
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-5) var(--space-6);
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+}
+
+.legalForm {
+    font-family: var(--font-display);
+    font-size: var(--font-size-xl);
+    color: var(--color-text);
+}
+
+.legalFormLabel {
+    color: var(--color-text-muted);
+    font-size: var(--font-size-base);
+}
+
+.badgeFb,
+.badgeGew {
+    display: inline-block;
+    padding: 3px var(--space-3);
+    border-radius: var(--radius-pill);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+}
+
+.badgeFb {
+    background: rgba(99, 179, 237, 0.15);
+    color: #63b3ed;
+}
+
+.badgeGew {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--color-text-muted);
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-4);
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+    padding: var(--space-16) var(--space-5);
+    color: var(--color-text);
+}

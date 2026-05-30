@@ -626,5 +626,55 @@
             "expenses": "Bitte gültige monatliche Ausgaben (Zahl ≥ 0) eingeben.",
             "salary": "Bitte einen gültigen Bruttolohn für Vollzeit eingeben."
         }
+    },
+    "report": {
+        "empty": "Noch keine Fragebogen-Daten vorhanden. Bitte zuerst den Fragebogen ausfüllen.",
+        "error": "Der Report konnte nicht erstellt werden. Bitte den Fragebogen erneut ausfüllen.",
+        "backToSurvey": "Zum Fragebogen",
+        "legalFormLabel": "Rechtsform:",
+        "status": {
+            "freiberuflich": "Freiberuflich (§ 18 EStG)",
+            "gewerblich": "Gewerblich"
+        },
+        "revenueExpenses": {
+            "title": "Einnahmen & Ausgaben",
+            "revenue": "Umsatz (jährlich)",
+            "expenses": "Betriebsausgaben",
+            "expensesHint": "Miete, Software, Telefon",
+            "payroll": "Personal {count} FTE (×1.23)",
+            "minijob": "Minijob {count} Pers. (×1.30)",
+            "profitBeforeTax": "Gewinn vor Steuern"
+        },
+        "tax": {
+            "title": "Steuerberechnung (Basisversion)",
+            "approxNote": "Orientierungswerte. Genaue Berechnung im Business-Modus.",
+            "incomeTax": "Einkommensteuer (progressiv)",
+            "marginalRate": "Grenzsteuersatz ca. {rate}%",
+            "tradeTax": "Gewerbesteuer",
+            "tradeTaxRate": "Hebesatz {hb}% ({city})",
+            "tradeTaxCredit": "− Anrechnung Gewerbesteuer",
+            "tradeTaxCreditHint": "Reduziert Einkommensteuer",
+            "soli": "Solidaritätszuschlag",
+            "soliIncomeHint": "5,5% von Einkommensteuer (ab 18.130 EUR)",
+            "netIncome": "Nettoeinkommen",
+            "corporateTax": "Körperschaftsteuer 15%",
+            "corporateTaxHint": "15% vom Gewinn",
+            "soliCorporateHint": "5,5% von Körperschaftsteuer",
+            "profitAfterTax": "Gewinn nach Steuern",
+            "staysInCompany": "Verbleibt in der Gesellschaft",
+            "dividendPayout": "Bei Dividendenausschüttung",
+            "capitalGainsTax": "Kapitalertragsteuer 25%",
+            "onDividends": "auf Dividenden",
+            "soliShortHint": "5,5%",
+            "netInOwnerHands": "Netto beim Inhaber"
+        },
+        "vat": {
+            "title": "Umsatzsteuer (USt / MwSt)",
+            "standardRate": "Regelsteuersatz",
+            "reducedRate": "Ermäßigt (Lebensmittel, Bücher)",
+            "voranmeldung": "USt-Voranmeldung",
+            "voranmeldungHint": "via ELSTER, bis 10."
+        },
+        "kleinunternehmer": "Ihr Umsatz liegt unter 25.000 EUR: Kleinunternehmerregelung (§ 19 UStG) kann anwendbar sein. Keine USt-Pflicht, aber kein Ausweis auf Rechnung. Bitte mit Steuerberater klären."
     }
 }
