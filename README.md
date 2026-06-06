@@ -186,6 +186,13 @@ routing on static pages
 | Obligations Calendar       | Hardcoded cal array in generateReport           | deriveObligations — pure, driven by form + staff + FB flag     | Single source of truth per condition                                  |
 | Report                     | One 400-line generateReport function, DOM write | Composed sections, each a typed React component                | Sections independent, active legal form rerenders only affected parts |
 | City Autocomplete          | Bundesland code shown as badge                  | Hebesatz (%) shown as badge, city_hb stored on selection       | Matches legacy UX, report uses correct per-city trade-tax rate        |
+| Dashboard                  | dashboard.html, inline Supabase + DOM cards     | features/business-case slice + server auth gate                | Layered, RLS-scoped, reuses auth/query patterns                       |
+| Case Actions               | Inline open/share/delete on DOM nodes           | Typed service methods + TanStack mutations                     | Reusable, testable; list refetches on change                          |
+| Save Case                  | saveBusinessCase() inline, payload from DOM     | SaveCaseButton → useSaveCase → service insert                  | Auth-aware, decoupled from report                                     |
+| Shared Case View           | share.html reads case by token                  | /share route via get_shared_case_by_token RPC                  | Minimal projection; never exposes raw_data                            |
+| PDF Export                 | Client jsPDF + upload to case_pdfs bucket       | Browser print-to-PDF + print stylesheet                        | No PDF deps; full storage parity deferred                             |
+| Session Refresh            | Browser-only session, no SSR refresh            | Proxy refresh; anon skip + ~2.5s timeout                       | Public pages load even if backend is down                             |
+| Responsive Header          | sat-nav pills wrap onto many lines (narrow)     | Hamburger menu < 1024px, shared nav items                      | Clean mobile UX, no chaotic wrapping                                  |
 
 ---
 

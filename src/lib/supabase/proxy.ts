@@ -1,6 +1,7 @@
 import { createServerClient } from '@supabase/ssr';
 import { type NextRequest, NextResponse } from 'next/server';
 import { env } from '@/config/env';
+import { isSupabaseAuthCookie } from '@/lib/supabase/auth-cookie';
 
 
 // How long to wait for Supabase to verify/refresh the session before giving up.
@@ -12,9 +13,7 @@ const REFRESH_TIMEOUT_MS = 2500;
 // True when the request carries a Supabase auth cookie (chunked or not).
 // Anonymous visitors have none, so there is no session to refresh.
 function hasAuthCookie(request: NextRequest): boolean {
-    return request.cookies
-        .getAll()
-        .some((cookie) => cookie.name.startsWith('sb-') && cookie.name.includes('auth-token'));
+    return request.cookies.getAll().some((cookie) => isSupabaseAuthCookie(cookie.name));
 }
 
 
@@ -36,7 +35,7 @@ async function updateSession(request: NextRequest, response: NextResponse ) {
         return response;
     }
 
-    let supabaseResponse = response;
+    const supabaseResponse = response;
 
     // Create Server Client
     const supabase = createServerClient(

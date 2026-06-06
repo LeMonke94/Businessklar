@@ -34,7 +34,6 @@
 .nav {
     display: flex;
     gap: var(--space-2);
-    flex-wrap: wrap;
     flex: 1;
 }
 
@@ -75,4 +74,14 @@
 .premiumButton:hover {
     background: rgba(201, 168, 76, 0.15);
     box-shadow: var(--shadow-glow);
+}
+
+/* Below 1024px the desktop nav + actions are replaced by the hamburger menu
+   (see MobileMenu). A single breakpoint avoids the cramped, wrapping header
+   that appeared when everything tried to fit on one line. */
+@media (max-width: 1023px) {
+    .nav,
+    .actions {
+        display: none;
+    }
 }

@@ -1,0 +1,138 @@
+/* Hidden on desktop; Header.module.css flips this to flex below 1024px. */
+.mobileMenu {
+    display: none;
+    margin-left: auto;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-2);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Three-bar hamburger that morphs into an ✕ when open. */
+.bars {
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 16px;
+}
+
+.bars span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--color-gold);
+    border-radius: 2px;
+    transition: transform var(--transition-base), opacity var(--transition-fast);
+}
+
+.bars span:nth-child(1) {
+    top: 0;
+}
+
+.bars span:nth-child(2) {
+    top: 7px;
+}
+
+.bars span:nth-child(3) {
+    top: 14px;
+}
+
+.barsActive span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.barsActive span:nth-child(2) {
+    opacity: 0;
+}
+
+.barsActive span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Dims the page below the header and closes the menu on outside click.
+   60px matches the header's .inner height. */
+.backdrop {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* Full-width dropdown anchored to the (sticky) header. */
+.panel {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-4);
+    background: var(--color-navy);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: var(--shadow-card);
+}
+
+.panelLink {
+    display: block;
+    padding: var(--space-3) var(--space-4);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    color: var(--color-text-muted);
+    font-size: var(--font-size-base);
+    transition: var(--transition-fast);
+}
+
+.panelLink:hover {
+    border-color: var(--color-gold);
+    color: var(--color-gold);
+}
+
+.panelPremium {
+    display: block;
+    padding: var(--space-3) var(--space-4);
+    border: 1px solid var(--color-gold);
+    border-radius: var(--radius-md);
+    color: var(--color-gold);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-semibold);
+    transition: var(--transition-fast);
+}
+
+.panelPremium:hover {
+    background: rgba(201, 168, 76, 0.15);
+}
+
+.divider {
+    height: 1px;
+    background: var(--color-border);
+    margin: var(--space-2) 0;
+}
+
+.panelRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+}
+
+/* Reveal the hamburger below the desktop breakpoint (matches Header.module.css,
+   where the full nav + actions are hidden at the same width). */
+@media (max-width: 1023px) {
+    .mobileMenu {
+        display: flex;
+        align-items: center;
+    }
+}

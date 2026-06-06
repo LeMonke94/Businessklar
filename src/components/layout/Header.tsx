@@ -3,10 +3,20 @@ import Link from 'next/link';
 import { type Locale } from '@/config/i18n';
 import { HeaderAuth } from '@/components/layout/HeaderAuth';
 import { LanguageSwitcher } from '@/components/layout/LanguageSwitcher';
+import { MobileMenu } from '@/components/layout/MobileMenu';
 import styles from './Header.module.css';
 
 async function Header({ locale }: { locale: Locale }) {
     const t = await getTranslations('nav');
+
+    // Defined once and shared by the desktop nav and the mobile menu, so the
+    // two never drift apart.
+    const navItems = [
+        { href: `/${locale}`, label: t('home') },
+        { href: `/${locale}/specialists`, label: t('specialists') },
+        { href: `/${locale}/glossary`, label: t('glossary') },
+        { href: `/${locale}/dashboard`, label: t('dashboard') },
+    ];
 
     return (
         <header className={styles.header}>
@@ -16,18 +26,11 @@ async function Header({ locale }: { locale: Locale }) {
                 </Link>
 
                 <nav className={styles.nav}>
-                    <Link href={`/${locale}`} className={styles.navLink}>
-                        {t('home')}
-                    </Link>
-                    <Link href={`/${locale}/specialists`} className={styles.navLink}>
-                        {t('specialists')}
-                    </Link>
-                    <Link href={`/${locale}/glossary`} className={styles.navLink}>
-                        {t('glossary')}
-                    </Link>
-                    <Link href={`/${locale}/dashboard`} className={styles.navLink}>
-                        {t('dashboard')}
-                    </Link>
+                    {navItems.map((item) => (
+                        <Link key={item.href} href={item.href} className={styles.navLink}>
+                            {item.label}
+                        </Link>
+                    ))}
                 </nav>
 
                 <div className={styles.actions}>
@@ -37,6 +40,13 @@ async function Header({ locale }: { locale: Locale }) {
                     </Link>
                     <HeaderAuth locale={locale} />
                 </div>
+
+                <MobileMenu
+                    locale={locale}
+                    navItems={navItems}
+                    premiumLabel={t('premium')}
+                    menuLabel={t('menu')}
+                />
             </div>
         </header>
     );
