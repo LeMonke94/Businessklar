@@ -1,0 +1,66 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-4);
+    z-index: 100;
+}
+
+.box {
+    background: var(--color-navy-mid);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    max-width: 400px;
+    width: 100%;
+}
+
+.message {
+    color: var(--color-text);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    margin-bottom: var(--space-6);
+}
+
+.row {
+    display: flex;
+    gap: var(--space-3);
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.cancel,
+.confirm {
+    padding: var(--space-2) var(--space-5);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: var(--font-size-sm);
+    transition: var(--transition-base);
+}
+
+.cancel {
+    background: transparent;
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+}
+
+.cancel:hover {
+    border-color: var(--color-gold);
+}
+
+.confirm {
+    background: var(--color-error);
+    border: 1px solid var(--color-error);
+    color: #ffffff;
+    font-weight: var(--font-weight-semibold);
+}
+
+.confirm:disabled {
+    opacity: 0.6;
+    cursor: default;
+}

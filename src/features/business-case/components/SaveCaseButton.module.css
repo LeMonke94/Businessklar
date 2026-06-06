@@ -1,0 +1,64 @@
+.bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin-bottom: var(--space-8);
+}
+
+.primary {
+    display: inline-block;
+    padding: var(--space-3) var(--space-6);
+    border-radius: var(--radius-pill);
+    border: none;
+    background: var(--color-gold);
+    color: var(--color-navy);
+    font-family: inherit;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    cursor: pointer;
+    transition: var(--transition-base);
+}
+
+.primary:hover {
+    background: var(--color-gold-light);
+}
+
+.primary:active {
+    transform: translateY(1px);
+}
+
+.primary:disabled {
+    opacity: 0.6;
+    cursor: default;
+}
+
+.savedMsg {
+    color: var(--color-success);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+}
+
+.secondary {
+    color: var(--color-gold);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    transition: var(--transition-fast);
+}
+
+.secondary:hover {
+    color: var(--color-gold-light);
+}
+
+.error {
+    color: var(--color-error);
+    font-size: var(--font-size-sm);
+}
+
+/* The save control is UI chrome, not part of the report — drop it from the
+   print/save-as-PDF output (the Dashboard "PDF" action). */
+@media print {
+    .bar {
+        display: none !important;
+    }
+}

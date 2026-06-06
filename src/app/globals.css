@@ -65,3 +65,22 @@ body {
     position: relative;
     z-index: 1;
 }
+
+/* Print: hide site chrome and the fixed background gradient so the report's
+   "save as PDF" output (Dashboard PDF action) is clean, while keeping the
+   branded colors via print-color-adjust. */
+@media print {
+    header,
+    footer {
+        display: none !important;
+    }
+
+    body::before {
+        display: none !important;
+    }
+
+    body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}

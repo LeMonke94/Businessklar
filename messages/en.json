@@ -1054,5 +1054,65 @@
             "recogAn": "Foreign professional qualification: route via Anerkennung in Deutschland, then the state chamber/licensing body.",
             "recogGen": "If your qualification is foreign, also check equivalence — see Anerkennung in Deutschland."
         }
+    },
+    "dashboard": {
+        "welcome": "Hello, {name}",
+        "subtitle": "Your saved business cases",
+        "loading": "Loading your cases…",
+        "loadError": "Could not load your cases. Please try again.",
+        "deleteFailed": "Could not delete the case. Please try again.",
+        "untitled": "Untitled case",
+        "empty": {
+            "title": "No cases yet",
+            "body": "Once you complete the questionnaire and save a case, it will appear here.",
+            "cta": "Start the questionnaire"
+        },
+        "status": {
+            "completed": "Completed",
+            "draft": "Draft",
+            "saved": "Saved"
+        },
+        "meta": {
+            "created": "Created",
+            "updated": "Updated"
+        },
+        "actions": {
+            "open": "Open",
+            "pdf": "PDF",
+            "share": "Share",
+            "delete": "Delete"
+        },
+        "confirm": {
+            "title": "Delete this case? This cannot be undone.",
+            "cancel": "Cancel",
+            "confirm": "Delete"
+        },
+        "share": {
+            "title": "Share this case",
+            "copy": "Copy link",
+            "copied": "Link copied",
+            "close": "Close",
+            "failed": "Could not create a share link."
+        }
+    },
+    "share": {
+        "title": "Shared business case",
+        "notFound": "This shared case could not be found or is no longer available.",
+        "fields": {
+            "legalForm": "Legal form",
+            "activity": "Activity",
+            "city": "City",
+            "revenue": "Year-1 revenue",
+            "expenses": "Monthly expenses"
+        },
+        "backHome": "Go to BusinessKlar"
+    },
+    "saveCase": {
+        "action": "Save to my dashboard",
+        "saving": "Saving…",
+        "saved": "Saved to your dashboard",
+        "viewDashboard": "View dashboard",
+        "signInToSave": "Sign in to save this case",
+        "error": "Could not save. Please try again."
     }
 }

@@ -1054,5 +1054,65 @@
             "recogAn": "Ausländische Berufsqualifikation: Weg über Anerkennung in Deutschland, dann Landesbehörde der Kammer/Zulassung.",
             "recogGen": "Bei ausländischer Qualifikation zusätzlich Gleichwertigkeit prüfen — siehe Anerkennung in Deutschland."
         }
+    },
+    "dashboard": {
+        "welcome": "Hallo, {name}",
+        "subtitle": "Ihre gespeicherten Fälle",
+        "loading": "Ihre Fälle werden geladen…",
+        "loadError": "Ihre Fälle konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+        "deleteFailed": "Der Fall konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
+        "untitled": "Unbenannter Fall",
+        "empty": {
+            "title": "Noch keine Fälle",
+            "body": "Sobald Sie den Fragebogen abschließen und einen Fall speichern, erscheint er hier.",
+            "cta": "Fragebogen starten"
+        },
+        "status": {
+            "completed": "Abgeschlossen",
+            "draft": "Entwurf",
+            "saved": "Gespeichert"
+        },
+        "meta": {
+            "created": "Erstellt",
+            "updated": "Aktualisiert"
+        },
+        "actions": {
+            "open": "Öffnen",
+            "pdf": "PDF",
+            "share": "Teilen",
+            "delete": "Löschen"
+        },
+        "confirm": {
+            "title": "Diesen Fall löschen? Dies kann nicht rückgängig gemacht werden.",
+            "cancel": "Abbrechen",
+            "confirm": "Löschen"
+        },
+        "share": {
+            "title": "Diesen Fall teilen",
+            "copy": "Link kopieren",
+            "copied": "Link kopiert",
+            "close": "Schließen",
+            "failed": "Es konnte kein Freigabelink erstellt werden."
+        }
+    },
+    "share": {
+        "title": "Geteilter Fall",
+        "notFound": "Dieser geteilte Fall wurde nicht gefunden oder ist nicht mehr verfügbar.",
+        "fields": {
+            "legalForm": "Rechtsform",
+            "activity": "Tätigkeit",
+            "city": "Stadt",
+            "revenue": "Umsatz (Jahr 1)",
+            "expenses": "Monatliche Kosten"
+        },
+        "backHome": "Zu BusinessKlar"
+    },
+    "saveCase": {
+        "action": "In meinem Konto speichern",
+        "saving": "Wird gespeichert…",
+        "saved": "In Ihrem Konto gespeichert",
+        "viewDashboard": "Zum Dashboard",
+        "signInToSave": "Zum Speichern anmelden",
+        "error": "Speichern fehlgeschlagen. Bitte erneut versuchen."
     }
 }
